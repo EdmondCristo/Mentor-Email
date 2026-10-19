@@ -1,8 +1,8 @@
-# Daily Mentor Email (runs free on GitHub, written by Claude)
+# Daily Mentor Email (runs free on GitHub, written by Groq AI)
 
-Every morning at about 6:45 a.m. Eastern, GitHub wakes this project up. Four Claude "agents" prepare one short email and send it to you:
+Every morning at about 6:45 a.m. Eastern, GitHub wakes this project up. Four AI "agents" (run on Groq, the same service as your Stock Watcher) prepare one short email and send it to you:
 
-- **Agent B** (behavior specialist) looks up a recent behavior-science finding and advises how to tune the message.
+- **Agent B** (behavior specialist) draws on classic behavior-science ideas and advises how to tune the message. Groq's standard models can't search the web, so B says so and sticks to well-established research (see "Optional" below for live search).
 - **Agent S** studies you from your replies and its notebook, and advises the same.
 - **The Mentor** writes the email (about 150 words) from B's and S's advice.
 - **Agent M** (guardian) checks everything last and has the final say. B and S don't know M exists.
@@ -25,11 +25,12 @@ You answer by **replying to the email**. Agent S reads your replies the next mor
 
 If `.github` didn't upload: click **Add file > Create new file**, type exactly `.github/workflows/daily-mentor.yml` in the name box, paste the contents of that file, and commit.
 
-### 3. Get a Claude API key (this is what replaces Gemini)
-1. Go to **console.anthropic.com** and sign in.
-2. Add a few dollars of credit under **Billing**. The API is billed separately from your Claude chat plan.
-3. Open **API Keys > Create Key** and copy it (starts with `sk-ant-`).
-4. Tip: in Billing, set a monthly spend limit. Each day uses about four short Claude calls; my rough estimate is a few dollars a month, so check the Console after the first week.
+### 3. Get a Groq API key
+Use the same Groq account as your Stock Watcher.
+1. Go to **console.groq.com** and sign in.
+2. Open **API Keys > Create API Key**, name it `mentor`, and copy it (starts with `gsk_`).
+3. The free tier has speed limits. This project makes only four short calls a day and waits and retries if Groq says "slow down," so it should stay free. Check Groq's limits page if it ever fails.
+4. If Stock Watcher already works with a particular Groq model name, you can use the same one (see "Change the model" below).
 
 ### 4. Make a Gmail "app password" (lets the script send mail)
 1. Turn on **2-Step Verification** for the Gmail account that will send the email.
@@ -41,7 +42,7 @@ In your repo: **Settings > Secrets and variables > Actions > New repository secr
 
 | Name | Value |
 | --- | --- |
-| `ANTHROPIC_API_KEY` | the `sk-ant-...` key |
+| `GROQ_API_KEY` | the `gsk_...` key |
 | `GMAIL_ADDRESS` | the Gmail address that sends the email |
 | `GMAIL_APP_PASSWORD` | the 16-letter app password |
 | `TO_EMAIL` | where the mentor email should arrive (can be the same as the sender) |
@@ -54,6 +55,18 @@ In your repo: **Settings > Secrets and variables > Actions > New repository secr
 The email schedule starts the next morning by itself. GitHub may run a few minutes late; that's normal.
 
 ---
+
+## Change the model, or switch to Claude (optional)
+Go to **Settings > Secrets and variables > Actions > Variables tab > New repository variable**. These are plain settings, not secrets.
+
+| Variable | What it does |
+| --- | --- |
+| `GROQ_MODEL` | Which Groq model writes the emails. Default is `llama-3.3-70b-versatile`. If Groq retires it, put the name Stock Watcher uses here. |
+| `LLM_PROVIDER` | Set to `claude` to use Claude instead (then also add a secret named `ANTHROPIC_API_KEY`, which costs a few dollars a month). Delete the variable to go back to Groq. |
+| `B_MODEL` | Advanced: a Groq model with built-in web search (check Groq's model list) so Agent B can look up new studies. Leave empty if unsure. |
+
+## Privacy
+Your profile notes, notebooks and your replies are sent to the AI service (Groq) each day to write the email. `data/profile.md` is deliberately short and has no height or weight. Keep it that way, and keep the repo private.
 
 ## Good to know
 
