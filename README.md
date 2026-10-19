@@ -61,7 +61,7 @@ Go to **Settings > Secrets and variables > Actions > Variables tab > New reposit
 
 | Variable | What it does |
 | --- | --- |
-| `GROQ_MODEL` | Which Groq model writes the emails. Default is `llama-3.3-70b-versatile`. If Groq retires it, put the name Stock Watcher uses here. |
+| `GROQ_MODEL` | Which Groq model writes the emails. Leave it empty: the script asks Groq which models your key can use and picks one (it prefers `openai/gpt-oss-120b`). To force one, put the name Stock Watcher uses here. |
 | `LLM_PROVIDER` | Set to `claude` to use Claude instead (then also add a secret named `ANTHROPIC_API_KEY`, which costs a few dollars a month). Delete the variable to go back to Groq. |
 | `B_MODEL` | Advanced: a Groq model with built-in web search (check Groq's model list) so Agent B can look up new studies. Leave empty if unsure. |
 

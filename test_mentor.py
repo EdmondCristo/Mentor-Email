@@ -141,7 +141,7 @@ def test_groq_is_default_and_request_is_well_formed():
         out = llm.ask("[B] sys", "hello", 300, json_mode=True)
     finally:
         mentor.urllib.request.urlopen = original
-    assert llm.provider == "groq" and llm.model == "llama-3.3-70b-versatile"
+    assert llm.provider == "groq" and llm.model == mentor.GROQ_PREFERRED[0]
     assert seen["url"] == "https://api.groq.com/openai/v1/chat/completions"
     assert seen["auth"] == "Bearer gsk_test" and seen["ua"] == "mentor-email-bot"
     assert seen["body"]["response_format"] == {"type": "json_object"}
@@ -228,6 +228,49 @@ def test_forced_run_before_start_sends_a_test_and_saves_nothing():
         assert sent[0][3] == "[TEST] Day 1 of 84: Listen First"
         assert sent[0][2] == "b@x.com" and sent[0][1] == "abcdefghijklmnop", "spaces in the app password are removed"
         assert {f.name: f.read_text() for f in data.iterdir()} == before, "a test must not change any saved file"
+
+
+def test_groq_404_model_triggers_auto_pick_from_the_models_list():
+    os.environ["GROQ_API_KEY"] = "gsk_test"
+    os.environ["GROQ_MODEL"] = "llama-3.3-70b-versatile"  # the exact model that failed in the real run
+    used = []
+
+    class Raw:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def read(self):
+            return json.dumps(self.payload).encode()
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    def fake(req, timeout=0):
+        if req.full_url.endswith("/models"):
+            ids = ["whisper-large-v3", "llama-guard-4", "openai/gpt-oss-20b", "llama-3.1-8b-instant"]
+            return Raw({"data": [{"id": i} for i in ids]})
+        body = json.loads(req.data)
+        used.append(body)
+        if body["model"] == "llama-3.3-70b-versatile":
+            raise _http_error(404, '{"error":{"code":"model_not_found"}}')
+        return Raw({"choices": [{"message": {"content": "<think>hmm</think>hello"}}]})
+
+    original = mentor.urllib.request.urlopen
+    mentor.urllib.request.urlopen = fake
+    try:
+        llm = mentor.LLM()
+        out = llm.ask("[B] sys", "hi", 400)
+        out2 = llm.ask("[B] sys", "again", 400)
+    finally:
+        mentor.urllib.request.urlopen = original
+        os.environ.pop("GROQ_MODEL", None)
+    assert out == "hello" and out2 == "hello", "reasoning text must be stripped"
+    assert llm.model == "openai/gpt-oss-20b", "skips whisper/guard models, picks the preferred chat model"
+    assert [u["model"] for u in used] == ["llama-3.3-70b-versatile", "openai/gpt-oss-20b", "openai/gpt-oss-20b"]
+    assert used[1]["reasoning_effort"] == "low" and used[1]["max_tokens"] == 800
 
 
 if __name__ == "__main__":

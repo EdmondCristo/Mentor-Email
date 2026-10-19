@@ -32,6 +32,8 @@ START = dt.date(2026, 10, 18)  # Day 1 is the next day, Monday 2026-10-19
 TOTAL_DAYS = 84
 MAX_NOTEBOOK_LINES = 40
 
+GROQ_PREFERRED = ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "llama-3.3-70b-versatile", "llama-3.1-8b-instant", "qwen/qwen3.8-27b"]
+
 PHASES = [(1, 28, "Listen First"), (29, 56, "Bad News Is Welcome"), (57, 84, "Curious by Default")]
 
 # Standing checks for Agent M. Code never removes or loosens these.
@@ -147,7 +149,7 @@ class LLM:
         if self.provider == "claude":
             self.model = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
         else:
-            self.model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+            self.model = os.environ.get("GROQ_MODEL", "").strip() or GROQ_PREFERRED[0]
         # Optional: a Groq model with built-in web search, used only for Agent B.
         self.search_model = os.environ.get("B_MODEL", "").strip()
         if not mock and self.provider == "claude":
@@ -167,25 +169,66 @@ class LLM:
         model = self.search_model if (web_search and self.search_model) else self.model
         return self._ask_groq(system, user, max_tokens, json_mode and model == self.model, model)
 
+    def _groq_headers(self):
+        return {"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}",
+                "Content-Type": "application/json", "User-Agent": "mentor-email-bot"}
+
+    def _pick_model(self):
+        """Ask Groq which models this key can use and choose the best chat model."""
+        req = urllib.request.Request("https://api.groq.com/openai/v1/models", headers=self._groq_headers())
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                ids = [m["id"] for m in json.loads(resp.read())["data"]]
+        except Exception as err:
+            print(f"Could not list Groq models: {err}", file=sys.stderr)
+            return None
+        skip = ("whisper", "orpheus", "guard", "safeguard", "tts", "embed")
+        chat = [i for i in ids if not any(k in i.lower() for k in skip)]
+        print(f"Chat models your key can use: {', '.join(chat) or 'none'}", file=sys.stderr)
+        for pref in GROQ_PREFERRED:
+            if pref in chat:
+                return pref
+        return chat[0] if chat else None
+
+    @staticmethod
+    def _tune_body(body, model, max_tokens):
+        body["model"] = model
+        body["max_tokens"] = max_tokens
+        body.pop("reasoning_effort", None)
+        if model.startswith("openai/gpt-oss"):  # reasoning models: keep thinking short, leave room for the answer
+            body["reasoning_effort"] = "low"
+            body["max_tokens"] = max_tokens * 2
+
     def _ask_groq(self, system, user, max_tokens, json_mode, model):
-        body = {"model": model, "max_tokens": max_tokens, "temperature": 0.7,
+        body = {"temperature": 0.7,
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+        self._tune_body(body, model, max_tokens)
         if json_mode:
             body["response_format"] = {"type": "json_object"}
-        for attempt in range(4):
-            req = urllib.request.Request(
-                "https://api.groq.com/openai/v1/chat/completions", data=json.dumps(body).encode(),
-                headers={"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}",
-                         "Content-Type": "application/json", "User-Agent": "mentor-email-bot"})
+        switched = False
+        for attempt in range(6):
+            req = urllib.request.Request("https://api.groq.com/openai/v1/chat/completions",
+                                         data=json.dumps(body).encode(), headers=self._groq_headers())
             try:
                 with urllib.request.urlopen(req, timeout=60) as resp:
-                    return json.loads(resp.read())["choices"][0]["message"]["content"].strip()
+                    text = json.loads(resp.read())["choices"][0]["message"]["content"] or ""
+                    return re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
             except urllib.error.HTTPError as err:
                 detail = err.read().decode("utf-8", "replace")[:300]
-                if err.code == 400 and "response_format" in body:  # model may not support JSON mode
-                    body.pop("response_format")
-                    continue
-                if err.code in (429, 500, 502, 503) and attempt < 3:
+                if err.code == 404 and not switched and model == self.model:
+                    switched = True  # model retired or not open to this key: find one that is
+                    new = self._pick_model()
+                    if new and new != model:
+                        print(f"Model {model} is not available; using {new}.", file=sys.stderr)
+                        self.model = model = new
+                        self._tune_body(body, new, max_tokens)
+                        continue
+                if err.code == 400:
+                    dropped = next((k for k in ("response_format", "reasoning_effort") if k in body), None)
+                    if dropped:  # this model may not support that option
+                        body.pop(dropped)
+                        continue
+                if err.code in (429, 500, 502, 503) and attempt < 5:
                     try:
                         wait = float(err.headers.get("retry-after", 2 ** (attempt + 1)))
                     except ValueError:
@@ -389,6 +432,8 @@ def run(args):
     log_match = re.search(r"^LOG:\s*(.+)$", draft, re.M)
     log_line = log_match.group(1).strip() if log_match else make_subject(ctx)
     body = re.sub(r"^LOG:.*$", "", draft, flags=re.M).strip()
+    if not body:
+        body = fallback_body(ctx)
 
     verdict = agent_m(claude, ctx, read(data / "notebook_m.md"), extra_checks, replies, b_out, s_out, body)
     if not verdict or verdict.get("verdict") not in ("APPROVE", "REVISE", "BLOCK"):
