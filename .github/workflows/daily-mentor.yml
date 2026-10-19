@@ -1,0 +1,51 @@
+name: Daily mentor email
+
+on:
+  schedule:
+    # 10:45 and 11:45 UTC cover 6:45 a.m. Eastern in both summer and winter time.
+    # The script sends only once per day, at or after 6 a.m. Eastern.
+    - cron: "45 10 * * *"
+    - cron: "45 11 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send now, even if today's email was already sent (for testing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-mentor
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Write and send today's email
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE" = "true" ]; then python mentor.py --force; else python mentor.py; fi
+
+      - name: Save the notebooks
+        run: |
+          git config user.name "mentor-bot"
+          git config user.email "mentor-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "Update mentor notebooks" && git push)
