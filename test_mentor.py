@@ -204,6 +204,32 @@ def test_agent_b_never_claims_to_search_when_it_cannot():
     assert "cannot search the web" in captured["system"] and "never invent" in captured["system"]
 
 
+def test_forced_run_before_start_sends_a_test_and_saves_nothing():
+    with tempfile.TemporaryDirectory() as tmp:
+        data = Path(tmp) / "data"
+        shutil.copytree("data", data)
+        before = {f.name: f.read_text() for f in data.iterdir()}
+        sent = []
+        original = mentor.send_email
+        mentor.send_email = lambda *a: sent.append(a)
+        os.environ.update({"GROQ_API_KEY": "k", "GMAIL_ADDRESS": "a@x.com", "GMAIL_APP_PASSWORD": "abcd efgh ijkl mnop", "TO_EMAIL": "b@x.com"})
+        os.environ.pop("LLM_PROVIDER", None)
+        originals = (mentor.LLM, mentor.fetch_replies)
+        mentor.LLM = lambda mock=False: originals[0](mock=True)
+        mentor.fetch_replies = lambda *a, **k: []
+        try:
+            args = mentor.argparse.Namespace(data_dir=str(data), date="2026-10-18", force=True, mock=False, dry_run=False)
+            assert mentor.run(args) == 0
+            plain = mentor.argparse.Namespace(data_dir=str(data), date="2026-10-18", force=False, mock=False, dry_run=False)
+            assert mentor.run(plain) == 0  # not forced: still sends nothing
+        finally:
+            mentor.send_email, (mentor.LLM, mentor.fetch_replies) = original, originals
+        assert len(sent) == 1, "exactly one test email should be sent"
+        assert sent[0][3] == "[TEST] Day 1 of 84: Listen First"
+        assert sent[0][2] == "b@x.com" and sent[0][1] == "abcdefghijklmnop", "spaces in the app password are removed"
+        assert {f.name: f.read_text() for f in data.iterdir()} == before, "a test must not change any saved file"
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

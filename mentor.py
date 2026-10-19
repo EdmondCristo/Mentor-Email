@@ -343,9 +343,15 @@ def run(args):
     now = dt.datetime.now(ET)
     date = dt.date.fromisoformat(args.date) if args.date else now.date()
     day = (date - START).days
+    test_run = False
     if day < 1:
-        print(f"Program starts {START + dt.timedelta(days=1)}. Nothing to send.")
-        return 0
+        if not args.force:
+            print(f"Program starts {START + dt.timedelta(days=1)}. Nothing to send. "
+                  "(Use 'force' to send a [TEST] copy of Day 1 now.)")
+            return 0
+        test_run = True  # preview Day 1; send it, but save nothing so the real Day 1 still goes out
+        date = START + dt.timedelta(days=1)
+        day = 1
     if day > TOTAL_DAYS and date.weekday() != 6:
         print("Maintenance mode: emails go out on Sundays only.")
         return 0
@@ -361,7 +367,7 @@ def run(args):
             return 0
 
     gmail = os.environ.get("GMAIL_ADDRESS", "")
-    app_pw = os.environ.get("GMAIL_APP_PASSWORD", "")
+    app_pw = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "")
     to_addr = os.environ.get("TO_EMAIL", "")
     live = not (args.mock or args.dry_run)
     key_name = "ANTHROPIC_API_KEY" if os.environ.get("LLM_PROVIDER", "groq").strip().lower() == "claude" else "GROQ_API_KEY"
@@ -394,14 +400,23 @@ def run(args):
     if note and "Note from M" not in body:
         body += f"\n\nNote from M: {note}"
 
-    subject = make_subject(ctx)
+    subject = ("[TEST] " if test_run else "") + make_subject(ctx)
     print(f"Subject: {subject}\nVerdict: {verdict['verdict']}  (words: {len(body.split())})\n\n{body}\n")
 
     if args.dry_run:
         return 0
     if live:
-        send_email(gmail, app_pw, to_addr, subject, body)
+        try:
+            send_email(gmail, app_pw, to_addr, subject, body)
+        except smtplib.SMTPAuthenticationError:
+            sys.exit("Gmail refused the login. Check GMAIL_ADDRESS and GMAIL_APP_PASSWORD "
+                     "(it must be a 16-letter app password, and 2-Step Verification must be on).")
+        except (smtplib.SMTPException, OSError) as err:
+            sys.exit(f"Could not send the email: {err}")
         print(f"Sent to {to_addr}.")
+    if test_run:
+        print("Test email only: nothing was saved, so the real Day 1 will still send on Oct 19.")
+        return 0
 
     today = str(date)
     append_lines(data / "notebook_b.md", b_out.get("notebook_lines"), today)
