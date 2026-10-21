@@ -6,3 +6,6 @@
 - 2026-10-20: implementation intentions
 - 2026-10-20: habit stacking
 - 2026-10-20: identity-based habits
+- 2026-10-21: 2026-10-19: implementation intentions
+- 2026-10-21: 2026-10-20: implementation intentions
+- 2026-10-21: 2026-10-19: habit stacking
