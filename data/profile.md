@@ -6,3 +6,4 @@
 * Self-describes as able to be arrogant, and his life can be passive-aggressive. Prefers brief, direct communication. Likes stories (Ragged Dick, Franklin).
 * Invests a small amount weekly toward retirement. Learning Vietnamese. Likes soccer. Interested in dating and building a family.
 * Height and weight are deliberately left out: they do not matter for this program.
+* Spanish level: not known yet. Assume beginner to intermediate and adjust from his replies. QA skills: an experienced professional who is newer to managing people.

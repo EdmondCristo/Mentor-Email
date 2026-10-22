@@ -1,13 +1,17 @@
 # Daily Mentor Email (runs free on GitHub, written by Groq AI)
 
-Every morning at about 6:45 a.m. Eastern, GitHub wakes this project up. Four AI "agents" (run on Groq, the same service as your Stock Watcher) prepare one short email and send it to you:
+GitHub wakes this project up three times a day, Eastern time: **8:00 a.m.** (the full lesson), **1:00 p.m.** (a short midday check-in) and **4:00 p.m.** (a short end-of-day reflection). Four AIs (run on Groq, the same service as your Stock Watcher) prepare the emails:
 
-- **Agent B** (behavior specialist) draws on classic behavior-science ideas and advises how to tune the message. Groq's standard models can't search the web, so B says so and sticks to well-established research (see "Optional" below for live search).
-- **Agent S** studies you from your replies and its notebook, and advises the same.
-- **The Mentor** writes the email (about 150 words) from B's and S's advice.
-- **Agent M** (guardian) checks everything last and has the final say. B and S don't know M exists.
+- **Tippy** (scout) reads real news headlines and today's weather and picks ONE thing to learn: a QA skill, Spanish, or a life skill.
+- **Agent B** (behavior specialist) advises how to tune the message to you.
+- **The Mentor** writes the email.
+- **Agent M** (guardian) checks everything last and has the final say. B and Tippy don't know M exists.
 
-You answer by **replying to the email**. Agent S reads your replies the next morning.
+Each AI has its own short-term and long-term memory, so the emails stop repeating and improve with your feedback. **DESIGN.md** explains how each AI works.
+
+**How you answer:** reply to the email with `up` or `down` plus a word (for example "down, too long"). You can also use a number from 1 to 5, or 👍 or 👎.
+
+**How you talk to the team:** email the team's address any time, with any subject. The Mentor reads it once a day to tune your emails, but nobody writes back. See "The team mailbox" below.
 
 ---
 
@@ -49,10 +53,10 @@ In your repo: **Settings > Secrets and variables > Actions > New repository secr
 
 ### 6. Test it
 1. Open the **Actions** tab. If asked, click **I understand my workflows, go ahead and enable them**.
-2. Click **Daily mentor email** on the left, then **Run workflow**, tick **force**, and click the green **Run workflow** button.
+2. Click **Daily mentor email** on the left, then **Run workflow**, tick **force**, leave **slot** on `morning` (or pick `midday` or `afternoon` to test those), and click the green **Run workflow** button.
 3. After about a minute the email should arrive. If the run shows a red X, click it and read the last lines. A missing secret is the most common problem.
 
-The email schedule starts the next morning by itself. GitHub may run a few minutes late; that's normal.
+The schedule starts by itself. GitHub may run a few minutes late; that's normal. Each time is listed twice in the workflow (summer and winter time); the script reads the clock and sends only the email for the current window, once. If a run is missed, that email is skipped, not sent late in the evening.
 
 ---
 
@@ -66,14 +70,49 @@ Go to **Settings > Secrets and variables > Actions > Variables tab > New reposit
 | `B_MODEL` | Advanced: a Groq model with built-in web search (check Groq's model list) so Agent B can look up new studies. Leave empty if unsure. |
 
 ## Privacy
-Your profile notes, notebooks and your replies are sent to the AI service (Groq) each day to write the email. `data/profile.md` is deliberately short and has no height or weight. Keep it that way, and keep the repo private.
+The AIs also keep emotion-weighted notes of what you write, scored by how strongly you said it (see DESIGN.md). They are in `data/memory/*_store.json`; open them any time and delete anything you don't want kept. Your profile notes, notebooks and your replies are sent to the AI service (Groq) each day to write the email. `data/profile.md` is deliberately short and has no height or weight. Keep it that way, and keep the repo private.
 
 ## Good to know
 
-- **Replies:** reply to the email and write one or two lines. The script reads only replies from `TO_EMAIL` whose subject starts with "Re: Day..." or "Re: Maintenance check-in".
-- **The agents' memory** is the files in the `data` folder. Open them any time. `data/m_checks.md` lists checks Agent M added on its own; delete any line you don't like.
-- **Agent M's standing checklist** is at the top of `mentor.py`. It has no web search or inbox access of its own; it only reviews what B, S and the Mentor produce.
-- **Schedule:** Day 1 is Monday, October 19, 2026. Day 84 is January 10, 2027. After that it emails on Sundays only.
+- **Replies and ratings:** reply to the email with one or two lines. Start with `up` or `down` to rate it.
+- **The agents' memory** is in `data/memory`: a short-term and a long-term file for each AI, plus `feedback.md`. Open them any time. `data/m_checks.md` lists checks Agent M added on its own; delete any line you don't like.
+- **Agent M's standing checklist** is at the top of `mentor.py`. It has no web search or inbox access of its own; it only reviews what B, Tippy and the Mentor produce.
+- **Schedule:** emails go out at 8:00 a.m., 1:00 p.m. and 4:00 p.m. Eastern. Only the 8:00 email teaches something new (it uses B and Tippy); the other two are short follow-ups from the Mentor, reviewed by M. Day 1 is Monday, October 19, 2026. Day 84 is January 10, 2027. After that it emails on Sundays only.
 - **To stop:** Actions tab > Daily mentor email > **...** > **Disable workflow**.
 - **Test without spending anything:** `python mentor.py --mock --dry-run --date 2026-10-19` prints a sample email using canned answers (no key needed). `python test_mentor.py` runs the checks.
 - **Not medical or financial advice.** The mentor gives habit coaching only. If you're struggling, talk to someone you trust or a professional; in the US you can call or text 988 any time.
+
+## The team mailbox (one way: it listens, never replies)
+The team reads the mailbox that sends your daily email. When you email that address, the Mentor reads your message during the next run (8:00 a.m., 1:00 p.m. or 4:00 p.m.) and uses it to tune your emails. Nobody writes back or asks you questions. Agent M confirms receipt: the next daily email ends with a 'Confirmed by M' list, one line for every email you sent. The only email you receive is the daily mentor email.
+
+**Use a new Gmail account for the team, not your personal one.** The app password lets this project read everything in that mailbox, so a separate account keeps your personal mail out of reach. I can't create the account for you; Google needs you to do it.
+
+1. Create a new free Gmail account, for example `jasons.mentor.team@gmail.com`.
+2. In that account, turn on **2-Step Verification**, then create an **app password** named `mentor` (myaccount.google.com/apppasswords). Copy the 16 letters.
+3. In your repo go to **Settings > Secrets and variables > Actions** and edit two secrets: `GMAIL_ADDRESS` (the new address) and `GMAIL_APP_PASSWORD` (the new 16 letters). Leave `TO_EMAIL` as your own address.
+4. If you uploaded `.github/workflows/agent-s-inbox.yml` earlier, delete it from your repo (open the file, click the trash icon, commit). Also delete `data/memory/s_short.md` and `data/memory/s_long.md`. Agent S is gone.
+5. The first daily email may land in Spam. Open it, click **Not spam**, and add the team address to your contacts.
+
+If the run log says it could not read the mailbox, open Gmail on the team account, go to **Settings > See all settings > Forwarding and POP/IMAP**, and make sure IMAP is enabled.
+
+**The rules the mailbox follows**
+- It reads mail only from your address. To add another address of yours, add a repository variable `ALLOWED_SENDERS` with the addresses separated by commas.
+- It ignores the project's own emails, mail that fails Google's sender checks, and anyone else.
+- A short note of what you wrote goes into `data/memory/mentor_short.md`. Details about health, money accounts, height or weight are never saved.
+- Instructions inside your emails are treated as information, not commands.
+- It is not an emergency service. If you are in crisis, call or text 988 (US) or reach someone you trust.
+
+## Updating a repo you already set up
+1. Upload the new files over the old ones: `mentor.py`, **`memory_protocol.py` (new file; mentor.py needs it)**, `test_mentor.py`, `README.md`, `DESIGN.md`, `.github/workflows/daily-mentor.yml`, `data/profile.md`, and the whole `data/memory` folder. If you edited `data/profile.md`, copy your edits into the new one.
+2. Delete these from your repo if they are there: `.github/workflows/agent-s-inbox.yml`, `data/memory/s_short.md`, `data/memory/s_long.md`. You do not need to change any secrets.
+3. The first run moves what the old notebooks recorded (`notebook_b.md`, `notebook_s.md`, `notebook_m.md`, `notebook_tippy.md`, `daylog.md`) into the new memory files. After one good run you can delete those five old files.
+4. Optional: add a repository variable `WEATHER_PLACE`, `WEATHER_LAT` and `WEATHER_LON` if you want weather for a different place. The default is Palisades Park, NJ.
+
+## Privacy: what leaves your repo
+- **Groq** gets your profile, memory notes and replies each day to write the email.
+- **Weather:** the town's coordinates go to open-meteo.com (a free weather service).
+- **News:** the script asks Google News and the BBC for public headlines with generic searches such as "cosmetics MoCRA". It never includes your name or employer.
+- Keep the repo private, and keep height and weight out of `data/profile.md`. The code also refuses to save lines that mention them.
+
+## If a headline or the weather doesn't show up
+The news and weather are a bonus. If a website is down, that part is skipped and the email still goes out. The run log prints "fetch failed" for any site it couldn't reach.
