@@ -1,0 +1,148 @@
+{
+ "version": 1,
+ "memories": [
+  {
+   "id": "f11d89acef",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "20a95a4786",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "8f34dfe3d4",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team reviewed the flat $75 portfolio and he",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "c300ce438f",
+   "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 5.0,
+   "cues": [
+    "touch:rough",
+    "detail:directamente",
+    "detail:production",
+    "detail:inspector",
+    "detail:pregunta",
+    "detail:question",
+    "detail:specific",
+    "detail:straight"
+   ],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "bfadb28496",
+   "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 7.0,
+   "cues": [
+    "sound:heard",
+    "touch:rough",
+    "detail:collaboration",
+    "detail:defensivenes",
+    "detail:observation",
+    "detail:comentario",
+    "detail:inspector",
+    "detail:question"
+   ],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "6295f40e61",
+   "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "8039688cb3",
+   "text": "BLOCK: Reviewed draft: contains repeated Spanish phrase from recent emails (violates checklist item 13) and includes a news example about a digital‑asset rule without proper attribution (violates item 12). Therefore, email blocked and a safe, supportive note p",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "d34b04243e",
+   "text": "added check: Do not reuse exact Spanish phrases that have appeared in recent mentor emails (e.g., \"¿Cómo está la línea hoy?\").",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "f4fdae3d69",
+   "text": "added check: All news‑related statements must include a clear attribution to the original headline or source and must not be presented as settled facts.",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-10-21",
+   "tag": "neutral",
+   "line": "9 new memories; strongest: he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement",
+   "hooks": []
+  }
+ ]
+}

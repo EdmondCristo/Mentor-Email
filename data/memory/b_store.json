@@ -1,0 +1,161 @@
+{
+ "version": 1,
+ "memories": [
+  {
+   "id": "e1794427b9",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "c34100450c",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "bc6edc2efb",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team reviewed the flat $75 portfolio and he",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "fafb048fc3",
+   "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 5.0,
+   "cues": [
+    "touch:rough",
+    "detail:directamente",
+    "detail:production",
+    "detail:inspector",
+    "detail:pregunta",
+    "detail:question",
+    "detail:specific",
+    "detail:straight"
+   ],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "3d5ba19527",
+   "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 7.0,
+   "cues": [
+    "sound:heard",
+    "touch:rough",
+    "detail:collaboration",
+    "detail:defensivenes",
+    "detail:observation",
+    "detail:comentario",
+    "detail:inspector",
+    "detail:question"
+   ],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "2e0c20d68d",
+   "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "3cb672f02e",
+   "text": "advice: Frame each new habit as a concrete if‑then plan (implementation intention) that links the cue (e.g., logging in) to the desired behavior (greeting an inspector in Spanish and asking a real question). Write the plan on a visible card: \"IF I sit at my de",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "8c38590251",
+   "text": "note: 2026-10-19: implementation intentions",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "ee2c9f8e3e",
+   "text": "note: 2026-10-19: habit stacking",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "e30deb9c24",
+   "text": "note: 2026-10-19: identity-based habits",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-10-21",
+   "tag": "neutral",
+   "line": "10 new memories; strongest: he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement",
+   "hooks": []
+  }
+ ]
+}

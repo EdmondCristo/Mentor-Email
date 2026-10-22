@@ -1,1 +1,11 @@
 # Short-term memory: what this AI said in the last 14 days (older entries expire)
+- 2026-10-19: Day 1: Action = Spanish greeting + real question; Question = What will you ask?
+- 2026-10-20: Day 2: Action = Spanish greeting + real question; Question = what will you ask?
+- 2026-10-21: Day 3: Action = floor greeting with question; Question = what will you ask?
+- 2026-10-21 | Day 3: practice / script rehearsal with complaint / regulator collaboration story / What question will you ask?
+- 2026-10-21 | he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week i
+- 2026-10-21 | he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summ
+- 2026-10-21 | he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summ
+- 2026-10-21 | he wrote: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la lín
+- 2026-10-21 | he wrote: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re havi
+- 2026-10-21 | he wrote: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la lí

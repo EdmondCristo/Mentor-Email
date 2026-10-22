@@ -1,0 +1,187 @@
+{
+ "version": 1,
+ "memories": [
+  {
+   "id": "cf4d8ea52a",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "8286df0dbd",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "a2ed23e90b",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team reviewed the flat $75 portfolio and he",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "060d106ecf",
+   "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 5.0,
+   "cues": [
+    "touch:rough",
+    "detail:directamente",
+    "detail:production",
+    "detail:inspector",
+    "detail:pregunta",
+    "detail:question",
+    "detail:specific",
+    "detail:straight"
+   ],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "0a81ab3c6c",
+   "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 7.0,
+   "cues": [
+    "sound:heard",
+    "touch:rough",
+    "detail:collaboration",
+    "detail:defensivenes",
+    "detail:observation",
+    "detail:comentario",
+    "detail:inspector",
+    "detail:question"
+   ],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "ef1a3d5d8b",
+   "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "51d82575fc",
+   "text": "Day 3: practice / script rehearsal with complaint / regulator collaboration story / What question will you ask?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "d040a3d8cb",
+   "text": "he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week i",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "c889e0c3cb",
+   "text": "he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summ",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "2e5298df50",
+   "text": "he wrote: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la lín",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "23a8a26cc8",
+   "text": "he wrote: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re havi",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "c084972ce4",
+   "text": "he wrote: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la lí",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-10-21",
+   "tag": "neutral",
+   "line": "12 new memories; strongest: he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement",
+   "hooks": []
+  }
+ ]
+}
