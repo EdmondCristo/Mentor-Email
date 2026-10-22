@@ -2,16 +2,21 @@ name: Daily mentor email
 
 on:
   schedule:
-    # 10:45 and 11:45 UTC cover 6:45 a.m. Eastern in both summer and winter time.
-    # The script sends only once per day, at or after 6 a.m. Eastern.
-    - cron: "45 10 * * *"
-    - cron: "45 11 * * *"
+    # Three emails a day, Eastern time: 8:00 a.m., 1:00 p.m. and 4:00 p.m.
+    # Each time is listed twice (summer UTC-4 and winter UTC-5): 12/13, 17/18 and 20/21 UTC.
+    # The script reads the clock, sends the email for the current window, and skips any it already sent.
+    - cron: "2 12,13,17,18,20,21 * * *"
   workflow_dispatch:
     inputs:
       force:
-        description: "Send now, even if today's email was already sent (for testing)"
+        description: "Send now, even if that email was already sent (for testing)"
         type: boolean
         default: false
+      slot:
+        description: "Which email to send (auto = the one for the current time)"
+        type: choice
+        options: [auto, morning, midday, afternoon]
+        default: auto
 
 permissions:
   contents: write
@@ -39,13 +44,21 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL }}
           B_MODEL: ${{ vars.B_MODEL }}
+          WEATHER_PLACE: ${{ vars.WEATHER_PLACE }}
+          WEATHER_LAT: ${{ vars.WEATHER_LAT }}
+          WEATHER_LON: ${{ vars.WEATHER_LON }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          ALLOWED_SENDERS: ${{ vars.ALLOWED_SENDERS }}
           FORCE: ${{ inputs.force }}
+          SLOT: ${{ inputs.slot }}
         run: |
-          if [ "$FORCE" = "true" ]; then python mentor.py --force; else python mentor.py; fi
+          args=""
+          if [ "$FORCE" = "true" ]; then args="--force"; fi
+          if [ -n "$SLOT" ] && [ "$SLOT" != "auto" ]; then args="$args --slot $SLOT"; fi
+          python mentor.py $args
 
       - name: Save the notebooks
         run: |
