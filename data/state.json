@@ -1,1 +1,101 @@
-{}
+{
+  "ladder": {
+    "level": 1,
+    "run": 0,
+    "floor_next": false
+  },
+  "promises": [],
+  "spanish": {
+    "level": 2,
+    "easy_run": 0,
+    "steady_run": 0,
+    "box": [
+      {
+        "phrase": "¿Podría revisar el informe, por favor?",
+        "english": "Could you review the report, please?",
+        "fmt": "phrase",
+        "date": "2026-10-21",
+        "stage": 0,
+        "due": "2026-10-22"
+      }
+    ],
+    "history": [],
+    "stats": {
+      "phrase": {
+        "taught": 1,
+        "recall_ok": 0,
+        "recall_fail": 0,
+        "hard": 0,
+        "easy": 0
+      },
+      "cognate": {
+        "taught": 0,
+        "recall_ok": 0,
+        "recall_fail": 0,
+        "hard": 0,
+        "easy": 0
+      }
+    },
+    "last": {
+      "date": "2026-10-21",
+      "mode": "new",
+      "fmt": "phrase",
+      "phrase": "¿Podría revisar el informe, por favor?",
+      "level": 2,
+      "answered": false
+    },
+    "last_mode": "new",
+    "force_easy": false
+  },
+  "used_links": [
+    "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss"
+  ],
+  "last_email": {
+    "date": "2026-10-21",
+    "lane": "world_growth",
+    "topic": "humble listening",
+    "spanish": "¿Podría revisar el informe, por favor?",
+    "angle": "Script rehearsal: say today's if-then script out loud once, in English and Spanish."
+  },
+  "last_sent": "2026-10-21",
+  "promise_open": {
+    "date": "2026-10-21",
+    "area": "love",
+    "text": "love",
+    "level": 1
+  },
+  "today": {
+    "date": "2026-10-21",
+    "body": "After I finish my lunch, I will open the messaging app, type “Hi, enjoyed our chat,” and hit send – under 30 seconds. If the day feels rough, just open the app and tap send without typing anything else.\n\nIt works because a concrete, low‑effort outreach lowers the barrier to building a connection.\n\nEspañol del día: ¿Podría revisar el informe, por favor? (Use when you need a colleague’s quick check on a document.)\n\nWhat exact phrase did you send, and how did it feel?\n\nNote from M: Let me know how it goes; we can tweak it if needed.\n\nConfirmed by M: I received 7 emails from you.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"Day 1 of 84: Listen First\": read by the Mentor and noted.\n- Your email \"Day 2 of 84: Listen First\": read by the Mentor and noted.\n- Your email \"Day 3 of 84: Listen First\": read by the Mentor and noted.\n- ...and 1 more.\n\nSource: Websites taken down worldwide as critical cyber-security update issued - https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+    "promise": {
+      "area": "love",
+      "text": "love"
+    },
+    "b": {
+      "advice": "Link the greeting to the moment you unlock your computer (implementation intention). After you log in, walk straight to the nearest inspection station (habit stack) and say the exact phrase “Buenos días, ¿cómo va la línea hoy?” If you’re pressed for time, fall back to the 5‑second version “Buenos días”. Immediately after the response, note the inspector’s answer on a sticky note (self‑monitoring) and mark a check‑off on a simple tally sheet. This concrete cue‑action‑record loop makes the habit easy to start, hard to forget, and provides visible proof of completion.",
+      "evidence": "strong"
+    },
+    "t": {
+      "topic": "Listening to alerts from others",
+      "topic_key": "humble listening",
+      "lesson": "After you log in, walk to the nearest inspection station and ask the inspector, “¿Qué observó ayer que podríamos mejorar?” Write the answer on a sticky note. This tiny habit shows you value their view and builds humility.",
+      "spanish_phrase": "¿Podría revisar el informe, por favor?",
+      "spanish_english": "Could you review the report, please?"
+    }
+  },
+  "slots": {
+    "date": "2026-10-21",
+    "done": [
+      "morning"
+    ]
+  },
+  "seen_ids": [
+    "<6ad3d127.24090018.1b2098.e45e@mx.google.com>",
+    "<6ad3faeb.3eefc229.12d4ad.ccc2@mx.google.com>",
+    "<6ad4f5f0.d2b8f92c.29da06.e9ef@mx.google.com>",
+    "<6ad64f1b.5fb20c3f.81b2.12e4@mx.google.com>",
+    "<6ad7878d.dd3f61df.248ff4.ee72@mx.google.com>",
+    "<6ad8dcaf.82a2a138.aaa03.6d67@mx.google.com>",
+    "<CAD4A5JsLfegr3EYc3Z8mDFbQ0s65hHRZKBph_b04s8qi2Z=nTg@mail.gmail.com>"
+  ]
+}

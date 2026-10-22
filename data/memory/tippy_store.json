@@ -4,27 +4,27 @@
   {
    "id": "0c540e539f",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 1,
+   "access_count": 2,
    "source": "jason"
   },
   {
    "id": "edfebc48eb",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 1,
+   "access_count": 2,
    "source": "jason"
   },
   {
@@ -43,7 +43,7 @@
   {
    "id": "359974f40c",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -59,13 +59,13 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 2,
+   "access_count": 3,
    "source": "jason"
   },
   {
    "id": "3944f81dd1",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -81,20 +81,20 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 2,
+   "access_count": 3,
    "source": "jason"
   },
   {
    "id": "1eaab205c7",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 2,
+   "access_count": 3,
    "source": "jason"
   },
   {
@@ -304,13 +304,78 @@
    "last_access": "2026-10-21T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "455cf0b0d0",
+   "text": "spanish (new, phrase, level 2): ¿Podría revisar el informe, por favor?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "b3cedc810c",
+   "text": "why this format: Formato breve, fácil de recordar y útil en su trabajo diario",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "25a3551507",
+   "text": "source: Websites taken down worldwide as critical cyber-security update issued",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "9ea62d2eb7",
+   "text": "note: Ask one inspector a specific improvement question today",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "3efc1d5edf",
+   "text": "note: Record the answer on a sticky note",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
   {
    "date": "2026-10-21",
    "tag": "neutral",
-   "line": "22 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
+   "line": "27 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
    "hooks": []
   }
  ]
