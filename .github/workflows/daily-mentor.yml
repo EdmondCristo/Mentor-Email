@@ -65,4 +65,4 @@ jobs:
           git config user.name "mentor-bot"
           git config user.email "mentor-bot@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || (git commit -m "Update mentor notebooks" && git push)
+          git diff --cached --quiet || (git commit -m "Update mentor notebooks" && git pull --rebase && git push)
