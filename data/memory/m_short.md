@@ -4,3 +4,6 @@
 - 2026-10-21 | added check: Spanish phrase must be relevant and brief
 - 2026-10-22 | REVISE: Draft contained multiple promises and repeated a prior Spanish phrase, violating checklist items 8, 13, and 15. Revised to a single family‑area tiny promise with trigger and floor version, added a new brief Spanish line, and removed extra content.
 - 2026-10-22 | added check: 2026-10-22: Ensure Spanish phrase is new and not previously used
+- 2026-10-22 | REVISE: Draft contained multiple prompts and a extra question about Mom, violating checklist item 15 (single tiny promise). Revised to a single love‑area action with clear trigger and floor version, kept Spanish phrase new and brief, removed extra content.
+- 2026-10-22 | added check: 2026-10-21: Ensure only one tiny promise appears per email
+- 2026-10-22 | added check: 2026-10-21: Spanish phrase must be relevant and brief
