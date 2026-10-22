@@ -13,13 +13,24 @@ Four AIs work together every morning. Each one has a different job, its own memo
 
 Order at 8:00 a.m.: read memory and your mail, then B, Tippy, the Mentor, M, send, save memory.
 
+## The mission: tiny promises that add up
+
+Every AI gets the same extra mission (the text is in `data/mission.md`, and you can edit it). It names four areas: **job** (QA manager), **love** (finding a wife), **family** (caring for your parents) and **life** (financial safety net, and no Monday dread). It sets one method: Kaizen with no fluff.
+
+1. **One tiny promise per day, in one area.** It is so small it cannot fail, like one push-up. It always has a trigger ("After I log in, I will...") and a **floor version** under 30 seconds for your worst day.
+2. **Areas rotate by weekday:** Monday life, Tuesday job, Wednesday love, Thursday family, Friday love, Saturday family, Sunday life (money, and five minutes to set up Monday).
+3. **Grow by about 1%.** You answer with one word, `done`, `floor` or `skip`. Seven `done` days in a row at a level moves the promise up one step (30 seconds, 2, 5, 10, 15 minutes). A `floor` keeps the promise but does not count toward stepping up. A `skip` resets the count, and the next promise is floor-only with no guilt. Nothing ever doubles.
+4. **No culture talk.** No quotes, slogans, gratitude or vision-board talk, no hustle routines. Each promise has exact words or numbers and one plain line on why it works.
+5. **Who does what:** B advises how to make it stick, Tippy picks finds that serve the area, the Mentor writes the promise, and M checks it (check 15). The code keeps the count in `state.json`, so no AI has to guess your streak.
+6. **Limits stay on top:** your good first, no harm, no hidden manipulation, no shame, no tricks in dating, no medical, legal or financial advice. For money and your parents' papers, you get checklists and questions for a professional.
+
 ## Three emails a day
 
 | Time (Eastern) | Email | Who works on it |
 | --- | --- | --- |
-| 8:00 a.m. | The full lesson: practice, one thing to learn, Spanish phrase, tonight's question | B, Tippy, the Mentor, M |
-| 1:00 p.m. | Midday check-in (up to 80 words): this morning's practice, the bad-day version, one nudge | The Mentor, M |
-| 4:00 p.m. | End-of-day reflection (up to 90 words): the question, one thing he may have noticed, a calm wind-down | The Mentor, M |
+| 8:00 a.m. | The full lesson: the tiny promise, one thing to learn, Spanish phrase, tonight's question | B, Tippy, the Mentor, M |
+| 1:00 p.m. | Midday check-in (up to 80 words): today's tiny promise with its floor version, one nudge | The Mentor, M |
+| 4:00 p.m. | End-of-day reflection (up to 90 words): asks you to answer done, floor or skip, plus the question and a calm wind-down | The Mentor, M |
 
 The follow-ups use the 8:00 lesson saved in `state.json`, so they do not teach anything new and do not repeat it. If the 8:00 email did not go out, the next run sends it first. The clock decides which email a run sends, and each is sent once. A run more than a few hours late skips its email rather than sending it at the wrong time.
 
@@ -99,6 +110,7 @@ Each memory also gets an emotional tag (joy, wonder, grief, fear, surprise, love
 | `test_mentor.py` | Checks that run with no keys and no email (38 tests). |
 | `.github/workflows/daily-mentor.yml` | The GitHub schedule (8:00 a.m., 1:00 p.m., 4:00 p.m. Eastern) and the secrets it uses. |
 | `data/plan.md` | Your 12-week plan. |
+| `data/mission.md` | The extra mission every AI follows (areas, tiny-promise method, limits). Edit it any time; delete it to go back to the built-in text. |
 | `data/profile.md` | A short private profile. Edit freely, but keep it free of height and weight. |
 | `memory_protocol.py` | The emotion-weighted memory rules (scores, tags, recall, forgetting). |
 | `data/memory/` | All the memory: short-term, long-term, emotion-weighted stores, plus your feedback. |

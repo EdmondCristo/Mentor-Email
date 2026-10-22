@@ -9,7 +9,9 @@ GitHub wakes this project up three times a day, Eastern time: **8:00 a.m.** (the
 
 Each AI has its own short-term and long-term memory, so the emails stop repeating and improve with your feedback. **DESIGN.md** explains how each AI works.
 
-**How you answer:** reply to the email with `up` or `down` plus a word (for example "down, too long"). You can also use a number from 1 to 5, or 👍 or 👎.
+**How you answer:** each email has one tiny promise. Reply with one word: `done`, `floor` (you did the 30-second version) or `skip`. To rate an email, reply `up` or `down` plus a word (for example "down, too long"). You can also use a number from 1 to 5, or 👍 or 👎.
+
+**The mission:** every AI follows the extra mission in `data/mission.md`: help you in job, love, family and life with tiny daily actions that grow about 1% at a time, with no motivational fluff. Open the file to read it or change it; delete it to go back to the built-in text. See DESIGN.md.
 
 **How you talk to the team:** email the team's address any time, with any subject. The Mentor reads it once a day to tune your emails, but nobody writes back. See "The team mailbox" below.
 
@@ -103,7 +105,7 @@ If the run log says it could not read the mailbox, open Gmail on the team accoun
 - It is not an emergency service. If you are in crisis, call or text 988 (US) or reach someone you trust.
 
 ## Updating a repo you already set up
-1. Upload the new files over the old ones: `mentor.py`, **`memory_protocol.py` (new file; mentor.py needs it)**, `test_mentor.py`, `README.md`, `DESIGN.md`, `.github/workflows/daily-mentor.yml`, `data/profile.md`, and the whole `data/memory` folder. If you edited `data/profile.md`, copy your edits into the new one.
+1. Upload the new files over the old ones: `mentor.py`, **`memory_protocol.py` (new file; mentor.py needs it)**, `data/mission.md`, `test_mentor.py`, `README.md`, `DESIGN.md`, `.github/workflows/daily-mentor.yml`, `data/profile.md`, and the whole `data/memory` folder. If you edited `data/profile.md`, copy your edits into the new one.
 2. Delete these from your repo if they are there: `.github/workflows/agent-s-inbox.yml`, `data/memory/s_short.md`, `data/memory/s_long.md`. You do not need to change any secrets.
 3. The first run moves what the old notebooks recorded (`notebook_b.md`, `notebook_s.md`, `notebook_m.md`, `notebook_tippy.md`, `daylog.md`) into the new memory files. After one good run you can delete those five old files.
 4. Optional: add a repository variable `WEATHER_PLACE`, `WEATHER_LAT` and `WEATHER_LON` if you want weather for a different place. The default is Palisades Park, NJ.

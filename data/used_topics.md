@@ -1,5 +1,1 @@
 # Topics and Spanish phrases already used (the mentor never repeats these)
-- 2026-10-21 | topic | humble listening
-- 2026-10-21 | spanish | ¿Cómo está la línea hoy?
-- 2026-10-21 | topic | diverse viewpoint listening
-- 2026-10-21 | spanish | ¿Qué desafíos ve con la nueva normativa?

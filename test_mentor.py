@@ -870,6 +870,131 @@ def test_three_emails_a_day_with_short_followups_that_skip_b_and_tippy():
         assert "midday" in (data / "memory" / "mentor_short.md").read_text()
 
 
+def test_mission_file_matches_the_built_in_text_and_can_be_edited():
+    assert Path("data/mission.md").read_text(encoding="utf-8") == mentor.MISSION
+    with tempfile.TemporaryDirectory() as tmp:
+        assert mentor.load_mission(tmp) == mentor.MISSION, "no file: the built-in mission is used"
+        (Path(tmp) / "mission.md").write_text("MY OWN MISSION\n", encoding="utf-8")
+        assert mentor.load_mission(tmp) == "MY OWN MISSION\n"
+    for word in ("one-push-up", "FLOOR", "under 30 seconds", "7 \"done\" days in a row", "No quotes, slogans", "QA", "wife", "parents", "Mondays"):
+        assert word in mentor.MISSION, word
+    assert "Agent M" not in mentor.MISSION and "guardian" not in mentor.MISSION.lower()
+
+
+def test_every_ai_gets_the_mission_but_only_m_gets_the_mission_checks():
+    os.environ.update({"GROQ_API_KEY": "k", "GMAIL_ADDRESS": "bot@x.com", "GMAIL_APP_PASSWORD": "pw", "TO_EMAIL": "jason@x.com"})
+    os.environ.pop("LLM_PROVIDER", None)
+    prompts = []
+
+    class Spy(mentor.LLM):
+        def ask(self, system, user, *a, **k):
+            tag = system.split("]")[0].lstrip("[")
+            prompts.append((tag, system, user))
+            return mentor.MOCK[tag]
+
+    with tempfile.TemporaryDirectory() as tmp:
+        data = Path(tmp) / "data"
+        shutil.copytree("data", data)
+        saved = (mentor.LLM, mentor.fetch_replies, mentor.send_email, mentor.gather_world)
+        mentor.LLM = lambda mock=False: Spy(mock=True)
+        mentor.fetch_replies = lambda *a, **k: []
+        mentor.send_email = lambda *a, **k: None
+        mentor.gather_world = lambda *a, **k: {"weather": "", "headlines": []}
+        try:
+            for date, slot in (("2026-10-25", "morning"), ("2026-10-25", "midday")):  # a Sunday: reflection runs too
+                mentor.run(mentor.argparse.Namespace(data_dir=str(data), date=date, force=False, mock=False, dry_run=False, slot=slot))
+        finally:
+            mentor.LLM, mentor.fetch_replies, mentor.send_email, mentor.gather_world = saved
+    tags = [p[0] for p in prompts]
+    assert {"B", "TIPPY", "MENTOR", "M", "REFLECT"} <= set(tags)
+    for tag, system, user in prompts:
+        assert "MISSION (everything you do serves this)" in system and "one-push-up" in system, tag
+        assert ("YOUR CHECKS ON THE MISSION" in system) == (tag == "M"), tag
+        if tag in ("B", "TIPPY", "MENTOR"):
+            assert "Agent M" not in system and "guardian" not in system.lower(), f"{tag} must not learn about M"
+    mentor_morning = [p for p in prompts if p[0] == "MENTOR"][0]
+    assert "Tiny promise (life)" in mentor_morning[1] and "Mission area today: life" in mentor_morning[2], "Sunday is a life day"
+    assert "Level 1: today's promise may take up to 30 seconds" in mentor_morning[2]
+    assert "15. The 8:00 email carries exactly one tiny promise" in [p for p in prompts if p[0] == "M"][0][2]
+
+
+def test_area_rotation_covers_all_four_areas_across_the_week():
+    assert [mentor.MISSION_AREAS[d] for d in range(7)] == ["life", "job", "love", "family", "love", "family", "life"]
+    assert set(mentor.MISSION_AREAS.values()) == {"job", "love", "family", "life"}
+
+
+def test_reply_words_for_the_tiny_promise():
+    assert [mentor.parse_promise(t) for t in ("done", "Done, easy", "floor - only the short one", "skip", "Skipped it", "missed", "up, nice", "donut", "undone", "")] == \
+        ["done", "done", "floor", "skip", "skip", "skip", None, None, None, None]
+
+
+def test_ladder_steps_up_after_seven_done_days_and_shrinks_after_a_skip():
+    state = {}
+    mentor.open_promise(state, "2026-10-20", "job", "After login, greet one inspector")
+    say = lambda word: mentor.apply_promise_results(state, [{"kind": "reply", "text": word}])
+    say("floor")
+    assert state["ladder"] == {"level": 1, "run": 0, "floor_next": False}, "floor keeps the promise but does not count toward stepping up"
+    for i in range(6):
+        mentor.open_promise(state, f"2026-10-2{i + 1}", "job", "x")
+        say("done")
+    assert state["ladder"]["run"] == 6 and state["ladder"]["level"] == 1
+    mentor.open_promise(state, "2026-10-27", "love", "y")
+    say("done now")
+    assert state["ladder"]["level"] == 2 and state["ladder"]["run"] == 0, "seven in a row: one step up, never double"
+    assert "up to 2 minutes" in mentor.ladder_note(state)
+    mentor.open_promise(state, "2026-10-28", "family", "z")
+    say("skip")
+    assert state["ladder"]["run"] == 0 and state["ladder"]["floor_next"] is True and state["ladder"]["level"] == 2
+    assert "WHOLE promise today must be the floor version" in mentor.ladder_note(state)
+    mentor.open_promise(state, "2026-10-29", "life", "w")
+    assert state["ladder"]["floor_next"] is False, "the floor-only day is issued once"
+    mentor.open_promise(state, "2026-10-30", "life", "v")  # yesterday's promise never got an answer
+    assert state["promises"][-1]["result"] == "no reply" and state["ladder"]["level"] == 2
+    say("done")  # an answer with no promise open, or a rating, changes nothing
+    say("done")
+    assert state["ladder"]["run"] == 1
+    mentor.apply_promise_results(state, [{"kind": "direct", "text": "done"}, {"kind": "reply", "text": "up"}])
+    assert state["ladder"]["run"] == 1, "only replies to the daily email count, and ratings are not answers"
+
+
+def test_promise_is_tracked_end_to_end_and_confirmed_by_m():
+    os.environ.update({"GROQ_API_KEY": "k", "GMAIL_ADDRESS": "bot@x.com", "GMAIL_APP_PASSWORD": "pw", "TO_EMAIL": "jason@x.com"})
+    os.environ.pop("LLM_PROVIDER", None)
+    sent, prompts = [], []
+
+    class Spy(mentor.LLM):
+        def ask(self, system, user, *a, **k):
+            tag = system.split("]")[0].lstrip("[")
+            prompts.append((tag, system, user))
+            if tag == "MENTOR" and "Tiny promise" in system and "MIDDAY" not in system and "4 PM" not in system:
+                return ("Tiny promise (job): After I log in, I will greet one inspector in Spanish.\nFloor version: say Buenos dias.\n"
+                        "Why: a tiny habit tied to a habit sticks.\n\nTonight's question: Who did you greet?\n\nLOG: greeting | angle | none | q")
+            return mentor.MOCK[tag]
+
+    mail = {"2026-10-21": [{"id": "<1>", "kind": "reply", "subject": "Re: Day 2", "text": "done, easy"}]}
+    with tempfile.TemporaryDirectory() as tmp:
+        data = Path(tmp) / "data"
+        shutil.copytree("data", data)
+        saved = (mentor.LLM, mentor.fetch_replies, mentor.send_email, mentor.gather_world)
+        mentor.LLM = lambda mock=False: Spy(mock=True)
+        mentor.send_email = lambda *a, **k: sent.append(a[3:])
+        mentor.gather_world = lambda *a, **k: {"weather": "", "headlines": []}
+        try:
+            for date in ("2026-10-20", "2026-10-21"):
+                mentor.fetch_replies = lambda *a, date=date, **k: list(mail.get(date, []))
+                mentor.run(mentor.argparse.Namespace(data_dir=str(data), date=date, force=False, mock=False, dry_run=False, slot="morning"))
+        finally:
+            mentor.LLM, mentor.fetch_replies, mentor.send_email, mentor.gather_world = saved
+        state = json.loads((data / "state.json").read_text())
+        assert state["promises"][0] == {"date": "2026-10-20", "area": "job", "text": "After I log in, I will greet one inspector in Spanish.",
+                                        "level": 1, "result": "done"}
+        assert state["ladder"]["run"] == 1 and state["promise_open"]["date"] == "2026-10-21" and state["promise_open"]["area"] == "love"
+        assert "Tiny promise: reply 'done', 'floor'" in sent[0][1]
+        assert 'noted as your tiny promise result (done)' in sent[1][1]
+        day2 = [p for p in prompts if p[0] == "MENTOR"][-1]
+        assert "Mission area today: love" in day2[2] and "'Done' days in a row at this level: 1 of 7" in day2[2]
+
+
 def test_agent_s_is_gone():
     import inspect
     assert not hasattr(mentor, "agent_s") and "S" not in mentor.AGENTS and "S" not in mentor.MOCK
