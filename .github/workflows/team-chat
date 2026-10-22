@@ -1,0 +1,47 @@
+name: Team chat (hourly)
+
+on:
+  schedule:
+    # Once an hour, at 17 minutes past. The script only acts between 6 a.m. and 10:59 p.m. Eastern.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Same group as the daily emails, so the two never write to the repo at the same time.
+concurrency:
+  group: daily-mentor
+  cancel-in-progress: false
+
+jobs:
+  chat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Run one turn of the team chat
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'groq' }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          CHAT_MAX_CALLS: ${{ vars.CHAT_MAX_CALLS }}
+        run: python chat_runner.py
+
+      - name: Save the chat
+        run: |
+          git config user.name "mentor-bot"
+          git config user.email "mentor-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "Update team chat" && git pull --rebase && git push)
