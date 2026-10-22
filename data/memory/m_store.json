@@ -4,27 +4,27 @@
   {
    "id": "f11d89acef",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "20a95a4786",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
@@ -43,7 +43,7 @@
   {
    "id": "c300ce438f",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -59,13 +59,13 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 1,
+   "access_count": 2,
    "source": "jason"
   },
   {
    "id": "bfadb28496",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -81,20 +81,20 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 1,
+   "access_count": 2,
    "source": "jason"
   },
   {
    "id": "6295f40e61",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 1,
+   "access_count": 2,
    "source": "jason"
   },
   {
@@ -161,13 +161,39 @@
    "last_access": "2026-10-21T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "e65f75547f",
+   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "393c260cc9",
+   "text": "APPROVE: Draft meets all checklist items: one tiny promise with trigger and floor version under 30 seconds, no slogans or manipulative language, appropriate to LOVE area, includes Spanish correctly, no repeated content, and respects all mission constraints.",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
   {
    "date": "2026-10-21",
    "tag": "neutral",
-   "line": "11 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
+   "line": "13 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
    "hooks": []
   }
  ]
