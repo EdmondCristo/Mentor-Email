@@ -11,6 +11,12 @@ Each AI has its own short-term and long-term memory, so the emails stop repeatin
 
 **How you answer:** each email has one tiny promise. Reply with one word: `done`, `floor` (you did the 30-second version) or `skip`. To rate an email, reply `up` or `down` plus a word (for example "down, too long"). You can also use a number from 1 to 5, or 👍 or 👎.
 
+**The Mentor's voice:** the Mentor writes like one calm, exact, courteous teacher (modelled on the quiet master Nicolai Hel in Trevanian's *Shibumi*, in original wording), not like a template and not like a kung-fu movie. The personality is in `data/voice.md`: open it to read it or change it; delete it to go back to the built-in text. Code removes em dashes and hype, and asks for one rewrite if a draft still sounds robotic. Agent M checks the voice too.
+
+**Spanish, made easier:** one short item a day, sized to your level (1 to 5, starting at 2). Reply `es easy`, `es ok` or `es hard` and the level moves (`hard` drops it at once; two `easy` answers, or seven steady ones, raise it). Each phrase comes back for review after 1, 3, 7, 14 and 30 days. The team tries four teaching formats (phrase, cognate, dialogue, fill) and keeps the one you remember best. You can combine answers: `done, es ok`.
+
+**The team chat:** B, Tippy and the Mentor also talk to each other once an hour in `data/team_chat.md` (you can read it any time) about how to help you in life, family, love and job, and to build a personality people love and real confidence. Agent M quietly watches the chat. If something troubling shows up, it goes into your next Mentor email as a "Note from M"; if it is urgent, the Mentor address emails you within the hour. See DESIGN.md.
+
 **The mission:** every AI follows the extra mission in `data/mission.md`: help you in job, love, family and life with tiny daily actions that grow about 1% at a time, with no motivational fluff. Open the file to read it or change it; delete it to go back to the built-in text. See DESIGN.md.
 
 **How you talk to the team:** email the team's address any time, with any subject. The Mentor reads it once a day to tune your emails, but nobody writes back. See "The team mailbox" below.
@@ -72,13 +78,14 @@ Go to **Settings > Secrets and variables > Actions > Variables tab > New reposit
 | `B_MODEL` | Advanced: a Groq model with built-in web search (check Groq's model list) so Agent B can look up new studies. Leave empty if unsure. |
 
 ## Privacy
-The AIs also keep emotion-weighted notes of what you write, scored by how strongly you said it (see DESIGN.md). They are in `data/memory/*_store.json`; open them any time and delete anything you don't want kept. Your profile notes, notebooks and your replies are sent to the AI service (Groq) each day to write the email. `data/profile.md` is deliberately short and has no height or weight. Keep it that way, and keep the repo private.
+The AIs also keep emotion-weighted notes of what you write, scored by how strongly you said it (see DESIGN.md). They are in `data/memory/*_store.json`; open them any time and delete anything you don't want kept. Your profile notes, notebooks, the team chat and your replies are sent to the AI service (Groq) each day to write the email. `data/profile.md` is deliberately short and has no height or weight. Keep it that way, and keep the repo private.
 
 ## Good to know
 
 - **Replies and ratings:** reply to the email with one or two lines. Start with `up` or `down` to rate it.
 - **The agents' memory** is in `data/memory`: a short-term and a long-term file for each AI, plus `feedback.md`. Open them any time. `data/m_checks.md` lists checks Agent M added on its own; delete any line you don't like.
 - **Agent M's standing checklist** is at the top of `mentor.py`. It has no web search or inbox access of its own; it only reviews what B, Tippy and the Mentor produce.
+- **The chat workflow:** to run a turn now, open Actions > Team chat (hourly) > Run workflow. To pause it, disable that workflow. It uses the same secrets as the daily emails and about 3 to 9 short AI calls on a busy hour, none when nothing is new (30 AI turns a day at most).
 - **Schedule:** emails go out at 8:00 a.m., 1:00 p.m. and 4:00 p.m. Eastern. Only the 8:00 email teaches something new (it uses B and Tippy); the other two are short follow-ups from the Mentor, reviewed by M. Day 1 is Monday, October 19, 2026. Day 84 is January 10, 2027. After that it emails on Sundays only.
 - **To stop:** Actions tab > Daily mentor email > **...** > **Disable workflow**.
 - **Test without spending anything:** `python mentor.py --mock --dry-run --date 2026-10-19` prints a sample email using canned answers (no key needed). `python test_mentor.py` runs the checks.
@@ -105,7 +112,7 @@ If the run log says it could not read the mailbox, open Gmail on the team accoun
 - It is not an emergency service. If you are in crisis, call or text 988 (US) or reach someone you trust.
 
 ## Updating a repo you already set up
-1. Upload the new files over the old ones: `mentor.py`, **`memory_protocol.py` (new file; mentor.py needs it)**, `data/mission.md`, `test_mentor.py`, `README.md`, `DESIGN.md`, `.github/workflows/daily-mentor.yml`, `data/profile.md`, and the whole `data/memory` folder. If you edited `data/profile.md`, copy your edits into the new one.
+1. Upload the new files over the old ones: `mentor.py`, **`memory_protocol.py`, `team_chat.py`, `chat_runner.py`, `voice.py`, `spanish.py` (new files; mentor.py needs `memory_protocol.py`, `spanish.py`, `team_chat.py` and `voice.py`)**, `data/voice.md`, `.github/workflows/team-chat.yml`, `data/mission.md`, `data/team_chat.md`, `test_mentor.py`, `README.md`, `DESIGN.md`, `.github/workflows/daily-mentor.yml`, `data/profile.md`, and the whole `data/memory` folder. If you edited `data/profile.md`, copy your edits into the new one.
 2. Delete these from your repo if they are there: `.github/workflows/agent-s-inbox.yml`, `data/memory/s_short.md`, `data/memory/s_long.md`. You do not need to change any secrets.
 3. The first run moves what the old notebooks recorded (`notebook_b.md`, `notebook_s.md`, `notebook_m.md`, `notebook_tippy.md`, `daylog.md`) into the new memory files. After one good run you can delete those five old files.
 4. Optional: add a repository variable `WEATHER_PLACE`, `WEATHER_LAT` and `WEATHER_LON` if you want weather for a different place. The default is Palisades Park, NJ.

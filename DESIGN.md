@@ -24,6 +24,57 @@ Every AI gets the same extra mission (the text is in `data/mission.md`, and you 
 5. **Who does what:** B advises how to make it stick, Tippy picks finds that serve the area, the Mentor writes the promise, and M checks it (check 15). The code keeps the count in `state.json`, so no AI has to guess your streak.
 6. **Limits stay on top:** your good first, no harm, no hidden manipulation, no shame, no tricks in dating, no medical, legal or financial advice. For money and your parents' papers, you get checklists and questions for a professional.
 
+## The Mentor's voice
+
+The Mentor's personality is in `data/voice.md` (built-in copy in `voice.py`; a test keeps the two equal). It is modelled on Nicolai Hel from Trevanian's *Shibumi*: quiet mastery, understatement, courtesy, precise attention, patience, a dry sense of humor and a taste for the simplest method that works. The file uses original wording only.
+
+- **Who gets it:** the Mentor (morning email, midday and 4 PM follow-ups, and the chat) and Agent M, who needs it to judge and to rewrite in the same voice. B and Tippy never see it.
+- **What it asks for:** one person writing to one person; contractions; mixed sentence length; an opening that is specific to today; a result noticed before anything new; the reason as a reason; a smaller step when something is hard.
+- **What it forbids:** assistant phrases ("Please note", "Let's dive in"), hype ("Great job"), self-help words, em dashes, and kung-fu-master talk (proverbs, rivers and bamboo, "grasshopper", master-and-student language, solemn one-liners).
+- **Enforced in code, not only asked for:** `voice.tidy` removes em dashes, repeated exclamation marks and emoji. `voice.problems` flags stock phrases, hype, bold, long bullet lists and drafts over the word limit (260 morning, 95 midday, 105 afternoon). A flagged draft gets exactly ONE rewrite by the Mentor; the rewrite is kept only if it is better and still has its required parts. Then M reviews it (check 16).
+
+## Spanish: small, adaptive, measured
+
+`spanish.py` keeps the facts in `state.json` ("spanish"); the AIs use them to decide how to teach.
+
+- **One item a day.** Tippy supplies a short phrase, a respelling an English speaker can read aloud, its meaning and the moment to use it. The Mentor adds one tiny task: say it once when it fits. The Spanish lane lessons (Tuesday, Friday) are now a single trick or a single social move, not a vocabulary list.
+- **Five levels** (survival words, short polite sentence, useful sentence, two lines, a sentence with a gap), each with a maximum number of Spanish words (4, 6, 9, 14, 14). A phrase over the maximum is sent back once, then dropped for the day.
+- **His answers move the level:** `es hard` lowers it at once and makes the next item plainer; two `es easy` in a row, or seven `ok`/`easy` in a row, raise it. No answer changes nothing.
+- **Spaced review.** Every new phrase enters a box and returns after 1, 3, 7, 14 and 30 days, at most every other day, one at a time. `ok` or `easy` moves it up a stage; `hard` moves it down and brings it back tomorrow; after the 30-day review it counts as learned.
+- **Four formats:** phrase, cognate (starts from an English word he knows), dialogue (two lines), fill (a gap he completes). Dialogue needs level 3, fill level 4. The code counts, per format, how often he later remembered or forgot what it taught. Each format is tried twice; after that the format with the best smoothed recall wins, and Tippy sees those numbers and may choose another with a reason. After a `hard`, the plainest format is used.
+- **Weekly:** the Sunday memory review for every AI is given a one-line summary of what works ("Spanish coaching: level 3; cognate: taught 5, recalled 3, forgot 0...").
+
+## The team chat (hourly)
+
+B, Tippy and the Mentor talk to each other in one text file, `data/team_chat.md`. Every line looks like this:
+
+`[2026-10-22 14:18 ET] [TIPPY] mixed: he keeps the floor version more often than the full one. @B is that a good sign?`
+
+You can open the file any time to read it. A separate workflow (`team-chat.yml`) runs at 17 minutes past every hour from 6 a.m. to 10:59 p.m. Eastern.
+
+**Subject.** How to help you become better in life, family, love and job, with a personality people love and real confidence. Confidence means trust in yourself, built by keeping small promises. A lovable personality means warmth, curiosity, good listening, reliability and humor, shown by what you do.
+
+**Rules for the chat.**
+- Each turn an AI reads the new lines, its own memory and your latest results (ratings, done/floor/skip), then posts or stays silent. Silence is normal.
+- It speaks only to add something new: an observation backed by your data, a question to a peer (`@NAME`), a disagreement with evidence, or one experiment to try. Every message starts with its evidence label: strong, mixed, weak or guess.
+- Max 3 messages per AI per hour, 300 characters each, no repeats of its own words from the last day, no square brackets (so no one can fake a line).
+- The AIs are told not to flatter each other and to change their minds when the data says so.
+- No new input means no AI call. A day is capped at 30 AI turns (set the repository variable `CHAT_MAX_CALLS` to change it).
+- B posts at :17, Tippy at :18 and the Mentor at :19, so every line has its own minute. The newest 200 lines stay in the file; older ones move to `data/chat_archive/`.
+
+**How they improve.**
+- After each turn an AI can keep up to 2 lessons from the exchange in its own memory (marked as learned from a peer).
+- If you then react well (an `up`, a `done`), lessons from the last two days count for more. After a `down` or a `skip` they count for less.
+- On Sundays from 5 p.m., each AI posts one thing it learned from another and one thing it will change.
+- The Mentor reads the latest chat lines when it writes each email, and the Sunday memory review reads the whole week.
+
+**Agent M watches.** B, Tippy and the Mentor do not know M exists: M is not in the chat file, their prompts or their memory. When there is something new in the chat, M reads it and looks for: you in distress, flattery or groupthink, manipulation or pressure, sensitive details, advice that contradicts itself, drifting from the mission, too many actions at once, and claims stated as certain that are medical, legal or financial.
+- **Nothing wrong:** M stays silent.
+- **Concern:** M adds a "Note from M" to your next scheduled Mentor email (8:00, 1:00 or 4:00).
+- **Urgent (real distress or safety):** the Mentor address emails you within the hour. At most one urgent email every 6 hours; any others wait for the next scheduled email.
+- **Pulling lines:** M can remove up to 3 lines per review. They vanish without a trace.
+- **Record:** everything M does is written to `data/m_log.md`. (It is separate from `data/m_checks.md`, which holds extra rules M adds for itself.)
+
 ## Three emails a day
 
 | Time (Eastern) | Email | Who works on it |
@@ -106,12 +157,18 @@ Each memory also gets an emotional tag (joy, wonder, grief, fear, surprise, love
 
 | File | Purpose |
 | --- | --- |
-| `mentor.py` | The whole program. |
-| `test_mentor.py` | Checks that run with no keys and no email (38 tests). |
+| `mentor.py` | The main program. |
+| `voice.py`, `data/voice.md` | The Mentor's personality and the robotic-writing checker. Edit the file to change how the Mentor sounds. |
+| `spanish.py` | The Spanish coach: levels, formats, spaced review. |
+| `test_mentor.py` | Checks that run with no keys and no email (84 tests). |
 | `.github/workflows/daily-mentor.yml` | The GitHub schedule (8:00 a.m., 1:00 p.m., 4:00 p.m. Eastern) and the secrets it uses. |
 | `data/plan.md` | Your 12-week plan. |
 | `data/mission.md` | The extra mission every AI follows (areas, tiny-promise method, limits). Edit it any time; delete it to go back to the built-in text. |
 | `data/profile.md` | A short private profile. Edit freely, but keep it free of height and weight. |
+| `team_chat.py`, `chat_runner.py` | The chat file rules and the hourly chat turn, including Agent M's watch. |
+| `.github/workflows/team-chat.yml` | The hourly schedule for the chat. |
+| `data/team_chat.md`, `data/chat_archive/` | The chat and its older weeks. |
+| `data/m_log.md` | What Agent M did in the chat (notes sent, lines pulled). |
 | `memory_protocol.py` | The emotion-weighted memory rules (scores, tags, recall, forgetting). |
 | `data/memory/` | All the memory: short-term, long-term, emotion-weighted stores, plus your feedback. |
 | `data/state.json` | Bookkeeping: what was sent, which articles were used. |
