@@ -5,3 +5,9 @@
 - 2026-10-21 | source: Websites taken down worldwide as critical cyber-security update issued
 - 2026-10-21 | note: Ask one inspector a specific improvement question today
 - 2026-10-21 | note: Record the answer on a sticky note
+- 2026-10-22 | qa_news: Mercury test check
+- 2026-10-22 | spanish (review, phrase, level 2): ¿Tiene resultados libres?
+- 2026-10-22 | why this format: Formato breve, fácil de recordar y útil en su trabajo diario
+- 2026-10-22 | source: Skin care products tainted with mercury, warns FDA - FOX 8 News
+- 2026-10-22 | note: Email supplier: ask for mercury‑free test results
+- 2026-10-22 | note: Log response in QA tracker

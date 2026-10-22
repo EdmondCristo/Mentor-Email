@@ -4,7 +4,15 @@
     "run": 0,
     "floor_next": false
   },
-  "promises": [],
+  "promises": [
+    {
+      "date": "2026-10-21",
+      "area": "love",
+      "text": "love",
+      "level": 1,
+      "result": "no reply"
+    }
+  ],
   "spanish": {
     "level": 2,
     "easy_run": 0,
@@ -16,7 +24,7 @@
         "fmt": "phrase",
         "date": "2026-10-21",
         "stage": 0,
-        "due": "2026-10-22"
+        "due": "2026-10-23"
       }
     ],
     "history": [],
@@ -37,54 +45,55 @@
       }
     },
     "last": {
-      "date": "2026-10-21",
-      "mode": "new",
+      "date": "2026-10-22",
+      "mode": "review",
       "fmt": "phrase",
       "phrase": "¿Podría revisar el informe, por favor?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "new",
+    "last_mode": "review",
     "force_easy": false
   },
   "used_links": [
-    "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-21",
-    "lane": "world_growth",
-    "topic": "humble listening",
-    "spanish": "¿Podría revisar el informe, por favor?",
-    "angle": "Script rehearsal: say today's if-then script out loud once, in English and Spanish."
+    "date": "2026-10-22",
+    "lane": "qa_news",
+    "topic": "Mercury test check",
+    "spanish": "¿Tiene resultados libres?",
+    "angle": "Two questions first: ask two follow-up questions before you share your own view, once today."
   },
-  "last_sent": "2026-10-21",
+  "last_sent": "2026-10-22",
   "promise_open": {
-    "date": "2026-10-21",
-    "area": "love",
-    "text": "love",
+    "date": "2026-10-22",
+    "area": "family",
+    "text": "call Mom",
     "level": 1
   },
   "today": {
-    "date": "2026-10-21",
-    "body": "After I finish my lunch, I will open the messaging app, type “Hi, enjoyed our chat,” and hit send – under 30 seconds. If the day feels rough, just open the app and tap send without typing anything else.\n\nIt works because a concrete, low‑effort outreach lowers the barrier to building a connection.\n\nEspañol del día: ¿Podría revisar el informe, por favor? (Use when you need a colleague’s quick check on a document.)\n\nWhat exact phrase did you send, and how did it feel?\n\nNote from M: Let me know how it goes; we can tweak it if needed.\n\nConfirmed by M: I received 7 emails from you.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"Day 1 of 84: Listen First\": read by the Mentor and noted.\n- Your email \"Day 2 of 84: Listen First\": read by the Mentor and noted.\n- Your email \"Day 3 of 84: Listen First\": read by the Mentor and noted.\n- ...and 1 more.\n\nSource: Websites taken down worldwide as critical cyber-security update issued - https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "body": "After you finish lunch, call Mom and say, “Hi Mom, how was your week?”\nIf the day feels rough, just say, “Hi Mom,” and hang up – under 30 seconds.\nReason: a specific cue (finishing lunch) and a brief script make the call automatic; evidence: mixed.\nEspañol del día: \"¿Cómo estuvo tu día?\" – a simple, polite question you can use after the call.\n\nNote from M: Let me know if the cue works for you.\n\nSource: Skin care products tainted with mercury, warns FDA - FOX 8 News - https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5",
     "promise": {
-      "area": "love",
-      "text": "love"
+      "area": "family",
+      "text": "call Mom"
     },
     "b": {
-      "advice": "Link the greeting to the moment you unlock your computer (implementation intention). After you log in, walk straight to the nearest inspection station (habit stack) and say the exact phrase “Buenos días, ¿cómo va la línea hoy?” If you’re pressed for time, fall back to the 5‑second version “Buenos días”. Immediately after the response, note the inspector’s answer on a sticky note (self‑monitoring) and mark a check‑off on a simple tally sheet. This concrete cue‑action‑record loop makes the habit easy to start, hard to forget, and provides visible proof of completion.",
+      "advice": "Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack). Phrase it as an if‑then plan: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with one specific question about yesterday’s line performance. Keep the script identical each day so the cue‑action link becomes automatic; on a rough day, the fallback is simply “Buenos día” (the floor version).",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Listening to alerts from others",
-      "topic_key": "humble listening",
-      "lesson": "After you log in, walk to the nearest inspection station and ask the inspector, “¿Qué observó ayer que podríamos mejorar?” Write the answer on a sticky note. This tiny habit shows you value their view and builds humility.",
-      "spanish_phrase": "¿Podría revisar el informe, por favor?",
-      "spanish_english": "Could you review the report, please?"
+      "topic": "Regulatory watch: mercury contamination risk",
+      "topic_key": "Mercury test check",
+      "lesson": "After you log in, send a brief email to your supplier asking: “Do you have recent test results confirming the product is free of mercury?” Keep it under 30 seconds to write and send.",
+      "spanish_phrase": "¿Tiene resultados libres?",
+      "spanish_english": "Do you have clean results?"
     }
   },
   "slots": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "done": [
       "morning"
     ]

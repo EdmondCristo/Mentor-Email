@@ -2,3 +2,5 @@
 - 2026-10-21 | REVISE: Draft contained multiple sections beyond the single tiny promise, including unrelated learning notes, weather line, and a nightly question, violating checklist items 8 and 15. Revised to a single love‑area promise with trigger and floor version, kept b
 - 2026-10-21 | added check: Ensure only one tiny promise appears per email
 - 2026-10-21 | added check: Spanish phrase must be relevant and brief
+- 2026-10-22 | REVISE: Draft contained multiple promises and repeated a prior Spanish phrase, violating checklist items 8, 13, and 15. Revised to a single family‑area tiny promise with trigger and floor version, added a new brief Spanish line, and removed extra content.
+- 2026-10-22 | added check: 2026-10-22: Ensure Spanish phrase is new and not previously used

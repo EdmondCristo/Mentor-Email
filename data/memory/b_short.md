@@ -3,3 +3,7 @@
 - 2026-10-21 | note: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?”
 - 2026-10-21 | note: implementation intentions
 - 2026-10-21 | note: habit stacking
+- 2026-10-22 | advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack). Phrase it as an if‑then plan: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” a
+- 2026-10-22 | note: 2026-10-19: implementation intentions
+- 2026-10-22 | note: 2026-10-19: habit stacking
+- 2026-10-22 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).

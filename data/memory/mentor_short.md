@@ -9,3 +9,4 @@
 - 2026-10-21 | he wrote: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la lín
 - 2026-10-21 | he wrote: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re havi
 - 2026-10-21 | he wrote: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la lí
+- 2026-10-22 | Day 4: call Mom / family / brief check‑in / did you send the email?
