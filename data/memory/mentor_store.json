@@ -43,7 +43,7 @@
   {
    "id": "060d106ecf",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -59,13 +59,13 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "0a81ab3c6c",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -81,33 +81,33 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "ef1a3d5d8b",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "51d82575fc",
    "text": "Day 3: practice / script rehearsal with complaint / regulator collaboration story / What question will you ask?",
-   "salience": 2.0,
+   "salience": 2.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "self"
   },
   {
@@ -165,6 +165,32 @@
   {
    "id": "c084972ce4",
    "text": "he wrote: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la lí",
+   "salience": 2.25,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 1,
+   "source": "self"
+  },
+  {
+   "id": "a2dc0156f8",
+   "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "2d614566da",
+   "text": "Day 3: practice / script rehearsal with complaint / manager asked team about OCC rule / which part felt natural?",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
@@ -180,7 +206,7 @@
   {
    "date": "2026-10-21",
    "tag": "neutral",
-   "line": "12 new memories; strongest: he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement",
+   "line": "14 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
    "hooks": []
   }
  ]

@@ -3,3 +3,8 @@
 - 2026-10-21 | spanish: ¿Cómo está la línea hoy?
 - 2026-10-21 | note: IF me siento a las 8 am, THEN pregunto a un inspector su opinión sobre la línea.
 - 2026-10-21 | note: Escuchar al menos una sugerencia antes de aprobar cualquier ajuste.
+- 2026-10-21 | world_growth: diverse viewpoint listening
+- 2026-10-21 | spanish: ¿Qué desafíos ve con la nueva normativa?
+- 2026-10-21 | source: OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act - Office of the Comptroller of the Currency (OCC) (.gov)
+- 2026-10-21 | note: IF I log into the system, THEN I walk to the inspection floor and say ‘Buenos días, ¿cómo va la línea hoy?’ and ask one specific question about the line’s performance.
+- 2026-10-21 | note: IF an inspector shares a concern, THEN I reply ‘Buen punto, enséñeme’ and note it in my tally.

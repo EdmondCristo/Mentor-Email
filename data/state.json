@@ -2,24 +2,24 @@
   "last_email": {
     "date": "2026-10-21",
     "lane": "world_growth",
-    "topic": "humble listening",
-    "spanish": "¿Cómo está la línea hoy?",
+    "topic": "diverse viewpoint listening",
+    "spanish": "¿Qué desafíos ve con la nueva normativa?",
     "angle": "Script rehearsal: say today's if-then script out loud once, in English and Spanish."
   },
   "last_sent": "2026-10-21",
   "today": {
     "date": "2026-10-21",
-    "body": "Hi Jason,\n\nI hope you’re doing okay today. It sounds like you’ve got a lot on your plate. If you’re feeling overwhelmed or just need someone to talk to, consider reaching out to a trusted friend, family member, or a professional. In the US you can call or text 988 any time for confidential support.\n\nTake care,\nM\n\nNote from M: I'm here if you need to adjust anything. Let me know how you’re feeling.\n\nConfirmed by M: I received 6 emails from you.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"🧼 Retirement plan for Fri Oct 23: $75\": read by the Mentor and noted.\n- Your email \"Day 1 of 84: Listen First\": read by the Mentor and noted.\n- Your email \"Day 2 of 84: Listen First\": read by the Mentor and noted.\n- Your email \"Day 3 of 84: Listen First\": read by the Mentor and noted.",
+    "body": "Today's practice (tiny action):\nAfter you log into the system, walk to the inspection floor and greet the first inspector you see in Spanish: \"Buenos días, ¿cómo va la línea hoy?\" Then ask one concrete question about yesterday’s line performance. If the morning feels rough, use the 10‑second version: just say \"Buenos días\" and smile.\n\nLearning from the world:\nA manager recently asked his team what a new OCC digital‑asset rule meant for them. By genuinely seeking their insights, the team uncovered a simpler compliance shortcut and earned the manager’s respect. (Source: \"OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act\" – Office of the Comptroller of the Currency, press release).\n\nEspañol del día:\n**¿Qué desafíos ve con la nueva normativa?** – “What challenges do you see with the new regulation?” Use it at the start of a team meeting to invite honest input.\n\nWeather note:\nWith today’s mild 63°F, consider a quick walk outside before the meeting to clear your mind.\n\nTonight's question:\nWhen you next hear a complaint, which part of the \"Good point, show me\" cue felt most natural, and which felt awkward?\n\nDay 3, Wednesday.\n\nNote from M: Let me know if anything feels off – we can tweak it together.\n\nConfirmed by M: I received 1 email from you.\n- Your reply \"Hi M, Stop repeating after confirmed vy. Can \": counted as feedback.\n\nSource: OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act - Office of the Comptroller of the",
     "b": {
-      "advice": "Frame each new habit as a concrete if‑then plan (implementation intention) that links the cue (e.g., logging in) to the desired behavior (greeting an inspector in Spanish and asking a real question). Write the plan on a visible card: \"IF I sit at my desk at 8 am, THEN I will say ‘Buenos días, ¿cómo va la línea hoy?’ to the first inspector I see.\" This makes the action automatic, reduces reliance on willpower, and helps curb arrogance by forcing a listening first step. Reinforce the plan by pairing it with a brief visual cue (e.g., a sticky note on the monitor) and review the intention each morning for 10 seconds, especially on tough days.",
+      "advice": "Frame the day‑3 email as a short story about a manager who used a simple \"if‑then\" cue to turn a routine greeting into a moment of genuine listening. Open with a concrete implementation‑intention cue (e.g., \"IF I log into the system, THEN I walk to the inspection floor and say ‘Buenos días, ¿cómo va la línea hoy?’ and ask one specific question about the line’s performance\"). Keep the narrative brief (2‑3 sentences), then list the exact if‑then script he should use for the next interruption (e.g., \"Good point, show me\" / \"Buen punto, enséñeme\"). Highlight that this habit aligns with his identity as a collaborative leader who welcomes bad news, and remind him to record each use in his tally. End with a one‑sentence encouragement that the story shows how a tiny cue can reshape perception, reinforcing humility without sounding lecturing.",
       "evidence": "strong"
     },
     "t": {
       "topic": "Listening to diverse viewpoints in leadership",
-      "topic_key": "humble listening",
-      "lesson": "When a new digital asset rule was announced, the regulator emphasized collaboration with industry experts, showing that even leaders must seek input before finalizing policies. Apply this by asking your inspectors for their observations before deciding on any QC changes.",
-      "spanish_phrase": "¿Cómo está la línea hoy?",
-      "spanish_english": "How is the line today?"
+      "topic_key": "diverse viewpoint listening",
+      "lesson": "A manager noticed a new digital‑asset rule from the OCC and asked his team what it meant for their work. By genuinely seeking their insights, he discovered a simpler compliance shortcut and earned their respect.",
+      "spanish_phrase": "¿Qué desafíos ve con la nueva normativa?",
+      "spanish_english": "What challenges do you see with the new regulation?"
     }
   },
   "slots": {
@@ -34,6 +34,10 @@
     "<6ad4f5f0.d2b8f92c.29da06.e9ef@mx.google.com>",
     "<6ad64f1b.5fb20c3f.81b2.12e4@mx.google.com>",
     "<6ad7878d.dd3f61df.248ff4.ee72@mx.google.com>",
-    "<6ad8dcaf.82a2a138.aaa03.6d67@mx.google.com>"
+    "<6ad8dcaf.82a2a138.aaa03.6d67@mx.google.com>",
+    "<CAD4A5JsLfegr3EYc3Z8mDFbQ0s65hHRZKBph_b04s8qi2Z=nTg@mail.gmail.com>"
+  ],
+  "used_links": [
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BdXRDSTRIaUM0TzI5N1NPZ083OTlwU3Q0cFZYWV9EbGVUbzBPdXJWNnRQZ2t5TTE1SG0zLTlpd2cwamNMWWFZYUVkcGFva29lMXBSQjg4a3V6cjZvY2RuSmNyS2dJa21Sb1ZzV3Vremx6WDNuWjlEZDBvWUprdw?oc=5"
   ]
 }

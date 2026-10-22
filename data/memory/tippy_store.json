@@ -43,7 +43,7 @@
   {
    "id": "359974f40c",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -59,13 +59,13 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "3944f81dd1",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -81,20 +81,20 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "1eaab205c7",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
@@ -126,6 +126,84 @@
   {
    "id": "618fd08eea",
    "text": "note: IF me siento a las 8 am, THEN pregunto a un inspector su opinión sobre la línea.",
+   "salience": 3.25,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 1,
+   "source": "self"
+  },
+  {
+   "id": "cbde4c5106",
+   "text": "note: Escuchar al menos una sugerencia antes de aprobar cualquier ajuste.",
+   "salience": 3.25,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 1,
+   "source": "self"
+  },
+  {
+   "id": "1b4ac524d5",
+   "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "e9c3999a7e",
+   "text": "world_growth: diverse viewpoint listening",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "64d50482e0",
+   "text": "spanish: ¿Qué desafíos ve con la nueva normativa?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "dc5e7be4b3",
+   "text": "source: OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act - Office of the Comptroller of the Currency (OCC) (.gov)",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "b4df1f0097",
+   "text": "note: IF I log into the system, THEN I walk to the inspection floor and say ‘Buenos días, ¿cómo va la línea hoy?’ and ask one specific question about the line’s performance.",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
@@ -137,8 +215,8 @@
    "source": "self"
   },
   {
-   "id": "cbde4c5106",
-   "text": "note: Escuchar al menos una sugerencia antes de aprobar cualquier ajuste.",
+   "id": "34bc89701b",
+   "text": "note: IF an inspector shares a concern, THEN I reply ‘Buen punto, enséñeme’ and note it in my tally.",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
@@ -154,7 +232,7 @@
   {
    "date": "2026-10-21",
    "tag": "neutral",
-   "line": "10 new memories; strongest: he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement",
+   "line": "16 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
    "hooks": []
   }
  ]

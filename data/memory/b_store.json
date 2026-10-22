@@ -43,7 +43,7 @@
   {
    "id": "fafb048fc3",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -59,13 +59,13 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "3d5ba19527",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -81,20 +81,20 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
    "id": "2e0c20d68d",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "jason"
   },
   {
@@ -113,19 +113,32 @@
   {
    "id": "8c38590251",
    "text": "note: 2026-10-19: implementation intentions",
-   "salience": 3.0,
+   "salience": 3.25,
    "tags": [],
    "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "access_count": 1,
    "source": "self"
   },
   {
    "id": "ee2c9f8e3e",
    "text": "note: 2026-10-19: habit stacking",
+   "salience": 3.25,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 1,
+   "source": "self"
+  },
+  {
+   "id": "e30deb9c24",
+   "text": "note: 2026-10-19: identity-based habits",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
@@ -137,8 +150,47 @@
    "source": "self"
   },
   {
-   "id": "e30deb9c24",
-   "text": "note: 2026-10-19: identity-based habits",
+   "id": "80690b8c6a",
+   "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 4.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "bf6298f336",
+   "text": "advice: Frame the day‑3 email as a short story about a manager who used a simple \"if‑then\" cue to turn a routine greeting into a moment of genuine listening. Open with a concrete implementation‑intention cue (e.g., \"IF I log into the system, THEN I walk to the",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "1ee6444eb6",
+   "text": "note: 2026-10-21 / advice: Frame each new habit as a concrete if‑then plan (implementation intention) that links the cue (e.g., logging in) to the desired behavior (greeting an inspector in Spanish and asking a real question).",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-21T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "64f0afef73",
+   "text": "note: 2026-10-21 / note: 2026-10-19: habit stacking",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
@@ -154,7 +206,7 @@
   {
    "date": "2026-10-21",
    "tag": "neutral",
-   "line": "10 new memories; strongest: he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement",
+   "line": "14 new memories; strongest: he said: Good morning Jason, Today’s tiny action: after you log in, greet the fi",
    "hooks": []
   }
  ]
