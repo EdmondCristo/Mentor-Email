@@ -10,3 +10,5 @@
 - 2026-10-23 | REVISE: Reviewed draft: found multiple promises (love outreach and job‑related Spanish greeting), extra weather line, and a nightly question, violating checklist items 8, 15, and 13. Revised to a single love‑area tiny promise with trigger and floor version, ke
 - 2026-10-23 | added check: 2026-10-23: Ensure the email contains exactly one tiny promise and no extra prompts or weather lines
 - 2026-10-23 | added check: 2026-10-23: Spanish phrase must be new and brief, without additional commentary
+- 2026-10-23 | REVISE: Draft had two promises (Spanish greeting and love‑profile edit) and repeated a recent Spanish phrase, violating checklist items 8, 13, and 15. Revised to a single job‑area tiny promise with clear trigger, floor version under 30 seconds, and no duplicat
+- 2026-10-23 | added check: 2026-10-24: Ensure the email contains exactly one tiny promise and no extra prompts or unrelated content
