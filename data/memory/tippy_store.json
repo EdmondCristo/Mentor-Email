@@ -4,27 +4,27 @@
   {
    "id": "0c540e539f",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
+   "salience": 5.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 4,
+   "source": "jason"
+  },
+  {
+   "id": "edfebc48eb",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
    "salience": 4.75,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T08:00",
+   "last_access": "2026-10-23T08:00",
    "access_count": 3,
-   "source": "jason"
-  },
-  {
-   "id": "edfebc48eb",
-   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
-   "salience": 4.5,
-   "tags": [],
-   "type": "PROCEDURAL",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 2,
    "source": "jason"
   },
   {
@@ -43,7 +43,7 @@
   {
    "id": "359974f40c",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -58,14 +58,14 @@
     "detail:straight"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 4,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
    "id": "3944f81dd1",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -80,21 +80,21 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 4,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
    "id": "1eaab205c7",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 4,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
@@ -447,6 +447,71 @@
    "last_access": "2026-10-22T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "efa66cafca",
+   "text": "he said: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ⏸️ skip this week · 🔄 changed 🔄VTI Core: US stock market$50+$11 moved here from the satellite stock you&#x27;re skipping this week. ✅VXUS Core: inter",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "fe823c41da",
+   "text": "spanish_talk: Polite line inquiry",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "a209ef57e3",
+   "text": "spanish (new, phrase, level 2): ¿Cómo está la línea?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "d38ef33524",
+   "text": "why this format: Formato breve y directo, fácil de recordar en su rutina matutina",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "629b28b8e6",
+   "text": "note: Log in → walk to station → say phrase → ✔",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -460,6 +525,12 @@
    "date": "2026-10-22",
    "tag": "neutral",
    "line": "6 new memories; strongest: note: Email supplier: ask for mercury‑free test results",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-23",
+   "tag": "neutral",
+   "line": "5 new memories; strongest: he said: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ",
    "hooks": []
   }
  ]

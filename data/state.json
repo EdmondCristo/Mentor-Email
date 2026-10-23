@@ -11,6 +11,13 @@
       "text": "love",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-22",
+      "area": "family",
+      "text": "call Mom",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -25,12 +32,20 @@
         "date": "2026-10-21",
         "stage": 0,
         "due": "2026-10-23"
+      },
+      {
+        "phrase": "¿Cómo está la línea?",
+        "english": "How is the line?",
+        "fmt": "phrase",
+        "date": "2026-10-23",
+        "stage": 0,
+        "due": "2026-10-24"
       }
     ],
     "history": [],
     "stats": {
       "phrase": {
-        "taught": 1,
+        "taught": 2,
         "recall_ok": 0,
         "recall_fail": 0,
         "hard": 0,
@@ -45,14 +60,14 @@
       }
     },
     "last": {
-      "date": "2026-10-22",
-      "mode": "review",
+      "date": "2026-10-23",
+      "mode": "new",
       "fmt": "phrase",
-      "phrase": "¿Podría revisar el informe, por favor?",
+      "phrase": "¿Cómo está la línea?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "review",
+    "last_mode": "new",
     "force_easy": false
   },
   "used_links": [
@@ -60,42 +75,41 @@
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-22",
-    "lane": "qa_news",
-    "topic": "Mercury test check",
-    "spanish": "¿Tiene resultados libres?",
-    "angle": "Two questions first: ask two follow-up questions before you share your own view, once today."
+    "date": "2026-10-23",
+    "lane": "spanish_talk",
+    "topic": "Polite line inquiry",
+    "spanish": "¿Cómo está la línea?",
+    "angle": "Gratitude: thank one person for something specific and concrete they did this week."
   },
-  "last_sent": "2026-10-22",
+  "last_sent": "2026-10-23",
   "promise_open": {
-    "date": "2026-10-22",
-    "area": "family",
-    "text": "call Mom",
+    "date": "2026-10-23",
+    "area": "love",
+    "text": "love",
     "level": 1
   },
   "today": {
-    "date": "2026-10-22",
-    "body": "After you finish lunch, call Mom and say, “Hi Mom, how was your week?”\nIf the day feels rough, just say, “Hi Mom,” and hang up – under 30 seconds.\nReason: a specific cue (finishing lunch) and a brief script make the call automatic; evidence: mixed.\nEspañol del día: \"¿Cómo estuvo tu día?\" – a simple, polite question you can use after the call.\n\nNote from M: Let me know if the cue works for you.\n\nSource: Skin care products tainted with mercury, warns FDA - FOX 8 News - https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5",
+    "date": "2026-10-23",
+    "body": "After I finish my lunch break, I will send a one‑sentence text to the new person I met this week saying something like, “Hi, I enjoyed our chat.”\nFloor version: type the sentence and hit send in under 30 seconds.\nReason: a brief, concrete outreach turns a pleasant encounter into a real connection (strong).\nEspañol del día: ¿Cómo está la línea? (Say it just after you log in, before starting your checks).\n\nNote from M: I kept it to one tiny step today. Let me know if it feels too small or too big.\n\nConfirmed by M: I received 1 email from you.\n- Your email \"✅ Buy-day check: $75 today\": read by the Mentor and noted.",
     "promise": {
-      "area": "family",
-      "text": "call Mom"
+      "area": "love",
+      "text": "love"
     },
     "b": {
-      "advice": "Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack). Phrase it as an if‑then plan: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with one specific question about yesterday’s line performance. Keep the script identical each day so the cue‑action link becomes automatic; on a rough day, the fallback is simply “Buenos día” (the floor version).",
+      "advice": "Tie the greeting to the exact moment you unlock your computer (cue) and then walk straight to the nearest inspection station (stack). Use a concrete if‑then: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with one specific question about the line. Keep the fallback version (“Buenos días”) ready for a rough day. Count the success on a simple tally sheet right after the conversation – a single check mark is the reward and proof the habit occurred.",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Regulatory watch: mercury contamination risk",
-      "topic_key": "Mercury test check",
-      "lesson": "After you log in, send a brief email to your supplier asking: “Do you have recent test results confirming the product is free of mercury?” Keep it under 30 seconds to write and send.",
-      "spanish_phrase": "¿Tiene resultados libres?",
-      "spanish_english": "Do you have clean results?"
+      "topic": "Spanish workplace greeting",
+      "topic_key": "Polite line inquiry",
+      "lesson": "After you log into your computer at 8:00 am, walk to the nearest inspection station and say: “¿Cómo está la línea?” Then note a check‑mark on a sheet to record completion.",
+      "spanish_phrase": "¿Cómo está la línea?",
+      "spanish_english": "How is the line?"
     }
   },
   "slots": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "done": [
-      "afternoon",
       "morning"
     ]
   },
@@ -106,6 +120,7 @@
     "<6ad64f1b.5fb20c3f.81b2.12e4@mx.google.com>",
     "<6ad7878d.dd3f61df.248ff4.ee72@mx.google.com>",
     "<6ad8dcaf.82a2a138.aaa03.6d67@mx.google.com>",
-    "<CAD4A5JsLfegr3EYc3Z8mDFbQ0s65hHRZKBph_b04s8qi2Z=nTg@mail.gmail.com>"
+    "<CAD4A5JsLfegr3EYc3Z8mDFbQ0s65hHRZKBph_b04s8qi2Z=nTg@mail.gmail.com>",
+    "<6adb83c0.2ba6c529.aac5e.623b@mx.google.com>"
   ]
 }

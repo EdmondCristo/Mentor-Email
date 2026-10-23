@@ -4,27 +4,27 @@
   {
    "id": "cf4d8ea52a",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T16:00",
-   "access_count": 4,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
    "id": "8286df0dbd",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T16:00",
-   "access_count": 4,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
@@ -43,7 +43,7 @@
   {
    "id": "060d106ecf",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -58,14 +58,14 @@
     "detail:straight"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T16:00",
-   "access_count": 5,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 6,
    "source": "jason"
   },
   {
    "id": "0a81ab3c6c",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -80,21 +80,21 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T16:00",
-   "access_count": 5,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 6,
    "source": "jason"
   },
   {
    "id": "ef1a3d5d8b",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T16:00",
-   "access_count": 5,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 6,
    "source": "jason"
   },
   {
@@ -265,6 +265,45 @@
    "last_access": "2026-10-22T16:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "0f5e37b078",
+   "text": "he said: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ⏸️ skip this week · 🔄 changed 🔄VTI Core: US stock market$50+$11 moved here from the satellite stock you&#x27;re skipping this week. ✅VXUS Core: inter",
+   "salience": 4.0,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "jason"
+  },
+  {
+   "id": "4b2edd787f",
+   "text": "Day 5: love / tiny message after lunch / sent “Hi, I enjoyed our chat” to a new contact / what exact phrase did you send?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "cff3443498",
+   "text": "he wrote: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ⏸️ skip this week · 🔄 changed 🔄VTI Core: US stock market$50+$11 moved here from the sat",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -278,6 +317,12 @@
    "date": "2026-10-22",
    "tag": "neutral",
    "line": "2 new memories; strongest: Day 4: call Mom / family / brief check‑in / did you send the email?",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-23",
+   "tag": "neutral",
+   "line": "3 new memories; strongest: he said: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ",
    "hooks": []
   }
  ]

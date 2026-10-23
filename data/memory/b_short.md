@@ -7,3 +7,7 @@
 - 2026-10-22 | note: 2026-10-19: implementation intentions
 - 2026-10-22 | note: 2026-10-19: habit stacking
 - 2026-10-22 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).
+- 2026-10-23 | advice: Tie the greeting to the exact moment you unlock your computer (cue) and then walk straight to the nearest inspection station (stack). Use a concrete if‑then: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with 
+- 2026-10-23 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention). After you log in, walk straight to the nearest inspection station (habit stack) and say the exact phrase “Buenos días, ¿cómo va la línea hoy?”
+- 2026-10-23 | note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack). Phrase it as an if‑then plan: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo 
+- 2026-10-23 | note: 2026-10-19: implementation intentions

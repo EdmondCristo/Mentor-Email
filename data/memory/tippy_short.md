@@ -11,3 +11,7 @@
 - 2026-10-22 | source: Skin care products tainted with mercury, warns FDA - FOX 8 News
 - 2026-10-22 | note: Email supplier: ask for mercury‑free test results
 - 2026-10-22 | note: Log response in QA tracker
+- 2026-10-23 | spanish_talk: Polite line inquiry
+- 2026-10-23 | spanish (new, phrase, level 2): ¿Cómo está la línea?
+- 2026-10-23 | why this format: Formato breve y directo, fácil de recordar en su rutina matutina
+- 2026-10-23 | note: Log in → walk to station → say phrase → ✔
