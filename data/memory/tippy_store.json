@@ -65,7 +65,7 @@
   {
    "id": "3944f81dd1",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 5.5,
+   "salience": 5.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -80,21 +80,21 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 6,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 7,
    "source": "jason"
   },
   {
    "id": "1eaab205c7",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 5.5,
+   "salience": 5.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 6,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 7,
    "source": "jason"
   },
   {
@@ -152,14 +152,14 @@
   {
    "id": "1b4ac524d5",
    "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 1,
    "source": "jason"
   },
   {
@@ -230,14 +230,14 @@
   {
    "id": "b2c517bb6b",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 2,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 3,
    "source": "jason"
   },
   {
@@ -516,14 +516,14 @@
   {
    "id": "abea1ae58c",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 1,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 2,
    "source": "jason"
   },
   {
@@ -590,6 +590,71 @@
    "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "4cf1b1aad8",
+   "text": "life: quick expense note",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "e5c9f6c22e",
+   "text": "spanish (new, cognate, level 2): ¿Puede enviarme el reporte?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "d754fe8d69",
+   "text": "why this format: El cognado conecta vocabulario ya familiar, facilitando el recuerdo rápido",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "acda00c4b6",
+   "text": "note: Expense note: ___",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "9a1c7ea8e2",
+   "text": "note: Done?",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -609,6 +674,12 @@
    "date": "2026-10-23",
    "tag": "neutral",
    "line": "11 new memories; strongest: he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-24",
+   "tag": "neutral",
+   "line": "5 new memories; strongest: note: Expense note: ___",
    "hooks": []
   }
  ]

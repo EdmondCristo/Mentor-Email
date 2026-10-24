@@ -25,6 +25,13 @@
       "text": "love",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-23",
+      "area": "love",
+      "text": "tiny love promise",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -47,6 +54,14 @@
         "date": "2026-10-23",
         "stage": 0,
         "due": "2026-10-24"
+      },
+      {
+        "phrase": "¿Puede enviarme el reporte?",
+        "english": "Could you send me the report?",
+        "fmt": "cognate",
+        "date": "2026-10-24",
+        "stage": 0,
+        "due": "2026-10-25"
       }
     ],
     "history": [],
@@ -59,7 +74,7 @@
         "easy": 0
       },
       "cognate": {
-        "taught": 0,
+        "taught": 1,
         "recall_ok": 0,
         "recall_fail": 0,
         "hard": 0,
@@ -67,14 +82,14 @@
       }
     },
     "last": {
-      "date": "2026-10-23",
-      "mode": "review",
-      "fmt": "phrase",
-      "phrase": "¿Podría revisar el informe, por favor?",
+      "date": "2026-10-24",
+      "mode": "new",
+      "fmt": "cognate",
+      "phrase": "¿Puede enviarme el reporte?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "review",
+    "last_mode": "new",
     "force_easy": false
   },
   "used_links": [
@@ -82,42 +97,41 @@
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-23",
-    "lane": "spanish_talk",
-    "topic": "cognate greeting",
-    "spanish": "¿Cómo está el equipo hoy?",
-    "angle": "Gratitude: thank one person for something specific and concrete they did this week."
+    "date": "2026-10-24",
+    "lane": "life",
+    "topic": "quick expense note",
+    "spanish": "¿Puede enviarme el reporte?",
+    "angle": "Family and manners: one small, kind action for family or a friend."
   },
-  "last_sent": "2026-10-23",
+  "last_sent": "2026-10-24",
   "promise_open": {
-    "date": "2026-10-23",
-    "area": "love",
-    "text": "tiny love promise",
+    "date": "2026-10-24",
+    "area": "family",
+    "text": "send thank‑you text",
     "level": 1
   },
   "today": {
-    "date": "2026-10-23",
-    "body": "After you finish lunch, send a brief note to one new person you met today – just “Hi, enjoyed our chat.”\n\nFloor version (if the day feels rough): after lunch, type “Hi.”\n\nWhy it works: a tiny, specific outreach lowers the effort barrier and can start a longer conversation.\n\nEspañol del día: \"¿Cómo está el equipo?\" – a short, polite question you can use with an inspector after you log in.\n\nLet me know whether you sent the note and what the reply was – just reply with one word: done, floor or skip.\n\nNote from M: Keep it simple; the goal is just the one line after lunch.",
+    "date": "2026-10-24",
+    "body": "After you finish your last work email, pause before you relax and send a quick thank‑you text: open your phone, tap the text field, type “Thanks for your help this week, I appreciate it.” and hit send – it should take under 30 seconds.\n\nBecause linking a concrete cue (the last email) to a short action makes the habit automatic.\n\nEspañol del día: \"¿Puede enviarme el reporte?\" – say it once when the moment fits.\n\nNote from M: Let me know if the cue works for you.",
     "promise": {
-      "area": "love",
-      "text": "tiny love promise"
+      "area": "family",
+      "text": "send thank‑you text"
     },
     "b": {
-      "advice": "Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action (walk straight to the nearest inspection station) and a brief spoken script. Phrase it as: If I log in at 8:00 am, then I will walk to the first inspector I see and say, “Buenos días, ¿cómo va la línea hoy?” If you’re pressed for time, the fallback cue is simply saying “Buenos días.” The tiny reward is the immediate visual cue of the inspector’s face, which signals you’ve completed the step; note the success with a single check‑mark in a notebook. This cue‑action‑script chain creates a habit stack, making the behavior automatic and low‑effort.",
+      "advice": "Link the Saturday family‑manners action to a concrete cue you already have today: after you finish your last work email, say “Okay, time for the thank‑you text” and then immediately open your phone and type the exact line “Thanks for your help this week, I appreciate it.” Keep the text under 30 seconds. The cue‑action link (implementation intention) makes the behavior automatic, and the tiny 30‑second window ensures it can’t fail even on a bad day. Count it as done and move on to the next day’s habit.",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Spanish workplace interaction",
-      "topic_key": "cognate greeting",
-      "lesson": "After you log into your computer, walk to the nearest inspector and say, \"¿Cómo está el equipo hoy?\" (How is the team today?). Then note a check‑mark in your notebook.",
-      "spanish_phrase": "¿Cómo está el equipo hoy?",
-      "spanish_english": "How is the team today?"
+      "topic": "Life",
+      "topic_key": "quick expense note",
+      "lesson": "After you finish your last work email, open a note and write one expense you had today (e.g., “Coffee $4”). It takes under 30 seconds and starts a simple tracking habit.",
+      "spanish_phrase": "¿Puede enviarme el reporte?",
+      "spanish_english": "Could you send me the report?"
     }
   },
   "slots": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "done": [
-      "afternoon",
       "morning"
     ]
   },

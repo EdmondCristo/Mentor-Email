@@ -43,7 +43,7 @@
   {
    "id": "c300ce438f",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 6.0,
+   "salience": 6.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -58,14 +58,14 @@
     "detail:straight"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 8,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 9,
    "source": "jason"
   },
   {
    "id": "bfadb28496",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 6.0,
+   "salience": 6.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -80,21 +80,21 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 8,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 9,
    "source": "jason"
   },
   {
    "id": "6295f40e61",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 6.0,
+   "salience": 6.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 8,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 9,
    "source": "jason"
   },
   {
@@ -165,14 +165,14 @@
   {
    "id": "e65f75547f",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 1,
    "source": "jason"
   },
   {
@@ -347,14 +347,14 @@
   {
    "id": "eab4ad1ab5",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 1,
+   "last_access": "2026-10-24T08:00",
+   "access_count": 2,
    "source": "jason"
   },
   {
@@ -408,6 +408,45 @@
    "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "fd6101c4b1",
+   "text": "REVISE: Draft contained multiple promises (family thank‑you text and expense tracking), a weather line, and a nightly question, violating checklist items 8, 15, and 13. Revised to a single family‑area tiny promise with clear trigger and floor version, removed",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "299d8aaae0",
+   "text": "added check: Ensure exactly one tiny promise per email",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "b7256fbcaa",
+   "text": "added check: Spanish phrase must be new, brief, and without extra commentary",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -427,6 +466,12 @@
    "date": "2026-10-23",
    "tag": "neutral",
    "line": "9 new memories; strongest: he said: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-24",
+   "tag": "neutral",
+   "line": "3 new memories; strongest: REVISE: Draft contained multiple promises (family thank‑you text and expense tra",
    "hooks": []
   }
  ]

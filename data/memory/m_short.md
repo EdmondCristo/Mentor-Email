@@ -15,3 +15,6 @@
 - 2026-10-23 | REVISE: Draft contained multiple promises (love outreach and Spanish workplace greeting) and extra weather line, violating checklist items 8 and 15. Revised to a single love‑area tiny promise with clear trigger and floor version, added a new brief Spanish phra
 - 2026-10-23 | added check: 2026-10-24: Ensure the email contains exactly one tiny promise and no extra prompts or unrelated content
 - 2026-10-23 | added check: 2026-10-24: Spanish phrase must be new and brief, without additional commentary
+- 2026-10-24 | REVISE: Draft contained multiple promises (family thank‑you text and expense tracking), a weather line, and a nightly question, violating checklist items 8, 15, and 13. Revised to a single family‑area tiny promise with clear trigger and floor version, removed 
+- 2026-10-24 | added check: Ensure exactly one tiny promise per email
+- 2026-10-24 | added check: Spanish phrase must be new, brief, and without extra commentary

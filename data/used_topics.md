@@ -5,3 +5,5 @@
 - 2026-10-23 | topic | Polite line inquiry
 - 2026-10-23 | spanish | ¿Cómo está la línea?
 - 2026-10-23 | topic | cognate greeting
+- 2026-10-24 | topic | quick expense note
+- 2026-10-24 | spanish | ¿Puede enviarme el reporte?

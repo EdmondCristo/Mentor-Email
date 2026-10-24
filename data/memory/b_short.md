@@ -15,3 +15,7 @@
 - 2026-10-23 | note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?”
 - 2026-10-23 | note: After you log in, walk straight to the nearest inspection station (habit stack)
 - 2026-10-23 | note: Link the greeting to the moment you unlock your computer (implementation intention)
+- 2026-10-24 | advice: Link the Saturday family‑manners action to a concrete cue you already have today: after you finish your last work email, say “Okay, time for the thank‑you text” and then immediately open your phone and type the exact line “Thanks for your help this wee
+- 2026-10-24 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).
+- 2026-10-24 | note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack).
+- 2026-10-24 | note: 2026-10-23 / advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action

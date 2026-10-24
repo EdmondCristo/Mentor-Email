@@ -20,3 +20,8 @@
 - 2026-10-23 | why this format: El cognado ayuda a conectar vocabulario ya familiar, facilitando el recuerdo rápido
 - 2026-10-23 | note: ☑ Saludo en español al inspector
 - 2026-10-23 | note: ☑ Marca ✔ al completar
+- 2026-10-24 | life: quick expense note
+- 2026-10-24 | spanish (new, cognate, level 2): ¿Puede enviarme el reporte?
+- 2026-10-24 | why this format: El cognado conecta vocabulario ya familiar, facilitando el recuerdo rápido
+- 2026-10-24 | note: Expense note: ___
+- 2026-10-24 | note: Done?
