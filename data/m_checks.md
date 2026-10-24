@@ -7,3 +7,5 @@
 - 2026-10-23: 2026-10-23: Ensure the email contains exactly one tiny promise and no extra prompts or weather lines
 - 2026-10-23: 2026-10-23: Spanish phrase must be new and brief, without additional commentary
 - 2026-10-23: 2026-10-24: Ensure the email contains exactly one tiny promise and no extra prompts or unrelated content
+- 2026-10-23: 2026-10-24: Ensure the email contains exactly one tiny promise and no extra prompts or unrelated content
+- 2026-10-23: 2026-10-24: Spanish phrase must be new and brief, without additional commentary

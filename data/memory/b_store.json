@@ -43,7 +43,7 @@
   {
    "id": "fafb048fc3",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -59,13 +59,13 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-23T08:00",
-   "access_count": 5,
+   "access_count": 6,
    "source": "jason"
   },
   {
    "id": "3d5ba19527",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -81,7 +81,7 @@
    ],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-23T08:00",
-   "access_count": 5,
+   "access_count": 6,
    "source": "jason"
   },
   {
@@ -152,14 +152,14 @@
   {
    "id": "80690b8c6a",
    "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 1,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 2,
    "source": "jason"
   },
   {
@@ -204,14 +204,14 @@
   {
    "id": "5252766855",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-23T08:00",
-   "access_count": 2,
+   "access_count": 3,
    "source": "jason"
   },
   {
@@ -412,15 +412,67 @@
   {
    "id": "7b300db775",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-23T16:00",
-   "access_count": 0,
+   "last_access": "2026-10-23T08:00",
+   "access_count": 1,
    "source": "jason"
+  },
+  {
+   "id": "f9cd0f899f",
+   "text": "advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action (walk straight to the nearest inspection station) and a brief spoken script. Phrase it as: If I log in at 8:00 am, then I wi",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "ea5ee9a0ac",
+   "text": "note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?”",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "22d30652f0",
+   "text": "note: After you log in, walk straight to the nearest inspection station (habit stack)",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "f994121624",
+   "text": "note: Link the greeting to the moment you unlock your computer (implementation intention)",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -439,7 +491,7 @@
   {
    "date": "2026-10-23",
    "tag": "neutral",
-   "line": "6 new memories; strongest: he said: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ",
+   "line": "10 new memories; strongest: he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228",
    "hooks": []
   }
  ]

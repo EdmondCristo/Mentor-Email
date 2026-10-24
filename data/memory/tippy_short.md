@@ -15,3 +15,8 @@
 - 2026-10-23 | spanish (new, phrase, level 2): ¿Cómo está la línea?
 - 2026-10-23 | why this format: Formato breve y directo, fácil de recordar en su rutina matutina
 - 2026-10-23 | note: Log in → walk to station → say phrase → ✔
+- 2026-10-23 | spanish_talk: cognate greeting
+- 2026-10-23 | spanish (review, phrase, level 2): ¿Cómo está el equipo hoy?
+- 2026-10-23 | why this format: El cognado ayuda a conectar vocabulario ya familiar, facilitando el recuerdo rápido
+- 2026-10-23 | note: ☑ Saludo en español al inspector
+- 2026-10-23 | note: ☑ Marca ✔ al completar

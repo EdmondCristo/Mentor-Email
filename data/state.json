@@ -18,6 +18,13 @@
       "text": "call Mom",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-23",
+      "area": "love",
+      "text": "love",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -31,7 +38,7 @@
         "fmt": "phrase",
         "date": "2026-10-21",
         "stage": 0,
-        "due": "2026-10-23"
+        "due": "2026-10-24"
       },
       {
         "phrase": "¿Cómo está la línea?",
@@ -61,13 +68,13 @@
     },
     "last": {
       "date": "2026-10-23",
-      "mode": "new",
+      "mode": "review",
       "fmt": "phrase",
-      "phrase": "¿Cómo está la línea?",
+      "phrase": "¿Podría revisar el informe, por favor?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "new",
+    "last_mode": "review",
     "force_easy": false
   },
   "used_links": [
@@ -77,34 +84,34 @@
   "last_email": {
     "date": "2026-10-23",
     "lane": "spanish_talk",
-    "topic": "Polite line inquiry",
-    "spanish": "¿Cómo está la línea?",
+    "topic": "cognate greeting",
+    "spanish": "¿Cómo está el equipo hoy?",
     "angle": "Gratitude: thank one person for something specific and concrete they did this week."
   },
   "last_sent": "2026-10-23",
   "promise_open": {
     "date": "2026-10-23",
     "area": "love",
-    "text": "love",
+    "text": "tiny love promise",
     "level": 1
   },
   "today": {
     "date": "2026-10-23",
-    "body": "After I finish my lunch break, I will send a one‑sentence text to the new person I met this week saying something like, “Hi, I enjoyed our chat.”\nFloor version: type the sentence and hit send in under 30 seconds.\nReason: a brief, concrete outreach turns a pleasant encounter into a real connection (strong).\nEspañol del día: ¿Cómo está la línea? (Say it just after you log in, before starting your checks).\n\nNote from M: I kept it to one tiny step today. Let me know if it feels too small or too big.\n\nConfirmed by M: I received 1 email from you.\n- Your email \"✅ Buy-day check: $75 today\": read by the Mentor and noted.",
+    "body": "After you finish lunch, send a brief note to one new person you met today – just “Hi, enjoyed our chat.”\n\nFloor version (if the day feels rough): after lunch, type “Hi.”\n\nWhy it works: a tiny, specific outreach lowers the effort barrier and can start a longer conversation.\n\nEspañol del día: \"¿Cómo está el equipo?\" – a short, polite question you can use with an inspector after you log in.\n\nLet me know whether you sent the note and what the reply was – just reply with one word: done, floor or skip.\n\nNote from M: Keep it simple; the goal is just the one line after lunch.",
     "promise": {
       "area": "love",
-      "text": "love"
+      "text": "tiny love promise"
     },
     "b": {
-      "advice": "Tie the greeting to the exact moment you unlock your computer (cue) and then walk straight to the nearest inspection station (stack). Use a concrete if‑then: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with one specific question about the line. Keep the fallback version (“Buenos días”) ready for a rough day. Count the success on a simple tally sheet right after the conversation – a single check mark is the reward and proof the habit occurred.",
+      "advice": "Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action (walk straight to the nearest inspection station) and a brief spoken script. Phrase it as: If I log in at 8:00 am, then I will walk to the first inspector I see and say, “Buenos días, ¿cómo va la línea hoy?” If you’re pressed for time, the fallback cue is simply saying “Buenos días.” The tiny reward is the immediate visual cue of the inspector’s face, which signals you’ve completed the step; note the success with a single check‑mark in a notebook. This cue‑action‑script chain creates a habit stack, making the behavior automatic and low‑effort.",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Spanish workplace greeting",
-      "topic_key": "Polite line inquiry",
-      "lesson": "After you log into your computer at 8:00 am, walk to the nearest inspection station and say: “¿Cómo está la línea?” Then note a check‑mark on a sheet to record completion.",
-      "spanish_phrase": "¿Cómo está la línea?",
-      "spanish_english": "How is the line?"
+      "topic": "Spanish workplace interaction",
+      "topic_key": "cognate greeting",
+      "lesson": "After you log into your computer, walk to the nearest inspector and say, \"¿Cómo está el equipo hoy?\" (How is the team today?). Then note a check‑mark in your notebook.",
+      "spanish_phrase": "¿Cómo está el equipo hoy?",
+      "spanish_english": "How is the team today?"
     }
   },
   "slots": {
