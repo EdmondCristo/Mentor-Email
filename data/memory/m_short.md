@@ -25,3 +25,5 @@
 - 2026-10-25 | REVISE: Draft contained multiple sections (big idea, weather line, repeated Spanish phrase, extra question) violating checklist items 8, 13, 15. Revised to single tiny promise with trigger and floor version, added a new brief Spanish phrase, removed all non‑es
 - 2026-10-25 | added check: 2026-10-25: Ensure exactly one tiny promise per email and no extra prompts or weather lines
 - 2026-10-25 | added check: 2026-10-25: Spanish phrase must be new, brief, and directly relevant
+- 2026-10-25 | REVISE: Draft contained two separate actions (initial tally line and an afternoon check), violating the single‑promise rule. Revised to a single, trigger‑action sentence with floor version under 30 seconds, added reason line and evidence label, removed extra c
+- 2026-10-25 | added check: 2026-10-26: Ensure no secondary nudges or follow‑up actions appear in the same email.

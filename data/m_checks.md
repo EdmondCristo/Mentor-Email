@@ -15,3 +15,4 @@
 - 2026-10-24: 2026-10-25: Spanish phrase must be new, brief, and only included if directly relevant
 - 2026-10-25: 2026-10-25: Ensure exactly one tiny promise per email and no extra prompts or weather lines
 - 2026-10-25: 2026-10-25: Spanish phrase must be new, brief, and directly relevant
+- 2026-10-25: 2026-10-26: Ensure no secondary nudges or follow‑up actions appear in the same email.
