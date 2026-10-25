@@ -4,27 +4,27 @@
   {
    "id": "f11d89acef",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
-   "salience": 6.25,
+   "salience": 6.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-25T13:00",
-   "access_count": 9,
+   "last_access": "2026-10-25T16:00",
+   "access_count": 10,
    "source": "jason"
   },
   {
    "id": "20a95a4786",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
-   "salience": 5.75,
+   "salience": 6.0,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-25T13:00",
-   "access_count": 7,
+   "last_access": "2026-10-25T16:00",
+   "access_count": 8,
    "source": "jason"
   },
   {
@@ -126,14 +126,14 @@
   {
    "id": "e65f75547f",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-25T13:00",
-   "access_count": 5,
+   "last_access": "2026-10-25T16:00",
+   "access_count": 6,
    "source": "jason"
   },
   {
@@ -308,14 +308,14 @@
   {
    "id": "eab4ad1ab5",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.5,
+   "salience": 5.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-25T13:00",
-   "access_count": 6,
+   "last_access": "2026-10-25T16:00",
+   "access_count": 7,
    "source": "jason"
   },
   {
@@ -373,14 +373,14 @@
   {
    "id": "42cab8cdf0",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.75,
+   "salience": 5.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-25T13:00",
-   "access_count": 3,
+   "last_access": "2026-10-25T16:00",
+   "access_count": 4,
    "source": "jason"
   },
   {
@@ -473,6 +473,32 @@
    "last_access": "2026-10-25T13:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "aa43d6c34d",
+   "text": "REVISE: Draft contained multiple prompts and a Spanish‑phrase question, violating the single‑promise rule (checklist items 8,15,13). Revised to a plain email with only the trigger‑action, floor version, and a one‑line reason, matching voice and all checks.",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T16:00",
+   "last_access": "2026-10-25T16:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "942541bc33",
+   "text": "added check: 2026-10-26: Ensure no secondary questions or reflections appear in the email body.",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T16:00",
+   "last_access": "2026-10-25T16:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -503,7 +529,7 @@
   {
    "date": "2026-10-25",
    "tag": "neutral",
-   "line": "6 new memories; strongest: he said: Your plan for Friday, October 30 $75 this week · 24 years to retirement",
+   "line": "8 new memories; strongest: he said: Your plan for Friday, October 30 $75 this week · 24 years to retirement",
    "hooks": []
   }
  ]

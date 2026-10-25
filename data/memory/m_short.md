@@ -27,3 +27,5 @@
 - 2026-10-25 | added check: 2026-10-25: Spanish phrase must be new, brief, and directly relevant
 - 2026-10-25 | REVISE: Draft contained two separate actions (initial tally line and an afternoon check), violating the single‑promise rule. Revised to a single, trigger‑action sentence with floor version under 30 seconds, added reason line and evidence label, removed extra c
 - 2026-10-25 | added check: 2026-10-26: Ensure no secondary nudges or follow‑up actions appear in the same email.
+- 2026-10-25 | REVISE: Draft contained multiple prompts and a Spanish‑phrase question, violating the single‑promise rule (checklist items 8,15,13). Revised to a plain email with only the trigger‑action, floor version, and a one‑line reason, matching voice and all checks.
+- 2026-10-25 | added check: 2026-10-26: Ensure no secondary questions or reflections appear in the email body.
