@@ -4,14 +4,14 @@
   {
    "id": "0c540e539f",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 4,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
@@ -25,19 +25,6 @@
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-23T08:00",
    "access_count": 3,
-   "source": "jason"
-  },
-  {
-   "id": "a11313d5a6",
-   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team reviewed the flat $75 portfolio and he",
-   "salience": 4.0,
-   "tags": [],
-   "type": "PROCEDURAL",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
    "source": "jason"
   },
   {
@@ -150,16 +137,16 @@
    "source": "self"
   },
   {
-   "id": "1b4ac524d5",
-   "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.25,
+   "id": "b2c517bb6b",
+   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 5.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 1,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 6,
    "source": "jason"
   },
   {
@@ -226,19 +213,6 @@
    "last_access": "2026-10-21T08:00",
    "access_count": 0,
    "source": "self"
-  },
-  {
-   "id": "b2c517bb6b",
-   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.75,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 3,
-   "source": "jason"
   },
   {
    "id": "8cb0bc01fa",
@@ -319,15 +293,15 @@
    "source": "self"
   },
   {
-   "id": "b3cedc810c",
+   "id": "e6c62c2110",
    "text": "why this format: Formato breve, fácil de recordar y útil en su trabajo diario",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
+   "created": "2026-10-22T08:00",
+   "last_access": "2026-10-22T08:00",
    "access_count": 0,
    "source": "self"
   },
@@ -386,19 +360,6 @@
   {
    "id": "9fd81ca66c",
    "text": "spanish (review, phrase, level 2): ¿Tiene resultados libres?",
-   "salience": 2.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-22T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "e6c62c2110",
-   "text": "why this format: Formato breve, fácil de recordar y útil en su trabajo diario",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
@@ -514,19 +475,6 @@
    "source": "self"
   },
   {
-   "id": "abea1ae58c",
-   "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-23T16:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 2,
-   "source": "jason"
-  },
-  {
    "id": "30b4e538e5",
    "text": "spanish_talk: cognate greeting",
    "salience": 2.0,
@@ -553,15 +501,15 @@
    "source": "self"
   },
   {
-   "id": "198fc811ee",
-   "text": "why this format: El cognado ayuda a conectar vocabulario ya familiar, facilitando el recuerdo rápido",
+   "id": "d754fe8d69",
+   "text": "why this format: El cognado conecta vocabulario ya familiar, facilitando el recuerdo rápido",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-23T08:00",
-   "last_access": "2026-10-23T08:00",
+   "created": "2026-10-24T08:00",
+   "last_access": "2026-10-24T08:00",
    "access_count": 0,
    "source": "self"
   },
@@ -592,6 +540,19 @@
    "source": "self"
   },
   {
+   "id": "abea1ae58c",
+   "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 4.75,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-23T16:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 3,
+   "source": "jason"
+  },
+  {
    "id": "4cf1b1aad8",
    "text": "life: quick expense note",
    "salience": 2.0,
@@ -607,19 +568,6 @@
   {
    "id": "e5c9f6c22e",
    "text": "spanish (new, cognate, level 2): ¿Puede enviarme el reporte?",
-   "salience": 2.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-24T08:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "d754fe8d69",
-   "text": "why this format: El cognado conecta vocabulario ya familiar, facilitando el recuerdo rápido",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
@@ -659,15 +607,80 @@
   {
    "id": "a47dcbb04e",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-24T13:00",
-   "access_count": 0,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 1,
    "source": "jason"
+  },
+  {
+   "id": "74f41d48fb",
+   "text": "big_idea: GitHub for QA",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "b25a27fb1f",
+   "text": "spanish (review, phrase, level 2): ¿Puede enviar el correo?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "4b27d9801e",
+   "text": "why this format: El cognado conecta una palabra ya familiar (correo) con la estructura de petición, facilitando recordarlo rápidamente",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "30c2b9e9ac",
+   "text": "note: Create repo qa-docs on GitHub",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "bbc1a9c59d",
+   "text": "note: Add SOP draft link",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -693,6 +706,12 @@
    "date": "2026-10-24",
    "tag": "neutral",
    "line": "6 new memories; strongest: he replied to 'quick expense note': What does Puede enviarme el reporte? mean? T",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-25",
+   "tag": "neutral",
+   "line": "5 new memories; strongest: note: Create repo qa-docs on GitHub",
    "hooks": []
   }
  ]

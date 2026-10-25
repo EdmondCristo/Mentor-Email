@@ -1,2 +1,27 @@
 # Tippy long-term memory (what to scout; rewritten every Sunday)
 * Lanes: Mon QA skill, Tue Spanish for the floor, Wed learning from the world, Thu QA and regulatory watch, Fri Spanish for people, Sat life skill, Sun big idea.
+- 2026-10-25: After logging in, walk to the inspection floor and greet the first inspector in Spanish (e.g., "Buenos días, ¿cómo va la línea hoy?").
+- 2026-10-25: Ask that inspector one concrete improvement question about the line’s performance.
+- 2026-10-25: Record the inspector’s answer on a sticky note and tick it in the habit tracker.
+- 2026-10-25: Email the supplier requesting mercury‑free test results and log the response in the QA tracker.
+- 2026-10-25: Create a GitHub repository named "qa-docs" for QA documentation.
+- 2026-10-25: Add a draft SOP link to the "qa-docs" repository.
+- 2026-10-25: Each Friday, write a quick expense note for the week in a fixed template.
+- 2026-10-25: On Sundays, choose Monday’s first tiny task and lay out needed materials.
+- 2026-10-25: On Mondays, start the day with the easiest QA task before checking email.
+- 2026-10-25: Spend two minutes calling a parent each week to ask about their week.
+- 2026-10-25: Add one medication or doctor contact to a shared family list each week.
+- 2026-10-25: Book one appointment for a parent’s health or service need each month.
+- 2026-10-25: Remove one future emergency item (e.g., outdated document) from the family folder monthly.
+- 2026-10-25: Send one brief, polite message to a new person you meet (e.g., at a hobby group).
+- 2026-10-25: Add one truthful line to your dating profile each week.
+- 2026-10-25: Attend one local hobby or language meetup (e.g., Spanish conversation) monthly.
+- 2026-10-25: List this month’s fixed costs in a simple spreadsheet.
+- 2026-10-25: Check one insurance or beneficiary form for accuracy each month.
+- 2026-10-25: Write down three questions to ask a lawyer about wills and power of attorney.
+- 2026-10-25: After each inspection, thank one team member for a specific helpful action.
+- 2026-10-25: Close one open QA item each day by updating its status in the tracker.
+- 2026-10-25: Ask one inspector a specific improvement question and note the response.
+- 2026-10-25: Add one sentence to an SOP each week to clarify a step.
+- 2026-10-25: Review and update the QA habit checklist weekly.
+- 2026-10-25: Celebrate a completed tiny action with a brief note of acknowledgment.

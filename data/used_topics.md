@@ -7,3 +7,4 @@
 - 2026-10-23 | topic | cognate greeting
 - 2026-10-24 | topic | quick expense note
 - 2026-10-24 | spanish | ¿Puede enviarme el reporte?
+- 2026-10-25 | topic | GitHub for QA

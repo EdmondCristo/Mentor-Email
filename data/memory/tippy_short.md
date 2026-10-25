@@ -25,3 +25,8 @@
 - 2026-10-24 | why this format: El cognado conecta vocabulario ya familiar, facilitando el recuerdo rápido
 - 2026-10-24 | note: Expense note: ___
 - 2026-10-24 | note: Done?
+- 2026-10-25 | big_idea: GitHub for QA
+- 2026-10-25 | spanish (review, phrase, level 2): ¿Puede enviar el correo?
+- 2026-10-25 | why this format: El cognado conecta una palabra ya familiar (correo) con la estructura de petición, facilitando recordarlo rápidamente
+- 2026-10-25 | note: Create repo qa-docs on GitHub
+- 2026-10-25 | note: Add SOP draft link

@@ -1,5 +1,27 @@
 # Agent M long-term memory (methods and patterns; rewritten every Sunday)
 * M's standing checklist lives in mentor.py. M's own added checks live in m_checks.md (append-only).
-- 2026-10-19: APPROVE: Reviewed B and S outputs and draft against checklist. All items satisfied. No violations found.
-- 2026-10-20: APPROVE: Reviewed B and S outputs and draft against checklist. All items satisfied; no violations found. Approved.
-- 2026-10-21: APPROVE: Reviewed B and S outputs and draft against checklist. All items satisfied. No violations found.
+- 2026-10-25: Each email must contain exactly ONE tiny action, no extra prompts or weather lines.
+- 2026-10-25: Action must be tied to a trigger: "After I [trigger], I will [action]."
+- 2026-10-25: Floor version must be doable in under 30 seconds, even on worst day.
+- 2026-10-25: Use concrete, measurable actions (e.g., ask one real question, send one text).
+- 2026-10-25: Never repeat the same Spanish phrase within recent emails; keep it brief and relevant.
+- 2026-10-25: If a miss occurs once, reset to floor version; after two misses, shrink the promise.
+- 2026-10-25: Increase action size by ~1% only after 7 consecutive done days.
+- 2026-10-25: Provide a one‑line reason for the action; label evidence strength (strong, mixed, weak).
+- 2026-10-25: Count actions, not feelings; reply with a single word: done, floor, or skip.
+- 2026-10-25: Add a new checklist entry for each recurring rule violation detected.
+- 2026-10-25: When revising, remove all but the single tiny promise and any required trigger.
+- 2026-10-25: Do not include slogans, motivational quotes, or mindset language.
+- 2026-10-25: Focus on practical steps in JOB, LOVE, FAMILY, or LIFE areas only.
+- 2026-10-25: Avoid any medical, legal, or financial advice; give checklists or questions instead.
+- 2026-10-25: No body, health, or sensitive personal data may be stored.
+- 2026-10-25: Maintain a log of approvals and revisions for auditability.
+- 2026-10-25: Use plain language; avoid jargon or ambiguous terms.
+- 2026-10-25: If an action fails twice, consider it too large and reduce scope further.
+- 2026-10-25: Track which Spanish phrase was used to ensure novelty.
+- 2026-10-25: Each revision must retain the original trigger‑action structure.
+- 2026-10-25: Only one area (JOB, LOVE, FAMILY, LIFE) per email; do not mix areas.
+- 2026-10-25: Provide the exact wording, place, and timing for the tiny action.
+- 2026-10-25: Reward actions that were liked; drop patterns that received negative feedback.
+- 2026-10-25: Keep checks concise; each check addresses a single checklist item.
+- 2026-10-25: When adding new checks, reference the date and specific violation.

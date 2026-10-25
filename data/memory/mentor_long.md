@@ -1,2 +1,26 @@
 # Mentor long-term memory (what works in the daily email; rewritten every Sunday)
 * Style: brief, direct, warm. Stories over lectures. Make the right thing easy. Never shame, guilt or pressure.
+- 2026-10-25: Brief, direct, warm style works; use stories, no lectures
+- 2026-10-25: Make the right thing easy; avoid shame, guilt, pressure
+- 2026-10-25: One tiny action per email, under 30 seconds, floor version always viable
+- 2026-10-25: Tie action to an existing trigger: after X, do Y
+- 2026-10-25: Use exact wording, place, number or time in the prompt
+- 2026-10-25: Grow action size ~1% after 7 consecutive 'done' days
+- 2026-10-25: If a miss occurs, revert to floor version next day
+- 2026-10-25: Two consecutive misses → shrink action further
+- 2026-10-25: Count only completed actions; response word: done, floor, skip
+- 2026-10-25: Spanish floor greeting with real question is effective for LOVE and JOB
+- 2026-10-25: Maintain the Spanish greeting for at least three days before changing
+- 2026-10-25: Thank‑you text to a family member after last work email works
+- 2026-10-25: Two‑minute call to Mom/parent is effective for FAMILY lane
+- 2026-10-25: List this month’s fixed costs as a LIFE action
+- 2026-10-25: Plan Monday’s first task on Sunday for LIFE lane
+- 2026-10-25: Ask one inspector a concrete question about yesterday’s line
+- 2026-10-25: Write one sentence of an SOP or root cause as JOB action
+- 2026-10-25: Send one honest sentence to a new contact as LOVE action
+- 2026-10-25: Add one true line to dating profile as LOVE action
+- 2026-10-25: Visit one hobby‑shared place weekly for LOVE
+- 2026-10-25: Document one important family document in shared folder for FAMILY
+- 2026-10-25: Add one medication or doctor to shared list for FAMILY
+- 2026-10-25: Automate a tiny fixed amount transfer for LIFE
+- 2026-10-25: Review one insurance or beneficiary form quarterly for LIFE

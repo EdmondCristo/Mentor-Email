@@ -4,40 +4,27 @@
   {
    "id": "cf4d8ea52a",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
+   "salience": 5.75,
+   "tags": [],
+   "type": "PROCEDURAL",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-21T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 7,
+   "source": "jason"
+  },
+  {
+   "id": "8286df0dbd",
+   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
    "salience": 5.5,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T16:00",
+   "last_access": "2026-10-25T08:00",
    "access_count": 6,
-   "source": "jason"
-  },
-  {
-   "id": "8286df0dbd",
-   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team allocated the full $75 budget to the c",
-   "salience": 5.25,
-   "tags": [],
-   "type": "PROCEDURAL",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 5,
-   "source": "jason"
-  },
-  {
-   "id": "a2ed23e90b",
-   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team reviewed the flat $75 portfolio and he",
-   "salience": 4.0,
-   "tags": [],
-   "type": "PROCEDURAL",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
    "source": "jason"
   },
   {
@@ -111,19 +98,6 @@
    "source": "self"
   },
   {
-   "id": "d040a3d8cb",
-   "text": "he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week i",
-   "salience": 2.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
    "id": "c889e0c3cb",
    "text": "he wrote: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summ",
    "salience": 2.0,
@@ -176,16 +150,16 @@
    "source": "self"
   },
   {
-   "id": "a2dc0156f8",
-   "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
+   "id": "3ac2c26670",
+   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 5.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-24T16:00",
-   "access_count": 2,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 8,
    "source": "jason"
   },
   {
@@ -202,19 +176,6 @@
    "source": "self"
   },
   {
-   "id": "3ac2c26670",
-   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-24T16:00",
-   "access_count": 4,
-   "source": "jason"
-  },
-  {
    "id": "98bbfa3045",
    "text": "Day 3: send message / love / coffee invitation script / what was the response?",
    "salience": 2.0,
@@ -228,15 +189,15 @@
    "source": "self"
   },
   {
-   "id": "7d2a55921c",
-   "text": "Day 3: love / tiny message after lunch / sent “Hi, enjoyed our chat” / what was the exact phrase you sent?",
+   "id": "4b2edd787f",
+   "text": "Day 5: love / tiny message after lunch / sent “Hi, I enjoyed our chat” to a new contact / what exact phrase did you send?",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
   },
@@ -254,15 +215,15 @@
    "source": "self"
   },
   {
-   "id": "ae55474635",
-   "text": "Day 4: afternoon: You kept the Spanish floor greeting for three days, so today we stay with it. Af",
+   "id": "b07554a6fb",
+   "text": "Day 5: afternoon: You kept the Spanish floor greeting for three days, so it stays the same today:",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-22T16:00",
-   "last_access": "2026-10-22T16:00",
+   "created": "2026-10-23T16:00",
+   "last_access": "2026-10-23T16:00",
    "access_count": 0,
    "source": "self"
   },
@@ -280,19 +241,6 @@
    "source": "jason"
   },
   {
-   "id": "4b2edd787f",
-   "text": "Day 5: love / tiny message after lunch / sent “Hi, I enjoyed our chat” to a new contact / what exact phrase did you send?",
-   "salience": 2.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-23T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
    "id": "cff3443498",
    "text": "he wrote: Buy-day check · Friday Oct 23 Final list for today ($75 total). ✅ go · ⏸️ skip this week · 🔄 changed 🔄VTI Core: US stock market$50+$11 moved here from the sat",
    "salience": 2.0,
@@ -306,30 +254,30 @@
    "source": "self"
   },
   {
-   "id": "b32a0af47a",
-   "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-23T16:00",
-   "last_access": "2026-10-24T16:00",
-   "access_count": 4,
-   "source": "jason"
-  },
-  {
-   "id": "b07554a6fb",
-   "text": "Day 5: afternoon: You kept the Spanish floor greeting for three days, so it stays the same today:",
+   "id": "dda6d9d06c",
+   "text": "Day 5: tiny love promise / love / new contact outreach / did you send the sentence?",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-23T16:00",
-   "last_access": "2026-10-23T16:00",
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "b32a0af47a",
+   "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 5.25,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 2.0,
+   "cues": [],
+   "created": "2026-10-23T16:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 5,
+   "source": "jason"
   },
   {
    "id": "7ed2679fac",
@@ -341,19 +289,6 @@
    "cues": [],
    "created": "2026-10-23T16:00",
    "last_access": "2026-10-23T16:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "dda6d9d06c",
-   "text": "Day 5: tiny love promise / love / new contact outreach / did you send the sentence?",
-   "salience": 2.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-23T08:00",
-   "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
   },
@@ -408,6 +343,19 @@
    "last_access": "2026-10-24T16:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "19b844e25a",
+   "text": "Day 7: write line / life / Sunday check‑in cue / did you write it?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -433,6 +381,12 @@
    "date": "2026-10-24",
    "tag": "neutral",
    "line": "4 new memories; strongest: he replied to 'quick expense note': What does Puede enviarme el reporte? mean? T",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-25",
+   "tag": "neutral",
+   "line": "1 new memories; strongest: Day 7: write line / life / Sunday check‑in cue / did you write it?",
    "hooks": []
   }
  ]

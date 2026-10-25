@@ -1,11 +1,25 @@
 # Agent B long-term memory (durable lessons; rewritten every Sunday)
 * Concepts to cover over time: implementation intentions, habit stacking, identity-based habits, self-monitoring, feedback seeking, intellectual humility, active listening, loss aversion, fresh-start effect.
-- 2026-10-19: implementation intentions
-- 2026-10-19: habit stacking
-- 2026-10-19: identity-based habits
-- 2026-10-20: implementation intentions
-- 2026-10-20: habit stacking
-- 2026-10-20: identity-based habits
-- 2026-10-21: 2026-10-19: implementation intentions
-- 2026-10-21: 2026-10-20: implementation intentions
-- 2026-10-21: 2026-10-19: habit stacking
+- 2026-10-25: Use implementation intentions: cue → tiny action (under 30 sec).
+- 2026-10-25: Stack habits: attach new action to an existing routine.
+- 2026-10-25: Frame habits as identity‑based: "I am a reliable QA manager".
+- 2026-10-25: Self‑monitor by counting completions, not feelings.
+- 2026-10-25: Log each action with a one‑word response: done, floor, skip.
+- 2026-10-25: Seek feedback: note what works, drop what doesn’t.
+- 2026-10-25: Practice intellectual humility: admit when a plan fails.
+- 2026-10-25: Active listening: ask one real question each day.
+- 2026-10-25: Leverage loss aversion: view missed tiny actions as a loss.
+- 2026-10-25: Use fresh‑start effect: reset each day with a new cue.
+- 2026-10-25: Apply the 1% growth rule: increase only after 7 consecutive dones.
+- 2026-10-25: If a miss occurs twice, shrink the next promise.
+- 2026-10-25: Always give a floor version: the smallest doable step.
+- 2026-10-25: Tie actions to concrete triggers (e.g., after logging in).
+- 2026-10-25: Provide exact script, place, number, or time for each action.
+- 2026-10-25: Label evidence strength (strong, mixed, weak) in one line.
+- 2026-10-25: Avoid motivational filler, slogans, or vague visions.
+- 2026-10-25: Focus on real actions: scripts, checklists, numbers.
+- 2026-10-25: In LOVE: send one honest sentence to a new person.
+- 2026-10-25: In FAMILY: make a two‑minute call to a parent.
+- 2026-10-25: In JOB: ask one inspector a specific question.
+- 2026-10-25: In LIFE: list this month’s fixed costs.
+- 2026-10-25: Use tiny actions to build a financial safety net gradually.

@@ -13,3 +13,5 @@
 - 2026-10-24: Spanish phrase must be new, brief, and without extra commentary
 - 2026-10-24: 2026-10-25: Ensure the email contains exactly one tiny promise and no extra prompts or unrelated content
 - 2026-10-24: 2026-10-25: Spanish phrase must be new, brief, and only included if directly relevant
+- 2026-10-25: 2026-10-25: Ensure exactly one tiny promise per email and no extra prompts or weather lines
+- 2026-10-25: 2026-10-25: Spanish phrase must be new, brief, and directly relevant

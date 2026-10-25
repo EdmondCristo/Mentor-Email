@@ -4,14 +4,14 @@
   {
    "id": "e1794427b9",
    "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. 0. Last week in review (Reviewer) Last week&#x27;s plan is up about $0.00 so",
-   "salience": 4.75,
+   "salience": 5.0,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 3,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 4,
    "source": "jason"
   },
   {
@@ -25,19 +25,6 @@
    "created": "2026-10-21T08:00",
    "last_access": "2026-10-21T08:00",
    "access_count": 2,
-   "source": "jason"
-  },
-  {
-   "id": "bc6edc2efb",
-   "text": "he said: Your plan for Friday, October 23 $75 this week · 24 years to retirement. You'll get a quick go/wait check that morning before the market opens. Manager's summary: This week the team reviewed the flat $75 portfolio and he",
-   "salience": 4.0,
-   "tags": [],
-   "type": "PROCEDURAL",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
    "source": "jason"
   },
   {
@@ -137,8 +124,8 @@
    "source": "self"
   },
   {
-   "id": "e30deb9c24",
-   "text": "note: 2026-10-19: identity-based habits",
+   "id": "58b118c4a5",
+   "text": "note: identity-based habits",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
@@ -150,16 +137,16 @@
    "source": "self"
   },
   {
-   "id": "80690b8c6a",
-   "text": "he replied to 'humble listening': Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.75,
+   "id": "5252766855",
+   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 5.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 3,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 9,
    "source": "jason"
   },
   {
@@ -189,76 +176,11 @@
    "source": "self"
   },
   {
-   "id": "64f0afef73",
-   "text": "note: 2026-10-21 / note: 2026-10-19: habit stacking",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "5252766855",
-   "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 4,
-   "source": "jason"
-  },
-  {
    "id": "f02d8d8662",
    "text": "advice: Link the greeting to a concrete, already‑done cue: right after you click the computer’s login button (the trigger), say the exact phrase “Buenos días, ¿cómo va la línea hoy?” and then immediately follow with one specific question about today’s producti",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "1335ba236f",
-   "text": "note: implementation intentions",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "c86f03cf2d",
-   "text": "note: habit stacking",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-21T08:00",
-   "last_access": "2026-10-21T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "58b118c4a5",
-   "text": "note: identity-based habits",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
    "created": "2026-10-21T08:00",
@@ -293,54 +215,28 @@
    "source": "self"
   },
   {
-   "id": "eb33b676a5",
-   "text": "advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack). Phrase it as an if‑then plan: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” a",
+   "id": "7c907cd86d",
+   "text": "advice: Tie the greeting to the exact moment you unlock your computer (cue) and then walk straight to the nearest inspection station (stack). Use a concrete if‑then: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with",
    "salience": 2.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-22T08:00",
-   "last_access": "2026-10-22T08:00",
+   "created": "2026-10-23T08:00",
+   "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
   },
   {
-   "id": "b452346b20",
-   "text": "note: 2026-10-19: implementation intentions",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-22T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "ff606193e6",
-   "text": "note: 2026-10-19: habit stacking",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-22T08:00",
-   "last_access": "2026-10-22T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "74886208d3",
+   "id": "b12226857d",
    "text": "note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-22T08:00",
-   "last_access": "2026-10-22T08:00",
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
    "access_count": 0,
    "source": "self"
   },
@@ -356,19 +252,6 @@
    "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "jason"
-  },
-  {
-   "id": "7c907cd86d",
-   "text": "advice: Tie the greeting to the exact moment you unlock your computer (cue) and then walk straight to the nearest inspection station (stack). Use a concrete if‑then: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?” and follow with",
-   "salience": 2.0,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-23T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 0,
-   "source": "self"
   },
   {
    "id": "85b1a7996b",
@@ -395,32 +278,6 @@
    "last_access": "2026-10-23T08:00",
    "access_count": 0,
    "source": "self"
-  },
-  {
-   "id": "15ad98f5aa",
-   "text": "note: 2026-10-19: implementation intentions",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-23T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "7b300db775",
-   "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
-   "tags": [],
-   "type": "EPISODIC",
-   "vividness": 2.0,
-   "cues": [],
-   "created": "2026-10-23T16:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 2,
-   "source": "jason"
   },
   {
    "id": "f9cd0f899f",
@@ -462,17 +319,17 @@
    "source": "self"
   },
   {
-   "id": "f994121624",
-   "text": "note: Link the greeting to the moment you unlock your computer (implementation intention)",
-   "salience": 3.0,
+   "id": "7b300db775",
+   "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
+   "salience": 4.75,
    "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
+   "type": "EPISODIC",
+   "vividness": 2.0,
    "cues": [],
-   "created": "2026-10-23T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 0,
-   "source": "self"
+   "created": "2026-10-23T16:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 3,
+   "source": "jason"
   },
   {
    "id": "043f843753",
@@ -488,56 +345,56 @@
    "source": "self"
   },
   {
-   "id": "af432b8884",
-   "text": "note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).",
+   "id": "9c94000b96",
+   "text": "note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (habit stack).",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-24T08:00",
-   "last_access": "2026-10-24T08:00",
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
    "access_count": 0,
    "source": "self"
   },
   {
-   "id": "acb2e4ccf7",
-   "text": "note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack).",
+   "id": "9e355e41ed",
+   "text": "note: 2026-10-23 / advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action.",
    "salience": 3.0,
    "tags": [],
    "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
-   "created": "2026-10-24T08:00",
-   "last_access": "2026-10-24T08:00",
-   "access_count": 0,
-   "source": "self"
-  },
-  {
-   "id": "339c5f73dd",
-   "text": "note: 2026-10-23 / advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action",
-   "salience": 3.0,
-   "tags": [],
-   "type": "SEMANTIC",
-   "vividness": 1.0,
-   "cues": [],
-   "created": "2026-10-24T08:00",
-   "last_access": "2026-10-24T08:00",
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
    "access_count": 0,
    "source": "self"
   },
   {
    "id": "8dbab234a1",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-24T13:00",
-   "access_count": 0,
+   "last_access": "2026-10-25T08:00",
+   "access_count": 1,
    "source": "jason"
+  },
+  {
+   "id": "b0f9c57da3",
+   "text": "advice: Tie the Sunday check‑in to a concrete cue you already do – for example, after you shut down your computer at the end of the workday, say “Check‑in time” and open the notebook. The tiny action is to write a single line: “Tally: X, IF‑then uses: Y, Pages",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-25T08:00",
+   "last_access": "2026-10-25T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -563,6 +420,12 @@
    "date": "2026-10-24",
    "tag": "neutral",
    "line": "5 new memories; strongest: he replied to 'quick expense note': What does Puede enviarme el reporte? mean? T",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-25",
+   "tag": "neutral",
+   "line": "4 new memories; strongest: note: 2026-10-21 / advice: Link the greeting to the moment you unlock your compu",
    "hooks": []
   }
  ]

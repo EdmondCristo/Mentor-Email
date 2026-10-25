@@ -22,3 +22,6 @@
 - 2026-10-24 | added check: 2026-10-25: Ensure the email contains exactly one tiny promise and no extra prompts or unrelated content
 - 2026-10-24 | added check: 2026-10-25: Spanish phrase must be new, brief, and only included if directly relevant
 - 2026-10-24 | APPROVE: Reviewed B and Tippy outputs and draft. All checklist items satisfied: single tiny promise, clear trigger, floor version under 30 seconds, no manipulation, no slogans, no repeated Spanish, tone matches voice. Approved.
+- 2026-10-25 | REVISE: Draft contained multiple sections (big idea, weather line, repeated Spanish phrase, extra question) violating checklist items 8, 13, 15. Revised to single tiny promise with trigger and floor version, added a new brief Spanish phrase, removed all non‑es
+- 2026-10-25 | added check: 2026-10-25: Ensure exactly one tiny promise per email and no extra prompts or weather lines
+- 2026-10-25 | added check: 2026-10-25: Spanish phrase must be new, brief, and directly relevant

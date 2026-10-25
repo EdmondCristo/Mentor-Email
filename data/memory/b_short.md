@@ -19,3 +19,7 @@
 - 2026-10-24 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).
 - 2026-10-24 | note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (the stack).
 - 2026-10-24 | note: 2026-10-23 / advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action
+- 2026-10-25 | advice: Tie the Sunday check‑in to a concrete cue you already do – for example, after you shut down your computer at the end of the workday, say “Check‑in time” and open the notebook. The tiny action is to write a single line: “Tally: X, IF‑then uses: Y, Pages
+- 2026-10-25 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).
+- 2026-10-25 | note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (habit stack).
+- 2026-10-25 | note: 2026-10-23 / advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action.
