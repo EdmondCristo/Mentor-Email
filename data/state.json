@@ -39,6 +39,13 @@
       "text": "send thank‑you text",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-25",
+      "area": "life",
+      "text": "write line",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -69,6 +76,14 @@
         "date": "2026-10-24",
         "stage": 0,
         "due": "2026-10-25"
+      },
+      {
+        "phrase": "¿Puede confirmar la muestra?",
+        "english": "Could you confirm the sample?",
+        "fmt": "cognate",
+        "date": "2026-10-26",
+        "stage": 0,
+        "due": "2026-10-27"
       }
     ],
     "history": [],
@@ -81,7 +96,7 @@
         "easy": 0
       },
       "cognate": {
-        "taught": 1,
+        "taught": 2,
         "recall_ok": 0,
         "recall_fail": 0,
         "hard": 0,
@@ -89,14 +104,14 @@
       }
     },
     "last": {
-      "date": "2026-10-25",
-      "mode": "review",
-      "fmt": "phrase",
-      "phrase": "¿Podría revisar el informe, por favor?",
+      "date": "2026-10-26",
+      "mode": "new",
+      "fmt": "cognate",
+      "phrase": "¿Puede confirmar la muestra?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "review",
+    "last_mode": "new",
     "force_easy": false
   },
   "used_links": [
@@ -104,43 +119,41 @@
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-25",
-    "lane": "big_idea",
-    "topic": "GitHub for QA",
-    "spanish": "¿Puede enviar el correo?",
-    "angle": "Weekly check-in: the 10-minute counting review from the plan."
+    "date": "2026-10-26",
+    "lane": "qa_skill",
+    "topic": "5 Whys",
+    "spanish": "¿Puede confirmar la muestra?",
+    "angle": "Floor greeting: greet one inspector by name in Spanish and ask one real question about their line."
   },
-  "last_sent": "2026-10-25",
+  "last_sent": "2026-10-26",
   "promise_open": {
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "area": "life",
-    "text": "write line",
+    "text": "after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses",
     "level": 1
   },
   "today": {
-    "date": "2026-10-25",
-    "body": "After you shut down your computer at the end of the workday, write a single line in your notebook – “Tally: X, IF‑then uses: Y, Pages read: Z” – and stop. Floor version: open the notebook and scribble the line in under 30 seconds.\n\nReason: the cue‑action pair creates an automatic habit loop and the brief visual note gives an immediate completion signal (evidence: mixed).\n\nEspañol del día (new): \"¿Puede enviarme el reporte?\" – use it when you need a colleague to send you a document.\n\nNote from M: Let me know if the cue works for you, or we can adjust it.",
+    "date": "2026-10-26",
+    "body": "After I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses.\nFloor version (bad‑day): after shutdown, open notebook and write only “Fixed costs:”.\nReason: the cue is automatic and the action fits under 30 seconds, so the habit can start immediately. (evidence: strong)\n\nNote from M: Keep it simple; the cue is already part of your routine.",
     "promise": {
       "area": "life",
-      "text": "write line"
+      "text": "after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses"
     },
     "b": {
-      "advice": "Tie the Sunday check‑in to a concrete cue you already do – for example, after you shut down your computer at the end of the workday, say “Check‑in time” and open the notebook. The tiny action is to write a single line: “Tally: X, IF‑then uses: Y, Pages read: Z”. Keep it under 30 seconds. The immediate reward is a brief mental note of progress (“done”) and a small physical cue, such as clicking a check‑box or moving a sticky‑note to a ‘done’ pile, which reinforces the habit through a clear completion signal. This combines an implementation‑intention (cue → action) with a visual completion cue, both shown to boost self‑monitoring compliance.",
+      "advice": "Use an implementation‑intention that ties the cue (the moment you log in at your workstation) to a concrete, physical step and a brief script. Example: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific question about today’s production. Keep the floor version ready (“Buenos días”) for rough mornings. Mark each completion in a simple tally (“done, floor, skip”) to reinforce self‑monitoring and make a loss feel tangible if missed.",
       "evidence": "strong"
     },
     "t": {
-      "topic": "GitHub basics for QA documentation",
-      "topic_key": "GitHub for QA",
-      "lesson": "After you shut down your computer tonight, open a browser, log into GitHub, and click “New repository”. Name it “qa-docs” and click Create. That’s all – under 30 seconds and no code needed. It gives you a place to store SOPs and checklists that the whole team can access and version‑control.",
-      "spanish_phrase": "¿Puede enviar el correo?",
-      "spanish_english": "Can you send the email?"
+      "topic": "Root cause analysis using 5 Whys",
+      "topic_key": "5 Whys",
+      "lesson": "After you log a deviation, write the first “Why?” on a sticky note. Each day add one more “Why?” until you reach the root cause. Begin with just one question today.",
+      "spanish_phrase": "¿Puede confirmar la muestra?",
+      "spanish_english": "Could you confirm the sample?"
     }
   },
   "slots": {
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "done": [
-      "afternoon",
-      "midday",
       "morning"
     ]
   },

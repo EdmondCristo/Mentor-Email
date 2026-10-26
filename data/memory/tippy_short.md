@@ -30,3 +30,8 @@
 - 2026-10-25 | why this format: El cognado conecta una palabra ya familiar (correo) con la estructura de petición, facilitando recordarlo rápidamente
 - 2026-10-25 | note: Create repo qa-docs on GitHub
 - 2026-10-25 | note: Add SOP draft link
+- 2026-10-26 | qa_skill: 5 Whys
+- 2026-10-26 | spanish (new, cognate, level 2): ¿Puede confirmar la muestra?
+- 2026-10-26 | why this format: El cognado "confirmar" ya lo conoce y es útil en QA.
+- 2026-10-26 | note: 5 Whys start: ___
+- 2026-10-26 | note: Root cause note: ___

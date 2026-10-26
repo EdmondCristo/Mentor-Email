@@ -8,3 +8,5 @@
 - 2026-10-24 | topic | quick expense note
 - 2026-10-24 | spanish | ¿Puede enviarme el reporte?
 - 2026-10-25 | topic | GitHub for QA
+- 2026-10-26 | topic | 5 Whys
+- 2026-10-26 | spanish | ¿Puede confirmar la muestra?

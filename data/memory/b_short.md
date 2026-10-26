@@ -23,3 +23,7 @@
 - 2026-10-25 | note: 2026-10-21 / advice: Link the greeting to the moment you unlock your computer (implementation intention).
 - 2026-10-25 | note: 2026-10-22 / advice: Link the greeting to the exact moment you unlock your computer (the cue) and then walk straight to the nearest inspection station (habit stack).
 - 2026-10-25 | note: 2026-10-23 / advice: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action.
+- 2026-10-26 | advice: Use an implementation‑intention that ties the cue (the moment you log in at your workstation) to a concrete, physical step and a brief script. Example: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos día
+- 2026-10-26 | note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?”
+- 2026-10-26 | note: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action
+- 2026-10-26 | note: Self‑monitor by counting completions, not feelings

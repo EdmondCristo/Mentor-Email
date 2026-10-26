@@ -30,7 +30,7 @@
   {
    "id": "fafb048fc3",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 5.5,
+   "salience": 5.75,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -45,14 +45,14 @@
     "detail:straight"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 6,
+   "last_access": "2026-10-26T08:00",
+   "access_count": 7,
    "source": "jason"
   },
   {
    "id": "3d5ba19527",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 5.5,
+   "salience": 5.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -67,21 +67,21 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 6,
+   "last_access": "2026-10-26T08:00",
+   "access_count": 7,
    "source": "jason"
   },
   {
    "id": "2e0c20d68d",
    "text": "he said: Good morning, Jason—today’s tiny action is the floor greeting. **Action:** After you log in, walk to the inspection floor and say “Buenos días, ¿cómo va la línea hoy?” then ask one concrete question about yesterday’s lin",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-23T08:00",
-   "access_count": 5,
+   "last_access": "2026-10-26T08:00",
+   "access_count": 6,
    "source": "jason"
   },
   {
@@ -139,14 +139,14 @@
   {
    "id": "5252766855",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-25T08:00",
-   "access_count": 9,
+   "last_access": "2026-10-26T08:00",
+   "access_count": 10,
    "source": "jason"
   },
   {
@@ -321,14 +321,14 @@
   {
    "id": "7b300db775",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.75,
+   "salience": 5.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-25T08:00",
-   "access_count": 3,
+   "last_access": "2026-10-26T08:00",
+   "access_count": 4,
    "source": "jason"
   },
   {
@@ -408,6 +408,58 @@
    "last_access": "2026-10-25T13:00",
    "access_count": 0,
    "source": "jason"
+  },
+  {
+   "id": "33cb6e0ff1",
+   "text": "advice: Use an implementation‑intention that ties the cue (the moment you log in at your workstation) to a concrete, physical step and a brief script. Example: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos día",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-26T08:00",
+   "last_access": "2026-10-26T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "65b8104347",
+   "text": "note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?”",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-26T08:00",
+   "last_access": "2026-10-26T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "39ac5b322f",
+   "text": "note: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-26T08:00",
+   "last_access": "2026-10-26T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "ac54c557ce",
+   "text": "note: Self‑monitor by counting completions, not feelings",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-26T08:00",
+   "last_access": "2026-10-26T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -439,6 +491,12 @@
    "date": "2026-10-25",
    "tag": "neutral",
    "line": "5 new memories; strongest: he said: Your plan for Friday, October 30 $75 this week · 24 years to retirement",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-26",
+   "tag": "neutral",
+   "line": "4 new memories; strongest: note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea ho",
    "hooks": []
   }
  ]

@@ -29,3 +29,5 @@
 - 2026-10-25 | added check: 2026-10-26: Ensure no secondary nudges or follow‑up actions appear in the same email.
 - 2026-10-25 | REVISE: Draft contained multiple prompts and a Spanish‑phrase question, violating the single‑promise rule (checklist items 8,15,13). Revised to a plain email with only the trigger‑action, floor version, and a one‑line reason, matching voice and all checks.
 - 2026-10-25 | added check: 2026-10-26: Ensure no secondary questions or reflections appear in the email body.
+- 2026-10-26 | REVISE: Draft contained multiple sections (QA skill, Spanish phrase, weather line, nightly question) violating the single‑promise rule. Revised to a single life‑area tiny promise with trigger, floor version, and one‑line reason, matching voice and all checklis
+- 2026-10-26 | added check: 2026-10-26: Ensure no secondary prompts, questions, or unrelated content appear in the email body.
