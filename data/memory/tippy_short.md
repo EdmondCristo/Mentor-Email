@@ -35,3 +35,8 @@
 - 2026-10-26 | why this format: El cognado "confirmar" ya lo conoce y es útil en QA.
 - 2026-10-26 | note: 5 Whys start: ___
 - 2026-10-26 | note: Root cause note: ___
+- 2026-10-27 | spanish_work: cognate phrase cue
+- 2026-10-27 | spanish (review, phrase, level 2): ¿Puede mostrar el lote? / ¿Puede mostrar el lote?
+- 2026-10-27 | why this format: El formato frase es breve y usa un cognado, lo que facilita recordarlo en el trabajo
+- 2026-10-27 | note: 8:00 am – Saludo: ¿Puede mostrar el lote?
+- 2026-10-27 | note: ✔︎ Acción completada

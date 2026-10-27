@@ -139,14 +139,14 @@
   {
    "id": "b2c517bb6b",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.25,
+   "salience": 5.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-26T08:00",
-   "access_count": 7,
+   "last_access": "2026-10-27T08:00",
+   "access_count": 8,
    "source": "jason"
   },
   {
@@ -542,14 +542,14 @@
   {
    "id": "abea1ae58c",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-26T08:00",
-   "access_count": 4,
+   "last_access": "2026-10-27T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
@@ -607,14 +607,14 @@
   {
    "id": "a47dcbb04e",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-26T08:00",
-   "access_count": 2,
+   "last_access": "2026-10-27T08:00",
+   "access_count": 3,
    "source": "jason"
   },
   {
@@ -737,14 +737,14 @@
   {
    "id": "f7235e7e8d",
    "text": "note: 5 Whys start: ___",
-   "salience": 3.0,
+   "salience": 3.25,
    "tags": [],
    "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
    "created": "2026-10-26T08:00",
-   "last_access": "2026-10-26T08:00",
-   "access_count": 0,
+   "last_access": "2026-10-27T08:00",
+   "access_count": 1,
    "source": "self"
   },
   {
@@ -763,15 +763,80 @@
   {
    "id": "bd908b724c",
    "text": "he replied to '5 Whys': What is this for? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.0,
+   "salience": 4.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-26T16:00",
-   "last_access": "2026-10-26T16:00",
-   "access_count": 0,
+   "last_access": "2026-10-27T08:00",
+   "access_count": 1,
    "source": "jason"
+  },
+  {
+   "id": "52c0561bc4",
+   "text": "spanish_work: cognate phrase cue",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-27T08:00",
+   "last_access": "2026-10-27T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "844165d759",
+   "text": "spanish (review, phrase, level 2): ¿Puede mostrar el lote? / ¿Puede mostrar el lote?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-27T08:00",
+   "last_access": "2026-10-27T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "4979daccd4",
+   "text": "why this format: El formato frase es breve y usa un cognado, lo que facilita recordarlo en el trabajo",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-27T08:00",
+   "last_access": "2026-10-27T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "95ee9b0a24",
+   "text": "note: 8:00 am – Saludo: ¿Puede mostrar el lote?",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-27T08:00",
+   "last_access": "2026-10-27T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "9423de68da",
+   "text": "note: ✔︎ Acción completada",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-27T08:00",
+   "last_access": "2026-10-27T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -809,6 +874,12 @@
    "date": "2026-10-26",
    "tag": "neutral",
    "line": "6 new memories; strongest: he replied to '5 Whys': What is this for? Thank you, Nam Lim Joy Jewelry, Inc. 2",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-27",
+   "tag": "neutral",
+   "line": "5 new memories; strongest: note: 8:00 am – Saludo: ¿Puede mostrar el lote?",
    "hooks": []
   }
  ]

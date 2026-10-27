@@ -27,3 +27,7 @@
 - 2026-10-26 | note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?”
 - 2026-10-26 | note: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action
 - 2026-10-26 | note: Self‑monitor by counting completions, not feelings
+- 2026-10-27 | advice: Link the greeting to the exact moment you log in (cue). Use an implementation‑intention: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific follow‑up (e.g.
+- 2026-10-27 | note: If I log in at 8:00 am, then I will say “Buenos días, ¿cómo va la línea hoy?”
+- 2026-10-27 | note: Use an implementation‑intention that links the exact cue (the moment you log into your computer) to a concrete, physical action
+- 2026-10-27 | note: After you log in, walk straight to the nearest inspection station (habit stack)

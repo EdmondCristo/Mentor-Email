@@ -25,3 +25,4 @@
 - 2026-10-25 | Day 7: afternoon: You kept the Sunday tally cue for three days, so today we stay with it: after yo
 - 2026-10-26 | Day 8: after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses / life / fixed‑cost listing / what expense did you note?
 - 2026-10-26 | Day 8: afternoon: You kept the Spanish floor greeting for three days, so it stays today. Tiny prom
+- 2026-10-27 | Day 9: after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?” / job / used Tippy’s floor tip about batch question / what did you hear?

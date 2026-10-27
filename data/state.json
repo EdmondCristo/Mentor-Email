@@ -46,6 +46,13 @@
       "text": "write line",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-26",
+      "area": "life",
+      "text": "after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest m",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -67,7 +74,7 @@
         "fmt": "phrase",
         "date": "2026-10-23",
         "stage": 0,
-        "due": "2026-10-24"
+        "due": "2026-10-28"
       },
       {
         "phrase": "¿Puede enviarme el reporte?",
@@ -104,14 +111,14 @@
       }
     },
     "last": {
-      "date": "2026-10-26",
-      "mode": "new",
-      "fmt": "cognate",
-      "phrase": "¿Puede confirmar la muestra?",
+      "date": "2026-10-27",
+      "mode": "review",
+      "fmt": "phrase",
+      "phrase": "¿Cómo está la línea?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "new",
+    "last_mode": "review",
     "force_easy": false
   },
   "used_links": [
@@ -119,42 +126,41 @@
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-26",
-    "lane": "qa_skill",
-    "topic": "5 Whys",
-    "spanish": "¿Puede confirmar la muestra?",
-    "angle": "Floor greeting: greet one inspector by name in Spanish and ask one real question about their line."
+    "date": "2026-10-27",
+    "lane": "spanish_work",
+    "topic": "cognate phrase cue",
+    "spanish": "¿Puede mostrar el lote? / ¿Puede mostrar el lote?",
+    "angle": "The pause: notice the urge to interrupt and wait one full second of silence before you speak."
   },
-  "last_sent": "2026-10-26",
+  "last_sent": "2026-10-27",
   "promise_open": {
-    "date": "2026-10-26",
-    "area": "life",
-    "text": "after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses",
+    "date": "2026-10-27",
+    "area": "job",
+    "text": "after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?”",
     "level": 1
   },
   "today": {
-    "date": "2026-10-26",
-    "body": "After I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses.\nFloor version (bad‑day): after shutdown, open notebook and write only “Fixed costs:”.\nReason: the cue is automatic and the action fits under 30 seconds, so the habit can start immediately. (evidence: strong)\n\nNote from M: Keep it simple; the cue is already part of your routine.",
+    "date": "2026-10-27",
+    "body": "After I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?”\nFloor version (busy day): just say “Buenos días”.\nReason: a concrete, brief ask creates a pause that anchors the habit.\nEvidence: strong\nReply with one word – done, floor, or skip.\n\nNote from M: Let me know how it went.\nIf it feels too big, we’ll shrink it.",
     "promise": {
-      "area": "life",
-      "text": "after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses"
+      "area": "job",
+      "text": "after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?”"
     },
     "b": {
-      "advice": "Use an implementation‑intention that ties the cue (the moment you log in at your workstation) to a concrete, physical step and a brief script. Example: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific question about today’s production. Keep the floor version ready (“Buenos días”) for rough mornings. Mark each completion in a simple tally (“done, floor, skip”) to reinforce self‑monitoring and make a loss feel tangible if missed.",
+      "advice": "Link the greeting to the exact moment you log in (cue). Use an implementation‑intention: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific follow‑up (e.g., “¿Hay alguna desviación hoy?”). Keep the follow‑up ready so it takes <30 seconds. After the exchange, note “done” on your tally card – the act of checking off serves as a tiny reward and reinforces the habit stack. If the day is very busy, the floor version is simply “Buenos días” (no question).",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Root cause analysis using 5 Whys",
-      "topic_key": "5 Whys",
-      "lesson": "After you log a deviation, write the first “Why?” on a sticky note. Each day add one more “Why?” until you reach the root cause. Begin with just one question today.",
-      "spanish_phrase": "¿Puede confirmar la muestra?",
-      "spanish_english": "Could you confirm the sample?"
+      "topic": "Spanish floor tip",
+      "topic_key": "cognate phrase cue",
+      "lesson": "After you log in at 8 am, walk to the first inspection station and say, “¿Puede mostrar el lote?” (Can you show the batch?). Then note “done” on your habit card. The phrase uses the cognate “lote” (batch) and the pattern “¿Puede + verb?” making it easy to remember and say in under 30 seconds.",
+      "spanish_phrase": "¿Puede mostrar el lote? / ¿Puede mostrar el lote?",
+      "spanish_english": "Can you show the batch?"
     }
   },
   "slots": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "done": [
-      "afternoon",
       "morning"
     ]
   },

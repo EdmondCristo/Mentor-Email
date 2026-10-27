@@ -33,3 +33,5 @@
 - 2026-10-26 | added check: 2026-10-26: Ensure no secondary prompts, questions, or unrelated content appear in the email body.
 - 2026-10-26 | REVISE: Draft contained extra content (a question about 5 Whys and a breathing reminder) violating the single‑promise rule. Revised to include only the trigger‑action, floor version, reason, evidence label, and reply instruction.
 - 2026-10-26 | added check: 2026-10-27: Ensure no secondary questions or prompts appear in the email body.
+- 2026-10-27 | REVISE:
+- 2026-10-27 | added check: 2026-10-27: Ensure no weather lines or extra questions appear in the email body
