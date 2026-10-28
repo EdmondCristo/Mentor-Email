@@ -11,3 +11,4 @@
 - 2026-10-26 | topic | 5 Whys
 - 2026-10-26 | spanish | ¿Puede confirmar la muestra?
 - 2026-10-27 | topic | cognate phrase cue
+- 2026-10-28 | topic | inspectors suggestion

@@ -40,3 +40,9 @@
 - 2026-10-27 | why this format: El formato frase es breve y usa un cognado, lo que facilita recordarlo en el trabajo
 - 2026-10-27 | note: 8:00 am – Saludo: ¿Puede mostrar el lote?
 - 2026-10-27 | note: ✔︎ Acción completada
+- 2026-10-28 | world_growth: inspectors suggestion
+- 2026-10-28 | spanish (none, phrase, level 2):
+- 2026-10-28 | why this format: Formato breve y directo, fácil de recordar en el trabajo
+- 2026-10-28 | source: Opinion: South Coast legislative delegation is all about teamwork - The New Bedford Light
+- 2026-10-28 | note: Ask inspector for suggestion; note one word
+- 2026-10-28 | note: Log the word in QA habit tracker

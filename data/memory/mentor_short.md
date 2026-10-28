@@ -26,3 +26,4 @@
 - 2026-10-26 | Day 8: after I shut down my computer at 5:00 pm, I will open my notebook and write “Fixed costs:” then list the three biggest monthly expenses / life / fixed‑cost listing / what expense did you note?
 - 2026-10-26 | Day 8: afternoon: You kept the Spanish floor greeting for three days, so it stays today. Tiny prom
 - 2026-10-27 | Day 9: after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?” / job / used Tippy’s floor tip about batch question / what did you hear?
+- 2026-10-28 | Day 10: love / tiny outreach / “Hi, enjoyed our chat” sent after login / what sentence did you send?
