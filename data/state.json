@@ -162,6 +162,7 @@
   "slots": {
     "date": "2026-10-28",
     "done": [
+      "afternoon",
       "morning"
     ]
   },
