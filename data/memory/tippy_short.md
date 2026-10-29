@@ -46,3 +46,9 @@
 - 2026-10-28 | source: Opinion: South Coast legislative delegation is all about teamwork - The New Bedford Light
 - 2026-10-28 | note: Ask inspector for suggestion; note one word
 - 2026-10-28 | note: Log the word in QA habit tracker
+- 2026-10-29 | qa_news: FDA recall guidance
+- 2026-10-29 | spanish (review, cognate, level 2): ¿Podría validar la muestra? / ¿Podría validar la muestra?
+- 2026-10-29 | why this format: Formato frase breve, fácil de recordar y útil en su rutina diaria
+- 2026-10-29 | source: US FDA sets out mandatory cosmetic recall process in final MoCRA guidance - Personal Care Insights
+- 2026-10-29 | note: Ask inspector to validate sample
+- 2026-10-29 | note: Log answer on sticky note

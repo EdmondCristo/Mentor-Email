@@ -30,7 +30,7 @@
   {
    "id": "060d106ecf",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 6.75,
+   "salience": 7.0,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -45,14 +45,14 @@
     "detail:straight"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-26T16:00",
-   "access_count": 11,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 12,
    "source": "jason"
   },
   {
    "id": "0a81ab3c6c",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 7.25,
+   "salience": 7.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -67,8 +67,8 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-26T16:00",
-   "access_count": 13,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 14,
    "source": "jason"
   },
   {
@@ -152,14 +152,14 @@
   {
    "id": "3ac2c26670",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 7.0,
+   "salience": 7.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-28T16:00",
-   "access_count": 15,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 16,
    "source": "jason"
   },
   {
@@ -269,14 +269,14 @@
   {
    "id": "b32a0af47a",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 7.0,
+   "salience": 7.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-28T16:00",
-   "access_count": 12,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 13,
    "source": "jason"
   },
   {
@@ -308,14 +308,14 @@
   {
    "id": "7af9e0d05d",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-28T16:00",
-   "access_count": 2,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 3,
    "source": "jason"
   },
   {
@@ -486,6 +486,19 @@
    "last_access": "2026-10-28T16:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "cd682caf17",
+   "text": "Day 11: call Mom after last email / family / brief two‑minute check‑in / Did you complete the call?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -535,6 +548,12 @@
    "date": "2026-10-28",
    "tag": "neutral",
    "line": "2 new memories; strongest: Day 10: love / tiny outreach / “Hi, enjoyed our chat” sent after login / what se",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-29",
+   "tag": "neutral",
+   "line": "1 new memories; strongest: Day 11: call Mom after last email / family / brief two‑minute check‑in / Did you",
    "hooks": []
   }
  ]

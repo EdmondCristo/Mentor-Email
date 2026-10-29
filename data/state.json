@@ -60,6 +60,13 @@
       "text": "after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?”",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-28",
+      "area": "love",
+      "text": "love",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -89,7 +96,7 @@
         "fmt": "cognate",
         "date": "2026-10-24",
         "stage": 0,
-        "due": "2026-10-25"
+        "due": "2026-10-30"
       },
       {
         "phrase": "¿Puede confirmar la muestra?",
@@ -117,52 +124,59 @@
         "easy": 0
       }
     },
-    "last": null,
-    "last_mode": "new",
+    "last": {
+      "date": "2026-10-29",
+      "mode": "review",
+      "fmt": "cognate",
+      "phrase": "¿Puede enviarme el reporte?",
+      "level": 2,
+      "answered": false
+    },
+    "last_mode": "review",
     "force_easy": false
   },
   "used_links": [
     "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI1OE81cFVkbm9HOGk3b0thZ3VHNzVvT05Na3RZWFhfeHdzb2x5Vy1xV2xwZy1ZWk43WUFTWkhsWDNqSVhtT09tdUtZQkp1S0lLX051aUJ6bWE0NGRsemxwSFg0OTdaaXhEU2FnWlRsRlZUQ1oyZWhUWlUwY09iajhn0gGHAUFVX3lxTFBwS045UXZiUDlZR1UxajV0TmV4SWZ0Y0h2NW9DNTBhdC1GT1NZTjVZNDlkTWM1TmRMUGRNT3MzLWt1N1ZUb0xFWkNGVHB4SFpWdDhEaXpoc0d2M2dnX05QSE1YSTBKY3pWOTZTdmlXcHFFaW1mZDBhZTMyQmh2UkgwZkpvUGdnUQ?oc=5",
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMzFGZXVWV2ZVWU5fSHVERW5Pd01oQUlweUYzRHJpM1NsZ3ZWY1JVY1NJb1dfR21wOUxkMHNRdThVX1pPZWEyeEcxSk9MWEdFX1pIOFFaOUotSkJESjVDWm9zNDY5eUpvXzE5d2JFSWhRRTFHeUN1aEplSFhPamtQdmZZT1RkdXh1SGd6c0tB?oc=5"
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMzFGZXVWV2ZVWU5fSHVERW5Pd01oQUlweUYzRHJpM1NsZ3ZWY1JVY1NJb1dfR21wOUxkMHNRdThVX1pPZWEyeEcxSk9MWEdFX1pIOFFaOUotSkJESjVDWm9zNDY5eUpvXzE5d2JFSWhRRTFHeUN1aEplSFhPamtQdmZZT1RkdXh1SGd6c0tB?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9ibm12TGlMa2N1Y2I2YzNncHdmOWZiNEJBSlZUUzRKc3pwMFdsaGJRY1prdUlYVy0tRHE0QTdIMVFBZk14QlBrOEF0MnBUV09jdVl0Mk5lUVJ0aGNfLVgtQUdTVUZKZ1RFWW03WXAzNTRNbTRmMkhIYm9WYWU3M1pES05yVG9W?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-28",
-    "lane": "world_growth",
-    "topic": "inspectors suggestion",
-    "spanish": "",
-    "angle": "Script rehearsal: say today's if-then script out loud once, in English and Spanish."
+    "date": "2026-10-29",
+    "lane": "qa_news",
+    "topic": "FDA recall guidance",
+    "spanish": "¿Podría validar la muestra? / ¿Podría validar la muestra?",
+    "angle": "Two questions first: ask two follow-up questions before you share your own view, once today."
   },
-  "last_sent": "2026-10-28",
+  "last_sent": "2026-10-29",
   "promise_open": {
-    "date": "2026-10-28",
-    "area": "love",
-    "text": "love",
+    "date": "2026-10-29",
+    "area": "family",
+    "text": "call Mom after last email",
     "level": 1
   },
   "today": {
-    "date": "2026-10-28",
-    "body": "After I log in at 8:00 am, I will send one brief, honest sentence to a new contact I met recently. Floor version: type and send “Hi, enjoyed our chat” in under 30 seconds.\nReason: a single, concrete outreach removes the inertia of starting a conversation. Evidence: mixed.\nReply with: done, floor, or skip.\n\nNote from M: Let me know how it went. If today feels rough, the floor version is fine.\n\nSource: Opinion: South Coast legislative delegation is all about teamwork - The New Bedford Light - https://news.google.com/rss/articles/CBMijgFBVV95cUxPMzFGZXVWV2ZVWU5fSHVERW5Pd01oQUlweUYzRHJpM1NsZ3ZWY1JVY1NJb1dfR21wOUxkMHNRdThVX1pPZWEyeEcxSk9MWEdFX1pIOFFaOUotSkJESjVDWm9zNDY5eUpvXzE5d2JFSWhRRTFHeUN1aEplSFhPamtQdmZZT1RkdXh1SGd6c0tB?oc=5",
+    "date": "2026-10-29",
+    "body": "After I finish my last work email, I will call Mom for two minutes and ask how her week was.\nFloor version (bad‑day): pick up the phone, dial Mom, say “Hi Mom, how was your week?” – under 30 seconds.\nReason: linking a certain cue (the last email) to a brief, specific call makes the habit easy to start.\nEvidence: strong\nReply with one word: done, floor, or skip.\n\nNote from M: Let me know how it went.\nIf it felt too big, we’ll shrink it next time.\n\nSource: US FDA sets out mandatory cosmetic recall process in final MoCRA guidance - Personal Care Insights - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9ibm12TGlMa2N1Y2I2YzNncHdmOWZiNEJBSlZUUzRKc3pwMFdsaGJRY1prdUlYVy0tRHE0QTdIMVFBZk14QlBrOEF0MnBUV09jdVl0Mk5lUVJ0aGNfLVgtQUdTVUZKZ1RFWW03WXAzNTRNbTRmMkhIYm9WYWU3M1pES05yVG9W?oc=5",
     "promise": {
-      "area": "love",
-      "text": "love"
+      "area": "family",
+      "text": "call Mom after last email"
     },
     "b": {
-      "advice": "Link the greeting to the exact moment you log in (cue) and stack it with a physical step: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific follow‑up (e.g., “¿Hay alguna variación en la presión hoy?”). After the conversation, give yourself a 5‑second pause and mentally note “Done” – the tiny pause acts as a micro‑reward that reinforces the habit. This implementation‑intention + habit‑stacking combo has strong evidence for increasing automaticity of new actions.",
+      "advice": "Link the greeting to the exact moment you log in (cue) and stack it with a physical step: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific follow‑up question (e.g., “¿Hay algún problema en la línea que necesite mi atención?”). After the exchange, give yourself a tiny “done” tap on the desk as a physical reward. This uses an implementation‑intention (cue → action) and habit‑stacking, both shown to boost automaticity of new behaviors.",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Listening to frontline insights",
-      "topic_key": "inspectors suggestion",
-      "lesson": "After you finish your daily QA report, pause, then ask one inspector for a suggestion and listen without interrupting for 30 seconds. Write down one word that captures the idea. (strong evidence)",
-      "spanish_phrase": "",
-      "spanish_english": ""
+      "topic": "Regulatory watch for cosmetic recalls",
+      "topic_key": "FDA recall guidance",
+      "lesson": "After you log in, walk to the inspection station and ask the inspector, “¿Podría validar la muestra?” to confirm the batch meets the new MoCRA recall criteria. Note the response on a sticky note and update the tracker. Check the FDA website (fda.gov) for the final MoCRA guidance before acting.",
+      "spanish_phrase": "¿Podría validar la muestra? / ¿Podría validar la muestra?",
+      "spanish_english": "Could you validate the sample?"
     }
   },
   "slots": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "done": [
-      "afternoon",
       "morning"
     ]
   },

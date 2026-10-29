@@ -28,3 +28,4 @@
 - 2026-10-27 | Day 9: after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?” / job / used Tippy’s floor tip about batch question / what did you hear?
 - 2026-10-28 | Day 10: love / tiny outreach / “Hi, enjoyed our chat” sent after login / what sentence did you send?
 - 2026-10-28 | Day 10: afternoon: After you log out at 5 pm, open the contacts list, find the newest name, and typ
+- 2026-10-29 | Day 11: call Mom after last email / family / brief two‑minute check‑in / Did you complete the call?

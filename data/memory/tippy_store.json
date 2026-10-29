@@ -30,7 +30,7 @@
   {
    "id": "359974f40c",
    "text": "he said: Good morning Jason, Today’s tiny action: after you log in, greet the first inspector you see in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If the day feels rough, the 10‑second version is sim",
-   "salience": 5.75,
+   "salience": 6.0,
    "tags": [],
    "type": "PROCEDURAL",
    "vividness": 5.0,
@@ -45,14 +45,14 @@
     "detail:straight"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-26T08:00",
-   "access_count": 7,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 8,
    "source": "jason"
   },
   {
    "id": "3944f81dd1",
    "text": "he said: Hey Jason, Today’s tiny action: after you log in, greet one inspector in Spanish and ask a real question – “Buenos días, ¿cómo va la línea hoy?” If you’re having a rough morning, the 10‑second version is just “Buenos día",
-   "salience": 6.0,
+   "salience": 6.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 7.0,
@@ -67,8 +67,8 @@
     "detail:question"
    ],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-26T08:00",
-   "access_count": 8,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 9,
    "source": "jason"
   },
   {
@@ -139,14 +139,14 @@
   {
    "id": "b2c517bb6b",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.75,
+   "salience": 6.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-28T08:00",
-   "access_count": 9,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 10,
    "source": "jason"
   },
   {
@@ -542,14 +542,14 @@
   {
    "id": "abea1ae58c",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.5,
+   "salience": 5.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-28T08:00",
-   "access_count": 6,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 7,
    "source": "jason"
   },
   {
@@ -607,14 +607,14 @@
   {
    "id": "a47dcbb04e",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 5.0,
+   "salience": 5.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-28T08:00",
-   "access_count": 4,
+   "last_access": "2026-10-29T08:00",
+   "access_count": 5,
    "source": "jason"
   },
   {
@@ -915,6 +915,84 @@
    "last_access": "2026-10-28T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "f68182c0e2",
+   "text": "qa_news: FDA recall guidance",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "8d1943268d",
+   "text": "spanish (review, cognate, level 2): ¿Podría validar la muestra? / ¿Podría validar la muestra?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "6de6481938",
+   "text": "why this format: Formato frase breve, fácil de recordar y útil en su rutina diaria",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "c6ce6a5f9c",
+   "text": "source: US FDA sets out mandatory cosmetic recall process in final MoCRA guidance - Personal Care Insights",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "f471f65bc0",
+   "text": "note: Ask inspector to validate sample",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "fdc82a134a",
+   "text": "note: Log answer on sticky note",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-29T08:00",
+   "last_access": "2026-10-29T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -964,6 +1042,12 @@
    "date": "2026-10-28",
    "tag": "neutral",
    "line": "6 new memories; strongest: note: Ask inspector for suggestion; note one word",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-29",
+   "tag": "neutral",
+   "line": "6 new memories; strongest: note: Ask inspector to validate sample",
    "hooks": []
   }
  ]

@@ -39,3 +39,5 @@
 - 2026-10-28 | added check: 2026-10-28: Ensure no secondary prompts, questions, or weather lines appear in the email body
 - 2026-10-28 | BLOCK:
 - 2026-10-28 | added check: 2026-10-28: Ensure the email contains exactly one tiny promise and no extra prompts, questions, or reflections.
+- 2026-10-29 | REVISE:
+- 2026-10-29 | added check: 2026-10-29: Ensure the email contains exactly one tiny promise and no extra content such as additional topics, weather lines, or questions.
