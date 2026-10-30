@@ -43,3 +43,5 @@
 - 2026-10-29 | added check: 2026-10-29: Ensure the email contains exactly one tiny promise and no extra content such as additional topics, weather lines, or questions.
 - 2026-10-30 | REVISE:
 - 2026-10-30 | added check: 2026-10-30: Ensure the email contains exactly one tiny promise and no extra content such as weather lines, Spanish phrases, or follow‑up questions.
+- 2026-10-30 | REVISE: Draft contained extra reflection question, breath instruction, and day info, violating the single‑promise rule. Revised to include only the trigger‑action, floor version, reason, evidence label, and reply instruction.
+- 2026-10-30 | added check: 2026-10-31: Ensure no extra questions or reflections appear beyond the single tiny promise.
