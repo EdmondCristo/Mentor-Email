@@ -23,3 +23,4 @@
 - 2026-10-28: 2026-10-28: Ensure no secondary prompts, questions, or weather lines appear in the email body
 - 2026-10-28: 2026-10-28: Ensure the email contains exactly one tiny promise and no extra prompts, questions, or reflections.
 - 2026-10-29: 2026-10-29: Ensure the email contains exactly one tiny promise and no extra content such as additional topics, weather lines, or questions.
+- 2026-10-30: 2026-10-30: Ensure the email contains exactly one tiny promise and no extra content such as weather lines, Spanish phrases, or follow‑up questions.

@@ -67,6 +67,13 @@
       "text": "love",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-29",
+      "area": "family",
+      "text": "call Mom after last email",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -105,12 +112,20 @@
         "date": "2026-10-26",
         "stage": 0,
         "due": "2026-10-27"
+      },
+      {
+        "phrase": "¿Cómo está el proceso?",
+        "english": "How is the process?",
+        "fmt": "phrase",
+        "date": "2026-10-30",
+        "stage": 0,
+        "due": "2026-10-31"
       }
     ],
     "history": [],
     "stats": {
       "phrase": {
-        "taught": 2,
+        "taught": 3,
         "recall_ok": 0,
         "recall_fail": 0,
         "hard": 0,
@@ -125,14 +140,14 @@
       }
     },
     "last": {
-      "date": "2026-10-29",
-      "mode": "review",
-      "fmt": "cognate",
-      "phrase": "¿Puede enviarme el reporte?",
+      "date": "2026-10-30",
+      "mode": "new",
+      "fmt": "phrase",
+      "phrase": "¿Cómo está el proceso?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "review",
+    "last_mode": "new",
     "force_easy": false
   },
   "used_links": [
@@ -142,40 +157,40 @@
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9ibm12TGlMa2N1Y2I2YzNncHdmOWZiNEJBSlZUUzRKc3pwMFdsaGJRY1prdUlYVy0tRHE0QTdIMVFBZk14QlBrOEF0MnBUV09jdVl0Mk5lUVJ0aGNfLVgtQUdTVUZKZ1RFWW03WXAzNTRNbTRmMkhIYm9WYWU3M1pES05yVG9W?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-29",
-    "lane": "qa_news",
-    "topic": "FDA recall guidance",
-    "spanish": "¿Podría validar la muestra? / ¿Podría validar la muestra?",
-    "angle": "Two questions first: ask two follow-up questions before you share your own view, once today."
+    "date": "2026-10-30",
+    "lane": "spanish_talk",
+    "topic": "Polite work question",
+    "spanish": "¿Cómo está el proceso?",
+    "angle": "Gratitude: thank one person for something specific and concrete they did this week."
   },
-  "last_sent": "2026-10-29",
+  "last_sent": "2026-10-30",
   "promise_open": {
-    "date": "2026-10-29",
-    "area": "family",
-    "text": "call Mom after last email",
+    "date": "2026-10-30",
+    "area": "love",
+    "text": "thank inspector",
     "level": 1
   },
   "today": {
-    "date": "2026-10-29",
-    "body": "After I finish my last work email, I will call Mom for two minutes and ask how her week was.\nFloor version (bad‑day): pick up the phone, dial Mom, say “Hi Mom, how was your week?” – under 30 seconds.\nReason: linking a certain cue (the last email) to a brief, specific call makes the habit easy to start.\nEvidence: strong\nReply with one word: done, floor, or skip.\n\nNote from M: Let me know how it went.\nIf it felt too big, we’ll shrink it next time.\n\nSource: US FDA sets out mandatory cosmetic recall process in final MoCRA guidance - Personal Care Insights - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9ibm12TGlMa2N1Y2I2YzNncHdmOWZiNEJBSlZUUzRKc3pwMFdsaGJRY1prdUlYVy0tRHE0QTdIMVFBZk14QlBrOEF0MnBUV09jdVl0Mk5lUVJ0aGNfLVgtQUdTVUZKZ1RFWW03WXAzNTRNbTRmMkhIYm9WYWU3M1pES05yVG9W?oc=5",
+    "date": "2026-10-30",
+    "body": "After I finish my first QA inspection of the day, I will thank one inspector for a specific thing they did this week – for example, “Thanks for double‑checking the batch records this morning.”\nReason: a concrete thank‑you is easy to remember and instantly builds rapport.\nEvidence: strong\nReply with one word: done, floor, or skip.\n\nNote from M: The promise is short and tied to a cue you already have. Let me know how it goes.\n\nConfirmed by M: I received 1 email from you.\n- Your email \"✅ Buy-day check: $75 today\": read by the Mentor and noted.",
     "promise": {
-      "area": "family",
-      "text": "call Mom after last email"
+      "area": "love",
+      "text": "thank inspector"
     },
     "b": {
-      "advice": "Link the greeting to the exact moment you log in (cue) and stack it with a physical step: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and ask one specific follow‑up question (e.g., “¿Hay algún problema en la línea que necesite mi atención?”). After the exchange, give yourself a tiny “done” tap on the desk as a physical reward. This uses an implementation‑intention (cue → action) and habit‑stacking, both shown to boost automaticity of new behaviors.",
+      "advice": "Link the greeting to the exact moment you log in (cue) and stack it with a physical step: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and, if time allows, add the follow‑up question “¿Hay algo que necesite mi ayuda hoy?” The cue (login) is already automatic, the walk makes the action concrete, and the brief script keeps it under 30 seconds. Count each completion with a single word (done/floor/skip) on a visible checklist; missing twice signals you should shorten the script to just “Buenos días.”",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Regulatory watch for cosmetic recalls",
-      "topic_key": "FDA recall guidance",
-      "lesson": "After you log in, walk to the inspection station and ask the inspector, “¿Podría validar la muestra?” to confirm the batch meets the new MoCRA recall criteria. Note the response on a sticky note and update the tracker. Check the FDA website (fda.gov) for the final MoCRA guidance before acting.",
-      "spanish_phrase": "¿Podría validar la muestra? / ¿Podría validar la muestra?",
-      "spanish_english": "Could you validate the sample?"
+      "topic": "Spanish workplace greeting",
+      "topic_key": "Polite work question",
+      "lesson": "After you log in, walk to the inspection station and say, “¿Cómo está el proceso?” Count it with a single word (done/floor/skip).",
+      "spanish_phrase": "¿Cómo está el proceso?",
+      "spanish_english": "How is the process?"
     }
   },
   "slots": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "done": [
       "morning"
     ]
@@ -192,7 +207,8 @@
     "<CAD4A5Jtwt1mbLwe8N=T-FAbe8NQPZrBsS3cED09iB=5a0O2npA@mail.gmail.com>",
     "<CAD4A5JuKAniXP1EFWDHMLLvjPCfwm4QadUiw-0m_J1M+n8OfiA@mail.gmail.com>",
     "<6ade3728.018c0331.6b471.60c8@mx.google.com>",
-    "<CAD4A5Ju5eGo9V8YNX_aRPLBoVmuyBNg2ai8n=vm8Bt9mVyvcTw@mail.gmail.com>"
+    "<CAD4A5Ju5eGo9V8YNX_aRPLBoVmuyBNg2ai8n=vm8Bt9mVyvcTw@mail.gmail.com>",
+    "<6ae4d0b2.bfd54e73.1ae956.e005@mx.google.com>"
   ],
   "last_reflect": "2026-10-25"
 }

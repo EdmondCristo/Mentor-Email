@@ -52,3 +52,8 @@
 - 2026-10-29 | source: US FDA sets out mandatory cosmetic recall process in final MoCRA guidance - Personal Care Insights
 - 2026-10-29 | note: Ask inspector to validate sample
 - 2026-10-29 | note: Log answer on sticky note
+- 2026-10-30 | spanish_talk: Polite work question
+- 2026-10-30 | spanish (new, phrase, level 2): ¿Cómo está el proceso?
+- 2026-10-30 | why this format: Formato frase breve, fácil de recordar y útil al iniciar el día
+- 2026-10-30 | note: Log in → walk to station → say phrase → ✔
+- 2026-10-30 | note: Record response in habit tracker
