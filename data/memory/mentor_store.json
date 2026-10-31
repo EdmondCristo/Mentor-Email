@@ -152,14 +152,14 @@
   {
    "id": "3ac2c26670",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 7.75,
+   "salience": 8.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-30T16:00",
-   "access_count": 18,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 19,
    "source": "jason"
   },
   {
@@ -269,14 +269,14 @@
   {
    "id": "b32a0af47a",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 7.75,
+   "salience": 8.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-30T16:00",
-   "access_count": 15,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 16,
    "source": "jason"
   },
   {
@@ -308,14 +308,14 @@
   {
    "id": "7af9e0d05d",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.75,
+   "salience": 5.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-29T08:00",
-   "access_count": 3,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 4,
    "source": "jason"
   },
   {
@@ -425,14 +425,14 @@
   {
    "id": "b7e537c759",
    "text": "he replied to '5 Whys': What is this for? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.5,
+   "salience": 4.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-26T16:00",
-   "last_access": "2026-10-28T16:00",
-   "access_count": 2,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 3,
    "source": "jason"
   },
   {
@@ -451,14 +451,14 @@
   {
    "id": "597bf337d0",
    "text": "Day 9: after I log in at 8:00 am, I will walk to the first inspection station and say “¿Puede mostrar el lote?” / job / used Tippy’s floor tip about batch question / what did you hear?",
-   "salience": 2.5,
+   "salience": 2.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 1.0,
    "cues": [],
    "created": "2026-10-27T08:00",
-   "last_access": "2026-10-28T16:00",
-   "access_count": 2,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 3,
    "source": "self"
   },
   {
@@ -551,6 +551,19 @@
    "last_access": "2026-10-30T16:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "4d82e514da",
+   "text": "Day 13: family / cue‑action after last email / thank‑you text to Mom / did you send it?",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-31T08:00",
+   "last_access": "2026-10-31T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -612,6 +625,12 @@
    "date": "2026-10-30",
    "tag": "neutral",
    "line": "4 new memories; strongest: he said: Buy-day check · Friday Oct 30 Final list for today ($75 total). ✅ go · ",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-31",
+   "tag": "neutral",
+   "line": "1 new memories; strongest: Day 13: family / cue‑action after last email / thank‑you text to Mom / did you s",
    "hooks": []
   }
  ]

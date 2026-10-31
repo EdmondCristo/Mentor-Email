@@ -43,3 +43,7 @@
 - 2026-10-30 | note: 2026-10-25: Use implementation intentions: cue → tiny action (under 30 sec).
 - 2026-10-30 | note: 2026-10-25: Stack habits: attach new action to an existing routine.
 - 2026-10-30 | note: 2026-10-25: Tie actions to concrete triggers (e.g., after logging in).
+- 2026-10-31 | advice: Tie the Saturday thank‑you text to a cue you already do: after you close the last work email, say “Thanks‑up” out loud, then immediately open the messaging app and type the exact line “Thanks for your help this week, [name] – I appreciate it.” The whol
+- 2026-10-31 | note: Use implementation intentions: cue → tiny action (under 30 sec).
+- 2026-10-31 | note: Stack habits: attach new action to an existing routine.
+- 2026-10-31 | note: Tie actions to concrete triggers (e.g., after logging in).

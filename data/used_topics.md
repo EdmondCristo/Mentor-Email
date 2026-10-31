@@ -15,3 +15,4 @@
 - 2026-10-29 | topic | FDA recall guidance
 - 2026-10-30 | topic | Polite work question
 - 2026-10-30 | spanish | ¿Cómo está el proceso?
+- 2026-10-31 | topic | monthly cost list

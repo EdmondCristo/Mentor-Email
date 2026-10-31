@@ -74,6 +74,13 @@
       "text": "call Mom after last email",
       "level": 1,
       "result": "no reply"
+    },
+    {
+      "date": "2026-10-30",
+      "area": "love",
+      "text": "thank inspector",
+      "level": 1,
+      "result": "no reply"
     }
   ],
   "spanish": {
@@ -87,7 +94,7 @@
         "fmt": "phrase",
         "date": "2026-10-21",
         "stage": 0,
-        "due": "2026-10-26"
+        "due": "2026-11-01"
       },
       {
         "phrase": "¿Cómo está la línea?",
@@ -140,14 +147,14 @@
       }
     },
     "last": {
-      "date": "2026-10-30",
-      "mode": "new",
+      "date": "2026-10-31",
+      "mode": "review",
       "fmt": "phrase",
-      "phrase": "¿Cómo está el proceso?",
+      "phrase": "¿Podría revisar el informe, por favor?",
       "level": 2,
       "answered": false
     },
-    "last_mode": "new",
+    "last_mode": "review",
     "force_easy": false
   },
   "used_links": [
@@ -157,42 +164,41 @@
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9ibm12TGlMa2N1Y2I2YzNncHdmOWZiNEJBSlZUUzRKc3pwMFdsaGJRY1prdUlYVy0tRHE0QTdIMVFBZk14QlBrOEF0MnBUV09jdVl0Mk5lUVJ0aGNfLVgtQUdTVUZKZ1RFWW03WXAzNTRNbTRmMkhIYm9WYWU3M1pES05yVG9W?oc=5"
   ],
   "last_email": {
-    "date": "2026-10-30",
-    "lane": "spanish_talk",
-    "topic": "Polite work question",
-    "spanish": "¿Cómo está el proceso?",
-    "angle": "Gratitude: thank one person for something specific and concrete they did this week."
+    "date": "2026-10-31",
+    "lane": "life",
+    "topic": "monthly cost list",
+    "spanish": "¿Puede ayudarme con el informe?",
+    "angle": "Family and manners: one small, kind action for family or a friend."
   },
-  "last_sent": "2026-10-30",
+  "last_sent": "2026-10-31",
   "promise_open": {
-    "date": "2026-10-30",
-    "area": "love",
-    "text": "thank inspector",
+    "date": "2026-10-31",
+    "area": "family",
+    "text": "family",
     "level": 1
   },
   "today": {
-    "date": "2026-10-30",
-    "body": "After I finish my first QA inspection of the day, I will thank one inspector for a specific thing they did this week – for example, “Thanks for double‑checking the batch records this morning.”\nReason: a concrete thank‑you is easy to remember and instantly builds rapport.\nEvidence: strong\nReply with one word: done, floor, or skip.\n\nNote from M: The promise is short and tied to a cue you already have. Let me know how it goes.\n\nConfirmed by M: I received 1 email from you.\n- Your email \"✅ Buy-day check: $75 today\": read by the Mentor and noted.",
+    "date": "2026-10-31",
+    "body": "After I close my last work email, I will open the messaging app, type “Thanks for your help this week, Mom, I appreciate it,” and hit send. (Floor version: tap the app, paste the sentence, send – under 30 seconds.)\n\nReason: linking the thank‑you to the end‑of‑work cue makes the habit automatic and removes decision‑fatigue.\n\nEvidence: strong.\n\nReply with one word: done, floor, or skip.\n\nNote from M: Let me know how it went.",
     "promise": {
-      "area": "love",
-      "text": "thank inspector"
+      "area": "family",
+      "text": "family"
     },
     "b": {
-      "advice": "Link the greeting to the exact moment you log in (cue) and stack it with a physical step: If I log in at 8:00 am, then I will walk straight to the nearest inspection station, say “Buenos días, ¿cómo va la línea hoy?” and, if time allows, add the follow‑up question “¿Hay algo que necesite mi ayuda hoy?” The cue (login) is already automatic, the walk makes the action concrete, and the brief script keeps it under 30 seconds. Count each completion with a single word (done/floor/skip) on a visible checklist; missing twice signals you should shorten the script to just “Buenos días.”",
+      "advice": "Tie the Saturday thank‑you text to a cue you already do: after you close the last work email, say “Thanks‑up” out loud, then immediately open the messaging app and type the exact line “Thanks for your help this week, [name] – I appreciate it.” The whole sequence takes <30 seconds. Mark it as done in your tally. If you miss, just note “floor” and repeat the cue‑action tomorrow – the loss of a single count is the motivator (loss‑aversion).",
       "evidence": "strong"
     },
     "t": {
-      "topic": "Spanish workplace greeting",
-      "topic_key": "Polite work question",
-      "lesson": "After you log in, walk to the inspection station and say, “¿Cómo está el proceso?” Count it with a single word (done/floor/skip).",
-      "spanish_phrase": "¿Cómo está el proceso?",
-      "spanish_english": "How is the process?"
+      "topic": "Create a simple monthly cost list",
+      "topic_key": "monthly cost list",
+      "lesson": "After dinner, open a spreadsheet and write down the name and amount of each regular expense you paid this month (rent, utilities, insurance, etc.). Use one line per item. It takes under 30 seconds and gives you a clear picture of where money goes.",
+      "spanish_phrase": "¿Puede ayudarme con el informe?",
+      "spanish_english": "Can you help me with the report?"
     }
   },
   "slots": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "done": [
-      "afternoon",
       "morning"
     ]
   },

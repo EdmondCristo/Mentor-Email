@@ -25,3 +25,5 @@
 - 2026-10-29: 2026-10-29: Ensure the email contains exactly one tiny promise and no extra content such as additional topics, weather lines, or questions.
 - 2026-10-30: 2026-10-30: Ensure the email contains exactly one tiny promise and no extra content such as weather lines, Spanish phrases, or follow‑up questions.
 - 2026-10-30: 2026-10-31: Ensure no extra questions or reflections appear beyond the single tiny promise.
+- 2026-10-31: 2026-10-31: Ensure only one tiny promise appears per email with no extra content.
+- 2026-10-31: 2024‑10‑31: No Spanish phrase unless directly required for the tiny promise.

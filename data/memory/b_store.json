@@ -100,14 +100,14 @@
   {
    "id": "8c38590251",
    "text": "note: 2026-10-19: implementation intentions",
-   "salience": 3.75,
+   "salience": 4.0,
    "tags": [],
    "type": "SEMANTIC",
    "vividness": 1.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-28T08:00",
-   "access_count": 3,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 4,
    "source": "self"
   },
   {
@@ -139,14 +139,14 @@
   {
    "id": "5252766855",
    "text": "he said: Hi M, Stop repeating after confirmed vy. Can you change? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 6.5,
+   "salience": 6.75,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-21T08:00",
-   "last_access": "2026-10-30T08:00",
-   "access_count": 14,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 15,
    "source": "jason"
   },
   {
@@ -321,14 +321,14 @@
   {
    "id": "7b300db775",
    "text": "he said: I bought $76 pf vti and $9 bnd Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 6.0,
+   "salience": 6.25,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-23T16:00",
-   "last_access": "2026-10-30T08:00",
-   "access_count": 8,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 9,
    "source": "jason"
   },
   {
@@ -373,14 +373,14 @@
   {
    "id": "8dbab234a1",
    "text": "he replied to 'quick expense note': What does Puede enviarme el reporte? mean? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.75,
+   "salience": 5.0,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-24T13:00",
-   "last_access": "2026-10-28T08:00",
-   "access_count": 3,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 4,
    "source": "jason"
   },
   {
@@ -464,14 +464,14 @@
   {
    "id": "795fa76476",
    "text": "he replied to '5 Whys': What is this for? Thank you, Nam Lim Joy Jewelry, Inc. 228 Rivervale Road River Vale NJ 07675 T. 201-689-1150 F. 201-689-1155 C. 973-850-9056 https://www.joyjewelryusa.com/",
-   "salience": 4.25,
+   "salience": 4.5,
    "tags": [],
    "type": "EPISODIC",
    "vividness": 2.0,
    "cues": [],
    "created": "2026-10-26T16:00",
-   "last_access": "2026-10-28T08:00",
-   "access_count": 1,
+   "last_access": "2026-10-31T08:00",
+   "access_count": 2,
    "source": "jason"
   },
   {
@@ -694,6 +694,58 @@
    "last_access": "2026-10-30T08:00",
    "access_count": 0,
    "source": "self"
+  },
+  {
+   "id": "ef103939e9",
+   "text": "advice: Tie the Saturday thank‑you text to a cue you already do: after you close the last work email, say “Thanks‑up” out loud, then immediately open the messaging app and type the exact line “Thanks for your help this week, [name] – I appreciate it.” The whol",
+   "salience": 2.0,
+   "tags": [],
+   "type": "EPISODIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-31T08:00",
+   "last_access": "2026-10-31T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "f241a934a4",
+   "text": "note: Use implementation intentions: cue → tiny action (under 30 sec).",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-31T08:00",
+   "last_access": "2026-10-31T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "c04f9d209b",
+   "text": "note: Stack habits: attach new action to an existing routine.",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-31T08:00",
+   "last_access": "2026-10-31T08:00",
+   "access_count": 0,
+   "source": "self"
+  },
+  {
+   "id": "297ecf5571",
+   "text": "note: Tie actions to concrete triggers (e.g., after logging in).",
+   "salience": 3.0,
+   "tags": [],
+   "type": "SEMANTIC",
+   "vividness": 1.0,
+   "cues": [],
+   "created": "2026-10-31T08:00",
+   "last_access": "2026-10-31T08:00",
+   "access_count": 0,
+   "source": "self"
   }
  ],
  "sessions": [
@@ -755,6 +807,12 @@
    "date": "2026-10-30",
    "tag": "neutral",
    "line": "5 new memories; strongest: he said: Buy-day check · Friday Oct 30 Final list for today ($75 total). ✅ go · ",
+   "hooks": []
+  },
+  {
+   "date": "2026-10-31",
+   "tag": "neutral",
+   "line": "4 new memories; strongest: note: Use implementation intentions: cue → tiny action (under 30 sec).",
    "hooks": []
   }
  ]

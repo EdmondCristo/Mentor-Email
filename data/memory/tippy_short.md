@@ -1,7 +1,4 @@
 # Short-term memory: what this AI said in the last 14 days (older entries expire)
-- 2026-10-21 | world_growth: humble listening
-- 2026-10-21 | spanish (new, phrase, level 2): ¿Podría revisar el informe, por favor?
-- 2026-10-21 | why this format: Formato breve, fácil de recordar y útil en su trabajo diario
 - 2026-10-21 | source: Websites taken down worldwide as critical cyber-security update issued
 - 2026-10-21 | note: Ask one inspector a specific improvement question today
 - 2026-10-21 | note: Record the answer on a sticky note
@@ -57,3 +54,8 @@
 - 2026-10-30 | why this format: Formato frase breve, fácil de recordar y útil al iniciar el día
 - 2026-10-30 | note: Log in → walk to station → say phrase → ✔
 - 2026-10-30 | note: Record response in habit tracker
+- 2026-10-31 | life: monthly cost list
+- 2026-10-31 | spanish (review, phrase, level 2): ¿Puede ayudarme con el informe?
+- 2026-10-31 | why this format: Formato frase breve, fácil de recordar y útil en el trabajo diario
+- 2026-10-31 | note: List monthly fixed costs in a simple table
+- 2026-10-31 | note: Review the list next Monday to plan savings
